@@ -4,7 +4,7 @@ HealthVizor is an AI assistant that analyzes user lifestyle and health data to d
 
 ## Features
 
-- **Multi-Model Support**: Compare results from different LLM models (GPT-4.1, Gemini, O4, O3, etc.)
+- **Azure OpenAI Integration**: Powered by Azure OpenAI models (GPT-4o, GPT-4o Mini, GPT-4 Turbo, etc.)
 - **Comprehensive Health Data Analysis**: 
   - User onboarding conversations
   - Personal details and demographics
@@ -43,8 +43,9 @@ pip install streamlit openai pydantic pandas litellm xlsxwriter
 
 3. Set up environment variables:
 ```bash
-export OPENAI_API_KEY="your-openai-api-key"
-export GEMINI_API_KEY="your-gemini-api-key"  # Optional, for Gemini models
+export AZURE_OPENAI_API_KEY="your-azure-openai-api-key"
+export AZURE_OPENAI_ENDPOINT="https://your-resource.cognitiveservices.azure.com"
+export AZURE_OPENAI_API_VERSION="2025-01-01-preview"
 ```
 
 ## Usage
@@ -62,8 +63,8 @@ streamlit run health_vizor.py
    - **Recommendations**: Add any existing recommendations or requirements
 
 3. Select models and generate reports:
-   - Choose from available LLM models (GPT-4.1, Gemini, O4, O3, etc.)
-   - Generate individual reports or compare multiple models
+   - Choose from available Azure OpenAI models (GPT-4o, GPT-4o Mini, GPT-4 Turbo, etc.)
+   - Generate personalized health reports
    - Export results to Excel for further analysis
 
 ## File Structure
@@ -80,23 +81,14 @@ health_vizor/
 
 ## Model Support
 
-The application supports multiple LLM providers:
+The application uses Azure OpenAI exclusively:
 
-### OpenAI Models
-- GPT-4.1
-- GPT-4.1 Mini
-- GPT-4.1 Nano
-
-### Anthropic Models
-- O4 Mini
-- O3 Mini
-- O3
-
-### Google Models
-- Gemini 1.5 Pro Latest
-- Gemini 2.0 Flash
-- Gemini 2.0 Flash Exp
-- Gemini 2.0 Flash Lite Preview
+### Azure OpenAI Models
+- GPT-4o
+- GPT-4o Mini
+- GPT-4 Turbo
+- GPT-4
+- GPT-3.5 Turbo
 
 ## Output Format
 

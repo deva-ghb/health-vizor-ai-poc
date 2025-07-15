@@ -3,7 +3,6 @@ load_dotenv()
 
 import json
 import streamlit as st
-from openai import OpenAI
 from pydantic import BaseModel
 from typing import Dict, List, Optional
 from llm_utils import call_llm
@@ -79,29 +78,37 @@ from pydantic import Field
 
 class SupplementRecommendation(BaseModel):
     supplement_name: str = Field(..., description="Name of the supplement being recommended")
-    rationale: str = Field(..., description="Rationale for recommending this supplement")
+    rationale: str = Field(..., description="Rationale for recommending this supplement based on user profile and biomarkers")
     dosage: str = Field(..., description="Recommended dose using educational language (e.g., 'Studies suggest 500mg may support...')")
     timing: str = Field(..., description="When to take (morning, evening, with meals, etc.)")
     food_timing: str = Field(..., description="Before/with/after food instructions")
-    purpose: str = Field(..., description="Purpose and how it helps the user")
-    biomarker_connection: str = Field(..., description="How this connects to user's biomarker data and goals")
+    purpose: str = Field(..., description="Purpose and how it helps the user - what it does for you")
+    biomarker_connection: str = Field(..., description="How this connects to user's biomarker data and health goals")
+    longevity_performance_benefit: str = Field(..., description="How this supports longevity and performance goals")
     duration: str = Field(..., description="How long to take the supplement")
     retest_timing: str = Field(..., description="When to retest biomarkers")
-    evidence_source: str = Field(..., description="Scientific evidence source")
-    cautions: Optional[str] = Field(None, description="Side effects or cautions")
+    evidence_source: str = Field(..., description="Scientific evidence source from approved knowledge sources")
+    cautions: Optional[str] = Field(None, description="Side effects, cautions, or things to avoid")
+    interactions: Optional[str] = Field(None, description="Any interactions with other supplements or medications")
+    indian_availability: Optional[str] = Field(None, description="Notes on availability in India or Indian brands if relevant")
 
 class NutritionRecommendation(BaseModel):
     nutrition_name: str = Field(..., description="Name of the nutrition recommendation")
-    rationale: str = Field(..., description="Why this is recommended based on biomarker data")
+    rationale: str = Field(..., description="Why this is recommended based on biomarker data and personalization data")
     priority_rank: int = Field(..., description="Priority ranking (1-5)")
     evidence_strength: str = Field(..., description="Strength of evidence (High/Medium/Low)")
-    implementation_tips: List[str] = Field(default_factory=list, description="3-4 practical tips for implementation")
+    biomarker_connection: str = Field(..., description="How this connects to specific biomarker data")
+    implementation_tips: List[str] = Field(default_factory=list, description="3-4 practical tips for implementation with Indian context")
+    foods_to_include: List[str] = Field(default_factory=list, description="Specific foods to eat more of (Indian foods when possible)")
     foods_to_avoid: List[str] = Field(default_factory=list, description="Foods to avoid or limit")
-    evidence_source: str = Field(..., description="Scientific evidence source")
+    meal_timing_guidance: Optional[str] = Field(None, description="Meal timing recommendations if relevant")
+    indian_food_examples: List[str] = Field(default_factory=list, description="Examples using Indian cuisine and locally available foods")
+    female_specific_notes: Optional[str] = Field(None, description="Special considerations for female users based on cycle status")
+    evidence_source: str = Field(..., description="Scientific evidence source with links")
 
 class ExerciseRecommendation(BaseModel):
     exercise_name: str = Field(..., description="Name of the exercise/lifestyle recommendation")
-    rationale: str = Field(..., description="Why this is recommended based on biomarker data")
+    rationale: str = Field(..., description="Why this is recommended based on biomarker data and personalization data")
     workout_type: str = Field(..., description="Type of workout (strength, cardio, flexibility, etc.)")
     frequency: str = Field(..., description="How often per week")
     duration: str = Field(..., description="Duration per session")
@@ -109,15 +116,24 @@ class ExerciseRecommendation(BaseModel):
     volume: str = Field(..., description="Volume recommendations")
     rest_periods: str = Field(..., description="Rest period recommendations")
     biomarker_connection: str = Field(..., description="How this connects to biomarker data and goals")
-    evidence_source: str = Field(..., description="Scientific evidence source")
+    current_optimization: Optional[str] = Field(None, description="What user is doing right and how to optimize further")
+    athlete_specific_notes: Optional[str] = Field(None, description="Training periodization or protocols for competitive athletes")
+    female_specific_notes: Optional[str] = Field(None, description="Recommendations based on cycle status for female users")
+    no_intervention_note: Optional[str] = Field(None, description="Note if no intervention needed (e.g., 'well-balanced, no critical changes needed')")
+    evidence_source: str = Field(..., description="Scientific evidence source with links")
 
 class CategoryInsight(BaseModel):
     category_name: str = Field(..., description="Name of the health category")
     score: str = Field(..., description="Category score (e.g., '75/100')")
-    summary: str = Field(..., description="3-5 sentence summary of category trends")
+    relevance_to_goals: str = Field(..., description="Why this category matters for the user's goals")
+    summary: str = Field(..., description="3-5 sentence summary of category trends customized to user profile")
+    whats_working_well: Optional[str] = Field(None, description="What's working well (if any biomarkers are optimal)")
+    what_needs_attention: Optional[str] = Field(None, description="What needs attention based on biomarker trends and behavior")
+    behavioral_contributors: List[str] = Field(default_factory=list, description="Behavioral contributors from user metadata")
     impact_on_goals: str = Field(..., description="How this category impacts user's goals")
-    improvement_importance: str = Field(..., description="Why improving this category is important")
+    performance_longevity_impact: str = Field(..., description="Why this score matters for performance or longevity")
     biomarker_connections: List[str] = Field(default_factory=list, description="Connected biomarkers")
+    interrelated_categories: List[str] = Field(default_factory=list, description="Other categories that are interrelated")
     what_to_continue: Optional[str] = Field(None, description="What's working well to continue (for green categories)")
 
 class BiomarkerInsight(BaseModel):
@@ -125,11 +141,15 @@ class BiomarkerInsight(BaseModel):
     status: str = Field(..., description="Status (Red/Amber/Green/Optimal)")
     current_value: str = Field(..., description="Current biomarker value")
     reference_range: str = Field(..., description="Normal reference range")
+    deviation_severity: Optional[str] = Field(None, description="Mild/Moderate/Severe based on % deviation from optimal")
     health_impact: str = Field(..., description="What this means for health (3-5 sentences)")
     goal_connection: str = Field(..., description="How addressing this helps achieve goals")
     longevity_performance_impact: str = Field(..., description="Impact on longevity and performance")
+    lifestyle_contributors: List[str] = Field(default_factory=list, description="Lifestyle factors contributing to this biomarker based on user metadata")
     consequences_if_ignored: Optional[str] = Field(None, description="What happens if not addressed (for Red/Amber)")
     what_to_continue: Optional[str] = Field(None, description="What's working well (for Green/Optimal)")
+    trend_analysis: Optional[str] = Field(None, description="Trend compared to past data if available")
+    related_biomarkers: List[str] = Field(default_factory=list, description="Other biomarkers that are related or show consistent patterns")
     evidence_source: str = Field(..., description="Scientific evidence source")
 
 class MonthlyPlan(BaseModel):
@@ -142,26 +162,38 @@ class MonthlyPlan(BaseModel):
     retest_schedule: List[str] = Field(default_factory=list, description="When to retest biomarkers")
 
 class ActionPlan(BaseModel):
-    supplements: List[SupplementRecommendation] = Field(default_factory=list, description="Supplement recommendations (max 10)")
-    supplement_schedule_summary: str = Field(..., description="Daily supplement schedule organized by time")
-    nutrition: List[NutritionRecommendation] = Field(default_factory=list, description="Nutrition recommendations (max 5)")
+    supplements: List[SupplementRecommendation] = Field(default_factory=list, description="Supplement recommendations (max 10, no duplicates)")
+    supplement_schedule_summary: str = Field(..., description="Daily supplement schedule organized by time of day for easy reading")
+    supplement_disclaimer: str = Field(default="These suggestions are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before beginning any supplement regimen.", description="Supplement disclaimer")
+    nutrition: List[NutritionRecommendation] = Field(default_factory=list, description="Nutrition recommendations (max 5, ranked by priority)")
     exercise_lifestyle: List[ExerciseRecommendation] = Field(default_factory=list, description="Exercise and lifestyle recommendations (max 5)")
-    six_month_timeline: List[MonthlyPlan] = Field(default_factory=list, description="6-month action plan timeline")
+    six_month_timeline: List[MonthlyPlan] = Field(default_factory=list, description="6-month action plan timeline with logical progression")
 
 class HealthVizorResponse(BaseModel):
     # A) Overall Health Summary & Personalization
     overall_health_summary: str = Field(..., description="Fun, highly personalized health summary with congratulations, wins, and priorities")
-    top_priority_categories: List[str] = Field(default_factory=list, description="Top 3 health categories to prioritize for improvement")
-    
-    # B) Category Level Insights & Personalization  
+    congratulations_message: str = Field(..., description="Congratulate user on taking this step")
+    wins_to_celebrate: List[str] = Field(default_factory=list, description="What's Working Well - highlight positive aspects")
+    what_to_continue: List[str] = Field(default_factory=list, description="What the user should continue doing")
+    what_needs_work: List[str] = Field(default_factory=list, description="What Needs Attention - areas requiring improvement")
+    top_priority_categories: List[str] = Field(default_factory=list, description="Top 3 Health Categories to Prioritize with reasons")
+    goal_relevance: str = Field(..., description="How this relates to the user's goals")
+    longevity_performance_impact: str = Field(..., description="What this means for overall longevity and performance")
+
+    # B) Category Level Insights & Personalization
     category_insights: List[CategoryInsight] = Field(default_factory=list, description="Detailed insights for each health category")
-    
+
     # C) Biomarker Level Findings & Personalization
     biomarker_insights: List[BiomarkerInsight] = Field(default_factory=list, description="Detailed insights for each biomarker")
-    
+    biomarker_pattern_analysis: Optional[str] = Field(None, description="Analysis of biomarker patterns across multiple systems")
+
     # D) Personalized Action Plan
     action_plan: ActionPlan = Field(default_factory=ActionPlan, description="Comprehensive personalized action plan")
-    
+
+    # Escalation flags
+    escalation_needed: bool = Field(default=False, description="Whether escalation is needed (under 18, pregnant, critical biomarkers)")
+    escalation_reason: Optional[str] = Field(None, description="Reason for escalation if needed")
+
     # Disclaimer
     disclaimer: str = Field(
         default="These recommendations are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before starting any new regimen.",
@@ -174,25 +206,49 @@ def display_biomarker_insight(insight, icon):
         biomarker_name = insight.get('biomarker_name', '')
         current_value = insight.get('current_value', '')
         reference_range = insight.get('reference_range', '')
+        deviation_severity = insight.get('deviation_severity', '')
         health_impact = insight.get('health_impact', '')
         goal_connection = insight.get('goal_connection', '')
+        longevity_performance_impact = insight.get('longevity_performance_impact', '')
+        lifestyle_contributors = insight.get('lifestyle_contributors', [])
         consequences = insight.get('consequences_if_ignored', '')
         what_to_continue = insight.get('what_to_continue', '')
+        trend_analysis = insight.get('trend_analysis', '')
+        related_biomarkers = insight.get('related_biomarkers', [])
         evidence_source = insight.get('evidence_source', '')
     else:
         biomarker_name = getattr(insight, 'biomarker_name', '')
         current_value = getattr(insight, 'current_value', '')
         reference_range = getattr(insight, 'reference_range', '')
+        deviation_severity = getattr(insight, 'deviation_severity', '')
         health_impact = getattr(insight, 'health_impact', '')
         goal_connection = getattr(insight, 'goal_connection', '')
+        longevity_performance_impact = getattr(insight, 'longevity_performance_impact', '')
+        lifestyle_contributors = getattr(insight, 'lifestyle_contributors', [])
         consequences = getattr(insight, 'consequences_if_ignored', '')
         what_to_continue = getattr(insight, 'what_to_continue', '')
+        trend_analysis = getattr(insight, 'trend_analysis', '')
+        related_biomarkers = getattr(insight, 'related_biomarkers', [])
         evidence_source = getattr(insight, 'evidence_source', '')
-    
-    with st.expander(f"{icon} {biomarker_name}: {current_value}", expanded=False):
+
+    title = f"{icon} {biomarker_name}: {current_value}"
+    if deviation_severity:
+        title += f" ({deviation_severity})"
+
+    with st.expander(title, expanded=False):
         st.markdown(f"**Reference Range:** {reference_range}")
         st.markdown(f"**Health Impact:** {health_impact}")
         st.markdown(f"**Connection to Your Goals:** {goal_connection}")
+        if longevity_performance_impact:
+            st.markdown(f"**Longevity & Performance Impact:** {longevity_performance_impact}")
+        if lifestyle_contributors:
+            st.markdown("**Lifestyle Contributors:**")
+            for contributor in lifestyle_contributors:
+                st.markdown(f"• {contributor}")
+        if trend_analysis:
+            st.info(f"**Trend Analysis:** {trend_analysis}")
+        if related_biomarkers:
+            st.markdown(f"**Related Biomarkers:** {', '.join(related_biomarkers)}")
         if consequences:
             st.warning(f"**If Not Addressed:** {consequences}")
         if what_to_continue:
@@ -203,40 +259,56 @@ def display_biomarker_insight(insight, icon):
 def display_supplement_recommendation(supp, index, user_name):
     if isinstance(supp, dict):
         supp_name = supp.get('supplement_name', '')
+        rationale = supp.get('rationale', '')
         dosage = supp.get('dosage', '')
         timing = supp.get('timing', '')
         food_timing = supp.get('food_timing', '')
         purpose = supp.get('purpose', '')
         biomarker_connection = supp.get('biomarker_connection', '')
+        longevity_performance_benefit = supp.get('longevity_performance_benefit', '')
         duration = supp.get('duration', '')
         retest_timing = supp.get('retest_timing', '')
         evidence_source = supp.get('evidence_source', '')
         cautions = supp.get('cautions', '')
+        interactions = supp.get('interactions', '')
+        indian_availability = supp.get('indian_availability', '')
     else:
         supp_name = getattr(supp, 'supplement_name', '')
+        rationale = getattr(supp, 'rationale', '')
         dosage = getattr(supp, 'dosage', '')
         timing = getattr(supp, 'timing', '')
         food_timing = getattr(supp, 'food_timing', '')
         purpose = getattr(supp, 'purpose', '')
         biomarker_connection = getattr(supp, 'biomarker_connection', '')
+        longevity_performance_benefit = getattr(supp, 'longevity_performance_benefit', '')
         duration = getattr(supp, 'duration', '')
         retest_timing = getattr(supp, 'retest_timing', '')
         evidence_source = getattr(supp, 'evidence_source', '')
         cautions = getattr(supp, 'cautions', '')
-    
+        interactions = getattr(supp, 'interactions', '')
+        indian_availability = getattr(supp, 'indian_availability', '')
+
     with st.expander(f"💊 {index + 1}. {supp_name}", expanded=False):
+        if rationale:
+            st.markdown(f"**Why This Supplement:** {rationale}")
         st.markdown(f"**Dosage:** {dosage}")
         st.markdown(f"**Timing:** {timing}")
         st.markdown(f"**With Food:** {food_timing}")
         st.markdown(f"**Purpose:** {purpose}")
         st.markdown(f"**Connection to Your Data:** {biomarker_connection}")
+        if longevity_performance_benefit:
+            st.markdown(f"**Longevity & Performance Benefits:** {longevity_performance_benefit}")
         st.markdown(f"**Duration:** {duration}")
         st.markdown(f"**Retest:** {retest_timing}")
+        if indian_availability:
+            st.info(f"**Indian Availability:** {indian_availability}")
         if cautions:
             st.warning(f"**Cautions:** {cautions}")
+        if interactions:
+            st.warning(f"**Interactions:** {interactions}")
         if evidence_source:
             st.caption(f"**Evidence:** {evidence_source}")
-        
+
         # Add to user preferences
         if st.button(f"✅ Add {supp_name} to my supplements", key=f"add_supp_{index}"):
             if supp_name not in st.session_state.user_history["preferred_supplements"]:
@@ -249,31 +321,55 @@ def display_nutrition_recommendation(nutrition, index, user_name):
         rationale = nutrition.get('rationale', '')
         priority_rank = nutrition.get('priority_rank', 0)
         evidence_strength = nutrition.get('evidence_strength', '')
+        biomarker_connection = nutrition.get('biomarker_connection', '')
         implementation_tips = nutrition.get('implementation_tips', [])
+        foods_to_include = nutrition.get('foods_to_include', [])
         foods_to_avoid = nutrition.get('foods_to_avoid', [])
+        meal_timing_guidance = nutrition.get('meal_timing_guidance', '')
+        indian_food_examples = nutrition.get('indian_food_examples', [])
+        female_specific_notes = nutrition.get('female_specific_notes', '')
         evidence_source = nutrition.get('evidence_source', '')
     else:
         nutrition_name = getattr(nutrition, 'nutrition_name', '')
         rationale = getattr(nutrition, 'rationale', '')
         priority_rank = getattr(nutrition, 'priority_rank', 0)
         evidence_strength = getattr(nutrition, 'evidence_strength', '')
+        biomarker_connection = getattr(nutrition, 'biomarker_connection', '')
         implementation_tips = getattr(nutrition, 'implementation_tips', [])
+        foods_to_include = getattr(nutrition, 'foods_to_include', [])
         foods_to_avoid = getattr(nutrition, 'foods_to_avoid', [])
+        meal_timing_guidance = getattr(nutrition, 'meal_timing_guidance', '')
+        indian_food_examples = getattr(nutrition, 'indian_food_examples', [])
+        female_specific_notes = getattr(nutrition, 'female_specific_notes', '')
         evidence_source = getattr(nutrition, 'evidence_source', '')
-    
+
     with st.expander(f"🥗 Priority #{priority_rank}: {nutrition_name} ({evidence_strength} Evidence)", expanded=False):
         st.markdown(f"**Why This Matters:** {rationale}")
+        if biomarker_connection:
+            st.markdown(f"**Biomarker Connection:** {biomarker_connection}")
         if implementation_tips:
             st.markdown("**How to Implement:**")
             for tip in implementation_tips:
                 st.markdown(f"• {tip}")
+        if foods_to_include:
+            st.markdown("**Foods to Include More:**")
+            for food in foods_to_include:
+                st.markdown(f"• {food}")
+        if indian_food_examples:
+            st.markdown("**Indian Food Examples:**")
+            for example in indian_food_examples:
+                st.markdown(f"• {example}")
         if foods_to_avoid:
             st.markdown("**Foods to Limit/Avoid:**")
             for food in foods_to_avoid:
                 st.markdown(f"• {food}")
+        if meal_timing_guidance:
+            st.info(f"**Meal Timing:** {meal_timing_guidance}")
+        if female_specific_notes:
+            st.info(f"**For Women:** {female_specific_notes}")
         if evidence_source:
             st.caption(f"**Evidence:** {evidence_source}")
-        
+
         # Add to user preferences
         if st.button(f"✅ Add to my nutrition plan", key=f"add_nutrition_{index}"):
             if nutrition_name not in st.session_state.user_history["nutrition_preferences"]:
@@ -291,6 +387,10 @@ def display_exercise_recommendation(exercise, index, user_name):
         volume = exercise.get('volume', '')
         rest_periods = exercise.get('rest_periods', '')
         biomarker_connection = exercise.get('biomarker_connection', '')
+        current_optimization = exercise.get('current_optimization', '')
+        athlete_specific_notes = exercise.get('athlete_specific_notes', '')
+        female_specific_notes = exercise.get('female_specific_notes', '')
+        no_intervention_note = exercise.get('no_intervention_note', '')
         evidence_source = exercise.get('evidence_source', '')
     else:
         exercise_name = getattr(exercise, 'exercise_name', '')
@@ -302,6 +402,10 @@ def display_exercise_recommendation(exercise, index, user_name):
         volume = getattr(exercise, 'volume', '')
         rest_periods = getattr(exercise, 'rest_periods', '')
         biomarker_connection = getattr(exercise, 'biomarker_connection', '')
+        current_optimization = getattr(exercise, 'current_optimization', '')
+        athlete_specific_notes = getattr(exercise, 'athlete_specific_notes', '')
+        female_specific_notes = getattr(exercise, 'female_specific_notes', '')
+        no_intervention_note = getattr(exercise, 'no_intervention_note', '')
         evidence_source = getattr(exercise, 'evidence_source', '')
     
     with st.expander(f"🏋️ {exercise_name}", expanded=False):
@@ -315,9 +419,17 @@ def display_exercise_recommendation(exercise, index, user_name):
         if rest_periods:
             st.markdown(f"**Rest Periods:** {rest_periods}")
         st.markdown(f"**Connection to Your Data:** {biomarker_connection}")
+        if current_optimization:
+            st.success(f"**What You're Doing Right:** {current_optimization}")
+        if athlete_specific_notes:
+            st.info(f"**Advanced Notes:** {athlete_specific_notes}")
+        if female_specific_notes:
+            st.info(f"**For Women:** {female_specific_notes}")
+        if no_intervention_note:
+            st.success(f"**Good News:** {no_intervention_note}")
         if evidence_source:
             st.caption(f"**Evidence:** {evidence_source}")
-        
+
         # Add to user preferences
         if st.button(f"✅ Add to my exercise routine", key=f"add_exercise_{index}"):
             if exercise_name not in st.session_state.user_history["lifestyle_preferences"]:
@@ -408,8 +520,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Azure OpenAI is configured in llm_utils.py via LiteLLM
 
 # Display personalized greeting
 user_name = st.session_state.metadata.get('name', '')
@@ -432,39 +543,51 @@ else:
 st.markdown("#### User Profile")
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
-    st.session_state.metadata["name"] = st.text_input("Name", value=st.session_state.metadata.get('name', ''))
+    name_input = st.text_input("Name", value=st.session_state.metadata.get('name', ''), key="user_name")
+    st.session_state.metadata["name"] = name_input
 with col2:
-    st.session_state.metadata["age"] = st.text_input("Age", value=str(st.session_state.metadata.get('age', '')))
+    age_input = st.text_input("Age", value=str(st.session_state.metadata.get('age', '')), key="user_age")
+    st.session_state.metadata["age"] = age_input
 with col3:
-    st.session_state.metadata["gender"] = st.text_input("Gender", value=st.session_state.metadata.get('gender', ''))
+    gender_input = st.text_input("Gender", value=st.session_state.metadata.get('gender', ''), key="user_gender")
+    st.session_state.metadata["gender"] = gender_input
 with col4:
-    st.session_state.metadata["height"] = st.text_input("Height", value=st.session_state.metadata.get('height', ''))
+    height_input = st.text_input("Height", value=st.session_state.metadata.get('height', ''), key="user_height")
+    st.session_state.metadata["height"] = height_input
 with col5:
-    st.session_state.metadata["body_weight"] = st.text_input("Body Weight", value=st.session_state.metadata.get('body_weight', ''))
+    weight_input = st.text_input("Body Weight", value=st.session_state.metadata.get('body_weight', ''), key="user_weight")
+    st.session_state.metadata["body_weight"] = weight_input
 with col6:
-    st.session_state.metadata["goal"] = st.text_input("Primary Goal", value=st.session_state.metadata.get('goal', ''))
+    goal_input = st.text_input("Primary Goal", value=st.session_state.metadata.get('goal', ''), key="user_goal")
+    st.session_state.metadata["goal"] = goal_input
 
 # Personalization preferences section
 st.markdown("#### Personalization Preferences")
 col_pref1, col_pref2, col_pref3 = st.columns(3)
 with col_pref1:
-    st.session_state.personalization_prefs["communication_style"] = st.selectbox(
+    comm_style = st.selectbox(
         "Communication Style",
         ["encouraging", "direct", "detailed"],
-        index=["encouraging", "direct", "detailed"].index(st.session_state.personalization_prefs.get("communication_style", "encouraging"))
+        index=["encouraging", "direct", "detailed"].index(st.session_state.personalization_prefs.get("communication_style", "encouraging")),
+        key="comm_style"
     )
+    st.session_state.personalization_prefs["communication_style"] = comm_style
 with col_pref2:
     focus_options = ["supplements", "lifestyle", "nutrition", "biomarkers"]
-    st.session_state.personalization_prefs["focus_areas"] = st.multiselect(
+    focus_areas = st.multiselect(
         "Primary Focus Areas",
         focus_options,
-        default=st.session_state.personalization_prefs.get("focus_areas", [])
+        default=st.session_state.personalization_prefs.get("focus_areas", []),
+        key="focus_areas"
     )
+    st.session_state.personalization_prefs["focus_areas"] = focus_areas
 with col_pref3:
-    st.session_state.personalization_prefs["goal_tracking"] = st.checkbox(
-        "Enable Goal Tracking", 
-        value=st.session_state.personalization_prefs.get("goal_tracking", True)
+    goal_tracking = st.checkbox(
+        "Enable Goal Tracking",
+        value=st.session_state.personalization_prefs.get("goal_tracking", True),
+        key="goal_tracking"
     )
+    st.session_state.personalization_prefs["goal_tracking"] = goal_tracking
 
 # --- User Conversation and Recommendations (Single Text Areas) ---
 st.markdown("#### User Conversation (Q/A)")
@@ -523,29 +646,11 @@ Consider traditional Indian herbs and spices known for their health benefits."""
     key="user_recommendations_text"
 )
 
-# --- Model Selection (Single Dropdown) ---
-model_options = {
-    "GPT-4.1": "gpt-4.1",
-    "GPT-4.1 Mini": "gpt-4.1-mini",
-    "GPT-4.1 Nano": "gpt-4.1-nano",
-    "O4 Mini": "o4-mini",
-    "O3 Mini": "o3-mini",
-    "O3": "o3",
-    "Gemini 1.5 Pro Latest": "gemini/gemini-1.5-pro-latest",
-    "Gemini 2.0 Flash": "gemini/gemini-2.0-flash",
-    "Gemini 2.0 Flash Exp": "gemini/gemini-2.0-flash-exp",
-    "Gemini 2.0 Flash Lite Preview 02-05": "gemini/gemini-2.0-flash-lite-preview-02-05"
-}
-model_names = list(model_options.keys())
-
-st.markdown("#### Model Selection")
-selected_model_label = st.selectbox(
-    "Select LLM Model",
-    model_names,
-    key="model_select_single"
-)
-selected_model = model_options[selected_model_label]
-st.caption(f"**Exact model name:** `{selected_model}`")
+# --- Model Configuration ---
+# Using single Azure OpenAI GPT-4.1 model
+selected_model = "azure/gpt-4.1-mini"  # Update this to match your actual GPT-4.1 deployment name
+st.markdown("#### Model Configuration")
+st.info("🤖 Using Azure OpenAI GPT-4.1 mini model")
 
 if st.button("Generate Personalized Report", key="generate_single"):
     with st.spinner(f"Creating personalized health insights for {st.session_state.metadata.get('name', 'you')}..."):
@@ -636,20 +741,93 @@ if st.session_state.get("report_single"):
     if isinstance(report, dict) or hasattr(report, 'overall_health_summary'):
         
         # A) OVERALL HEALTH SUMMARY & PERSONALIZATION
-        overall_summary = getattr(report, 'overall_health_summary', None) or report.get('overall_health_summary', '')
+        overall_summary = ''
+        congratulations = ''
+        wins = []
+        continue_doing = []
+        needs_work = []
+        priority_categories = []
+        goal_relevance = ''
+        longevity_impact = ''
+        pattern_analysis = ''
+
+        # Extract values based on report type (dict or Pydantic model)
+        if isinstance(report, dict):
+            overall_summary = report.get('overall_health_summary', '')
+            congratulations = report.get('congratulations_message', '')
+            wins = report.get('wins_to_celebrate', [])
+            continue_doing = report.get('what_to_continue', [])
+            needs_work = report.get('what_needs_work', [])
+            priority_categories = report.get('top_priority_categories', [])
+            goal_relevance = report.get('goal_relevance', '')
+            longevity_impact = report.get('longevity_performance_impact', '')
+            pattern_analysis = report.get('biomarker_pattern_analysis', '')
+        else:
+            overall_summary = getattr(report, 'overall_health_summary', '')
+            congratulations = getattr(report, 'congratulations_message', '')
+            wins = getattr(report, 'wins_to_celebrate', [])
+            continue_doing = getattr(report, 'what_to_continue', [])
+            needs_work = getattr(report, 'what_needs_work', [])
+            priority_categories = getattr(report, 'top_priority_categories', [])
+            goal_relevance = getattr(report, 'goal_relevance', '')
+            longevity_impact = getattr(report, 'longevity_performance_impact', '')
+            pattern_analysis = getattr(report, 'biomarker_pattern_analysis', '')
+
         if overall_summary:
             st.markdown(f"## 🌟 Overall Health Summary for {user_name}")
+
+            # Congratulations message
+            if congratulations:
+                st.success(congratulations)
+
             st.markdown(overall_summary)
-            
+
+            # Wins to celebrate
+            if wins:
+                st.markdown("### ✅ What's Working Well")
+                for win in wins:
+                    st.markdown(f"✅ {win}")
+
+            # What to continue
+            if continue_doing:
+                st.markdown("### 💪 Keep Doing")
+                for item in continue_doing:
+                    st.markdown(f"🔄 {item}")
+
+            # What needs work
+            if needs_work:
+                st.markdown("### ⚠️ What Needs Attention")
+                for item in needs_work:
+                    st.markdown(f"⚠️ {item}")
+
             # Top Priority Categories
-            priority_categories = getattr(report, 'top_priority_categories', []) or report.get('top_priority_categories', [])
             if priority_categories:
-                st.markdown("### 🎯 Your Top 3 Priority Areas")
+                st.markdown("### 🔺 Top 3 Health Categories to Prioritize")
                 for i, category in enumerate(priority_categories, 1):
                     st.markdown(f"**{i}.** {category}")
+
+            # Goal relevance and longevity impact
+            if goal_relevance or longevity_impact:
+                col1, col2 = st.columns(2)
+                with col1:
+                    if goal_relevance:
+                        st.info(f"**Goal Connection:** {goal_relevance}")
+                with col2:
+                    if longevity_impact:
+                        st.info(f"**Longevity & Performance:** {longevity_impact}")
+
+            # Biomarker pattern analysis
+            if pattern_analysis:
+                st.markdown("### 🔬 Biomarker Pattern Analysis")
+                st.info(pattern_analysis)
         
         # B) CATEGORY LEVEL INSIGHTS & PERSONALIZATION
-        category_insights = getattr(report, 'category_insights', []) or report.get('category_insights', [])
+        category_insights = []
+        if isinstance(report, dict):
+            category_insights = report.get('category_insights', [])
+        else:
+            category_insights = getattr(report, 'category_insights', [])
+
         if category_insights:
             st.markdown(f"## 🔍 Category Health Insights for {user_name}")
             for insight in category_insights:
@@ -667,7 +845,7 @@ if st.session_state.get("report_single"):
                     impact_on_goals = getattr(insight, 'impact_on_goals', '')
                     improvement_importance = getattr(insight, 'improvement_importance', '')
                     what_to_continue = getattr(insight, 'what_to_continue', '')
-                
+
                 with st.expander(f"📊 {category_name} ({score})", expanded=True):
                     st.markdown(f"**Summary:** {summary}")
                     if impact_on_goals:
@@ -678,89 +856,135 @@ if st.session_state.get("report_single"):
                         st.success(f"**Keep Doing:** {what_to_continue}")
         
         # C) BIOMARKER LEVEL FINDINGS & PERSONALIZATION
-        biomarker_insights = getattr(report, 'biomarker_insights', []) or report.get('biomarker_insights', [])
+        biomarker_insights = []
+        if isinstance(report, dict):
+            biomarker_insights = report.get('biomarker_insights', [])
+        else:
+            biomarker_insights = getattr(report, 'biomarker_insights', [])
+
         if biomarker_insights:
             st.markdown(f"## 🧬 Biomarker Analysis for {user_name}")
-            
+
             # Group biomarkers by status
             red_biomarkers = []
             amber_biomarkers = []
             green_biomarkers = []
-            
+
             for insight in biomarker_insights:
                 if isinstance(insight, dict):
                     status = insight.get('status', '').lower()
                 else:
                     status = getattr(insight, 'status', '').lower()
-                
+
                 if 'red' in status:
                     red_biomarkers.append(insight)
                 elif 'amber' in status or 'yellow' in status:
                     amber_biomarkers.append(insight)
                 else:
                     green_biomarkers.append(insight)
-            
+
             # Display critical biomarkers first
             if red_biomarkers:
                 st.markdown("### 🚨 Critical Priority Biomarkers")
                 for insight in red_biomarkers:
                     display_biomarker_insight(insight, "🚨")
-            
+
             if amber_biomarkers:
                 st.markdown("### ⚠️ Monitor & Improve Biomarkers")
                 for insight in amber_biomarkers:
                     display_biomarker_insight(insight, "⚠️")
-            
+
             if green_biomarkers:
                 st.markdown("### ✅ Optimal Biomarkers")
                 for insight in green_biomarkers:
                     display_biomarker_insight(insight, "✅")
         
         # D) PERSONALIZED ACTION PLAN
-        action_plan = getattr(report, 'action_plan', None) or report.get('action_plan', {})
+        action_plan = None
+        if isinstance(report, dict):
+            action_plan = report.get('action_plan', {})
+        else:
+            action_plan = getattr(report, 'action_plan', None)
+
         if action_plan:
             st.markdown(f"## 🎯 Your Personalized Action Plan, {user_name}")
-            
+
+            # Extract action plan components
+            supplements = []
+            schedule_summary = ''
+            nutrition_recs = []
+            exercise_recs = []
+            timeline = []
+
+            if isinstance(action_plan, dict):
+                supplements = action_plan.get('supplements', [])
+                schedule_summary = action_plan.get('supplement_schedule_summary', '')
+                nutrition_recs = action_plan.get('nutrition', [])
+                exercise_recs = action_plan.get('exercise_lifestyle', [])
+                timeline = action_plan.get('six_month_timeline', [])
+            else:
+                supplements = getattr(action_plan, 'supplements', [])
+                schedule_summary = getattr(action_plan, 'supplement_schedule_summary', '')
+                nutrition_recs = getattr(action_plan, 'nutrition', [])
+                exercise_recs = getattr(action_plan, 'exercise_lifestyle', [])
+                timeline = getattr(action_plan, 'six_month_timeline', [])
+
             # Supplements
-            supplements = getattr(action_plan, 'supplements', []) or action_plan.get('supplements', [])
             if supplements:
                 st.markdown("### 💊 Your Supplement Protocol")
-                
+
                 # Show supplement schedule summary first
-                schedule_summary = getattr(action_plan, 'supplement_schedule_summary', '') or action_plan.get('supplement_schedule_summary', '')
                 if schedule_summary:
                     st.markdown("#### 📅 Daily Schedule Summary")
                     st.info(schedule_summary)
-                
+
                 # Display individual supplements
                 for i, supp in enumerate(supplements):
                     display_supplement_recommendation(supp, i, user_name)
-                
+
                 st.warning("⚠️ These suggestions are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before beginning any supplement regimen.")
-            
+
             # Nutrition
-            nutrition_recs = getattr(action_plan, 'nutrition', []) or action_plan.get('nutrition', [])
             if nutrition_recs:
                 st.markdown("### 🥗 Your Nutrition Protocol")
                 for i, nutrition in enumerate(nutrition_recs):
                     display_nutrition_recommendation(nutrition, i, user_name)
-            
+
             # Exercise & Lifestyle
-            exercise_recs = getattr(action_plan, 'exercise_lifestyle', []) or action_plan.get('exercise_lifestyle', [])
             if exercise_recs:
                 st.markdown("### 🏋️ Your Exercise & Lifestyle Protocol")
                 for i, exercise in enumerate(exercise_recs):
                     display_exercise_recommendation(exercise, i, user_name)
-            
+
             # 6-Month Timeline
-            timeline = getattr(action_plan, 'six_month_timeline', []) or action_plan.get('six_month_timeline', [])
             if timeline:
                 st.markdown("### 📅 Your 6-Month Journey Timeline")
                 for plan in timeline:
                     display_monthly_plan(plan, user_name)
         
+        # Escalation flags
+        escalation_needed = False
+        escalation_reason = ''
+
+        if isinstance(report, dict):
+            escalation_needed = report.get('escalation_needed', False)
+            escalation_reason = report.get('escalation_reason', '')
+        else:
+            escalation_needed = getattr(report, 'escalation_needed', False)
+            escalation_reason = getattr(report, 'escalation_reason', '')
+
+        if escalation_needed:
+            st.error(f"⚠️ **IMPORTANT HEALTH ALERT FOR {user_name.upper()}** ⚠️")
+            st.error(f"This report has been flagged for escalation: {escalation_reason}")
+            st.error("Please consult with a healthcare provider immediately.")
+
         # Disclaimer
-        disclaimer = getattr(report, 'disclaimer', '') or report.get('disclaimer', '')
+        disclaimer = ''
+        if isinstance(report, dict):
+            disclaimer = report.get('disclaimer', '')
+        else:
+            disclaimer = getattr(report, 'disclaimer', '')
+
         if disclaimer:
             st.info(f"**Important Note for {user_name}:** {disclaimer}")
             
