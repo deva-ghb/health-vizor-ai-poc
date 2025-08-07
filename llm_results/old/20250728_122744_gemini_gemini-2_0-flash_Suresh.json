@@ -1,0 +1,565 @@
+{
+  "timestamp": "2025-07-28T12:27:44.863251",
+  "user_name": "Suresh",
+  "model_name": "gemini/gemini-2/0-flash",
+  "provider": "Google Gemini",
+  "result": {
+    "overall_health_summary": "Hello Suresh! Your results show some great strengths alongside areas to optimize for your strength & endurance and longevity goals. Your consistent CrossFit training is clearly benefiting your muscle mass and endurance. Let's refine your nutrition and recovery to amplify these gains and address some metabolic and hormonal imbalances, especially considering your age and one functioning kidney.",
+    "congratulations_message": "Congratulations, Suresh, for taking proactive steps towards optimizing your health! It's commendable that you're addressing your health at 51, especially with your demanding CrossFit schedule.",
+    "wins_to_celebrate": [
+      "Your consistent 4x weekly CrossFit sessions are contributing to your optimal strength and endurance levels.",
+      "Your HDL cholesterol is in a good range, reflecting a healthy lifestyle."
+    ],
+    "what_to_continue": [
+      "Continue your CrossFit training 4 times per week to maintain your strength and endurance.",
+      "Keep taking your current supplements (Zinc, Magnesium, Berberine, B12, Lisinopril) as they are supporting various aspects of your health."
+    ],
+    "what_needs_work": [
+      "Address your elevated fasting glucose and HbA1c to improve metabolic health and energy levels.",
+      "Optimize your sleep quality to enhance recovery from your intense training.",
+      "Lower your total cholesterol and LDL to support cardiac health."
+    ],
+    "top_priority_categories": [
+      "Metabolic Health: Improving your metabolic health is crucial for managing your blood sugar levels and energy crashes, which you've noted experiencing after meals. Addressing this will significantly impact your strength and endurance performance.",
+      "Sleep & Recovery: Enhancing your sleep quality will directly improve your recovery between CrossFit sessions, reduce muscle soreness, and boost your overall energy levels. Since you often struggle to fall/stay asleep, this area needs focused attention.",
+      "Cardiac Health: Lowering your cholesterol and LDL levels is essential for long-term cardiovascular health, especially with your age. This will support your longevity goals and overall well-being."
+    ],
+    "goal_relevance": "Addressing these areas will directly enhance your strength and endurance performance, improve your daily energy levels, and support your long-term health and longevity.",
+    "longevity_performance_impact": "By optimizing these key areas, Suresh, you'll not only enhance your CrossFit performance and daily energy but also significantly improve your long-term healthspan and reduce your risk of age-related diseases, crucial at 51.",
+    "category_insights": [
+      {
+        "category_name": "Metabolic Health",
+        "score": "69/100",
+        "relevance_to_goals": "Improving your metabolic health is crucial for managing your blood sugar levels and energy crashes, which directly impacts your strength and endurance performance.",
+        "summary": "Suresh, your metabolic health score indicates areas for improvement, particularly with elevated fasting glucose and HbA1c. These results suggest potential insulin resistance, which may be contributing to your post-meal energy crashes and could hinder your muscle-building efforts. Optimizing your diet and lifestyle will help stabilize your blood sugar and improve your energy levels throughout the day. Addressing this is especially important given your age and one functioning kidney.",
+        "whats_working_well": null,
+        "what_needs_attention": "Your elevated fasting glucose (105.44 mg/dL) and HbA1c (6.0%) indicate impaired glucose metabolism and potential insulin resistance, especially given your age.",
+        "behavioral_contributors": [
+          "Non-Vegetarian diet",
+          "Caffeine: 2+/day"
+        ],
+        "impact_on_goals": "Poor metabolic health can lead to energy crashes, hinder muscle recovery, and reduce overall performance in CrossFit.",
+        "performance_longevity_impact": "Improving metabolic health will stabilize energy levels, enhance muscle recovery, and reduce the risk of long-term complications like diabetes, supporting both performance and longevity.",
+        "biomarker_connections": [
+          "Fasting Glucose",
+          "HbA1c",
+          "Fasting Insulin"
+        ],
+        "interrelated_categories": [
+          "Hormone Health",
+          "Sleep & Recovery"
+        ],
+        "what_to_continue": null
+      },
+      {
+        "category_name": "Strength & Endurance",
+        "score": "85/100",
+        "relevance_to_goals": "Your strength and endurance are already optimal, reflecting your consistent CrossFit training. Maintaining this level is key to achieving your fitness goals.",
+        "summary": "Suresh, your strength and endurance score is excellent, indicating that your CrossFit training is highly effective. Your hemoglobin levels are also within a healthy range, supporting your body's ability to deliver oxygen to your muscles. Continue your current training regimen and focus on optimizing other areas like sleep and nutrition to further enhance your performance. Keep up the great work!",
+        "whats_working_well": "Your consistent CrossFit training is clearly paying off, contributing to your high strength and endurance score.",
+        "what_needs_attention": null,
+        "behavioral_contributors": [
+          "CrossFit 4 sessions per week, 300 min total per week"
+        ],
+        "impact_on_goals": "Maintaining optimal strength and endurance is crucial for achieving your fitness goals and performing well in CrossFit.",
+        "performance_longevity_impact": "Continuing your current training will support your physical performance and contribute to your overall health and longevity.",
+        "biomarker_connections": [
+          "Hemoglobin",
+          "RBC"
+        ],
+        "interrelated_categories": [
+          "Nutrient Status",
+          "Inflammation & Immunity"
+        ],
+        "what_to_continue": "Continue your current CrossFit training schedule and maintain a balanced diet to support your strength and endurance."
+      },
+      {
+        "category_name": "Sleep & Recovery",
+        "score": "65/100",
+        "relevance_to_goals": "Enhancing your sleep quality will directly improve your recovery between CrossFit sessions, reduce muscle soreness, and boost your overall energy levels. Given that you struggle to fall/stay asleep, this area needs focused attention.",
+        "summary": "Suresh, your sleep and recovery score indicates a need for improvement. You've mentioned struggling to fall asleep and waking up frequently during the night, which can impact your recovery and overall performance. Addressing your sleep quality will help reduce muscle soreness, improve energy levels, and enhance your body's ability to recover from intense training. This is particularly important given your age and one functioning kidney.",
+        "whats_working_well": null,
+        "what_needs_attention": "You often struggle to fall asleep and wake up in the middle of the night, leading to unrefreshing and disrupted sleep.",
+        "behavioral_contributors": [
+          "Caffeine: 2+/day",
+          "Occasionally use screens or bright lights within an hour of bed",
+          "High stress levels"
+        ],
+        "impact_on_goals": "Poor sleep and recovery can lead to muscle soreness, fatigue, and reduced performance in CrossFit.",
+        "performance_longevity_impact": "Improving sleep quality will enhance recovery, boost energy levels, and support long-term health and longevity.",
+        "biomarker_connections": [
+          "Cortisol (AM)"
+        ],
+        "interrelated_categories": [
+          "Hormone Health",
+          "Stress & Resilience"
+        ],
+        "what_to_continue": null
+      }
+    ],
+    "biomarker_insights": [
+      {
+        "biomarker_name": "Haemoglobin",
+        "status": "Amber",
+        "current_value": "15.6 g/dL",
+        "reference_range": "13.5-18 g/dL",
+        "deviation_severity": null,
+        "health_impact": "Your hemoglobin is slightly elevated, which could indicate dehydration or increased red blood cell production. While generally not concerning on its own, it's worth monitoring in the context of your overall health and training.",
+        "goal_connection": "Maintaining optimal hemoglobin levels is important for oxygen delivery to muscles, supporting your strength and endurance goals.",
+        "longevity_performance_impact": "Sustained high hemoglobin could, in rare cases, increase blood viscosity and impact cardiovascular health over the long term.",
+        "lifestyle_contributors": [
+          "CrossFit 4 sessions per week, 300 min total per week",
+          "Smoker: Yes"
+        ],
+        "consequences_if_ignored": null,
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "RBC"
+        ],
+        "evidence_source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5477824/"
+      },
+      {
+        "biomarker_name": "Fasting Glucose",
+        "status": "Amber",
+        "current_value": "105.44 mg/dL",
+        "reference_range": "70-110 mg/dL",
+        "deviation_severity": null,
+        "health_impact": "Your fasting glucose is slightly elevated, suggesting impaired glucose metabolism. This may contribute to the afternoon energy dips you've mentioned and could indicate early insulin resistance, particularly given your age and family history.",
+        "goal_connection": "Maintaining stable blood sugar levels is crucial for sustained energy during workouts and optimal muscle recovery, supporting your strength and endurance goals.",
+        "longevity_performance_impact": "Chronically elevated glucose can increase the risk of type 2 diabetes and cardiovascular disease, impacting long-term healthspan.",
+        "lifestyle_contributors": [
+          "Non-Vegetarian diet",
+          "Caffeine: 2+/day"
+        ],
+        "consequences_if_ignored": "If left unaddressed, elevated glucose can lead to insulin resistance, prediabetes, and eventually type 2 diabetes.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "HbA1c",
+          "Fasting Insulin"
+        ],
+        "evidence_source": "https://www.diabetes.org/diabetes/prevention/high-blood-sugar"
+      },
+      {
+        "biomarker_name": "HbA1c",
+        "status": "Amber",
+        "current_value": "6.0%",
+        "reference_range": "4.5-6.2%",
+        "deviation_severity": null,
+        "health_impact": "Your HbA1c is borderline high, indicating your average blood sugar levels over the past 2-3 months are elevated. This suggests impaired glucose metabolism and a need to improve insulin sensitivity, especially given your age.",
+        "goal_connection": "Lowering your HbA1c will help stabilize your energy levels, improve your workout performance, and support better muscle recovery.",
+        "longevity_performance_impact": "Elevated HbA1c increases the risk of diabetes and cardiovascular complications, negatively impacting long-term health and performance.",
+        "lifestyle_contributors": [
+          "Non-Vegetarian diet",
+          "Caffeine: 2+/day"
+        ],
+        "consequences_if_ignored": "If left unaddressed, elevated HbA1c can progress to prediabetes and type 2 diabetes, leading to various health complications.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Fasting Glucose",
+          "Fasting Insulin"
+        ],
+        "evidence_source": "https://www.niddk.nih.gov/health-information/diabetes/diagnosis-a1c-test"
+      },
+      {
+        "biomarker_name": "Total Cholesterol",
+        "status": "Red",
+        "current_value": "250.0 mg/dL",
+        "reference_range": "200-235 mg/dL",
+        "deviation_severity": "Moderate",
+        "health_impact": "Your total cholesterol is elevated, increasing your risk of cardiovascular disease. This is an important area to address for your long-term health, Suresh.",
+        "goal_connection": "Lowering your cholesterol will support your longevity goals and improve overall cardiovascular health.",
+        "longevity_performance_impact": "High cholesterol can lead to atherosclerosis, increasing the risk of heart attack and stroke, significantly impacting longevity.",
+        "lifestyle_contributors": [
+          "Non-Vegetarian diet"
+        ],
+        "consequences_if_ignored": "Ignoring high cholesterol can lead to heart disease, stroke, and other cardiovascular complications.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "HDL",
+          "Triglycerides"
+        ],
+        "evidence_source": "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol"
+      },
+      {
+        "biomarker_name": "LDL",
+        "status": "Red",
+        "current_value": "153 mg/dL",
+        "reference_range": "30-100 mg/dL",
+        "deviation_severity": "Severe",
+        "health_impact": "Your LDL cholesterol is significantly elevated, indicating a high risk of plaque buildup in your arteries. This requires immediate attention to protect your cardiovascular health, Suresh.",
+        "goal_connection": "Lowering LDL cholesterol is crucial for your longevity goals and preventing heart disease.",
+        "longevity_performance_impact": "High LDL significantly increases the risk of heart attack and stroke, reducing overall lifespan and quality of life.",
+        "lifestyle_contributors": [
+          "Non-Vegetarian diet"
+        ],
+        "consequences_if_ignored": "Ignoring high LDL can lead to severe cardiovascular events, such as heart attack and stroke.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Total Cholesterol",
+          "HDL",
+          "Triglycerides"
+        ],
+        "evidence_source": "https://www.heart.org/en/health-topics/cholesterol/hdl-good-versus-ldl-bad-cholesterol"
+      },
+      {
+        "biomarker_name": "Creatinine",
+        "status": "Red",
+        "current_value": "1.3 mg/dL",
+        "reference_range": "0.7-1.1 mg/dL",
+        "deviation_severity": "Moderate",
+        "health_impact": "Your creatinine level is elevated, which, given your one functioning kidney, suggests potential kidney strain. It's important to monitor this closely.",
+        "goal_connection": "Maintaining kidney health is crucial for overall well-being and supporting your active lifestyle.",
+        "longevity_performance_impact": "Elevated creatinine can indicate kidney dysfunction, which can impact long-term health and performance.",
+        "lifestyle_contributors": [
+          "CrossFit 4 sessions per week, 300 min total per week",
+          "Non-Vegetarian diet"
+        ],
+        "consequences_if_ignored": "Ignoring elevated creatinine can lead to further kidney damage and impaired function.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "eGFR",
+          "BUN"
+        ],
+        "evidence_source": "https://www.kidney.org/atoz/content/creatinine"
+      },
+      {
+        "biomarker_name": "eGFR",
+        "status": "Red",
+        "current_value": "51.5 ml/min",
+        "reference_range": ">90 ml/min",
+        "deviation_severity": "Severe",
+        "health_impact": "Your eGFR is significantly reduced, indicating impaired kidney function. This is particularly concerning given you have one functioning kidney and requires immediate attention.",
+        "goal_connection": "Maintaining kidney function is essential for overall health and your ability to continue your CrossFit training.",
+        "longevity_performance_impact": "Reduced eGFR indicates chronic kidney disease, which can significantly impact longevity and quality of life.",
+        "lifestyle_contributors": [
+          "CrossFit 4 sessions per week, 300 min total per week",
+          "Non-Vegetarian diet"
+        ],
+        "consequences_if_ignored": "Ignoring reduced eGFR can lead to progressive kidney disease and eventual kidney failure.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Creatinine",
+          "BUN"
+        ],
+        "evidence_source": "https://www.kidney.org/atoz/content/gfr"
+      },
+      {
+        "biomarker_name": "ALT",
+        "status": "Red",
+        "current_value": "47.4 U/L",
+        "reference_range": "10-26 U/L",
+        "deviation_severity": "Severe",
+        "health_impact": "Your ALT is significantly elevated, suggesting liver inflammation or damage. This requires further investigation and lifestyle modifications.",
+        "goal_connection": "Maintaining liver health is crucial for overall well-being and supporting your active lifestyle.",
+        "longevity_performance_impact": "Elevated ALT can indicate liver disease, which can impact long-term health and performance.",
+        "lifestyle_contributors": [
+          "Alcohol Intake: 5-10/week"
+        ],
+        "consequences_if_ignored": "Ignoring elevated ALT can lead to chronic liver disease, cirrhosis, and other complications.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "AST",
+          "ALP"
+        ],
+        "evidence_source": "https://www.mayoclinic.org/tests-procedures/liver-function-tests/about/pac-20394578"
+      },
+      {
+        "biomarker_name": "Homocysteine",
+        "status": "Red",
+        "current_value": "20 µmol/L",
+        "reference_range": "5.4-16.2 µmol/L",
+        "deviation_severity": "Moderate",
+        "health_impact": "Your homocysteine level is elevated, which can increase the risk of cardiovascular disease and cognitive decline. This is an important area to address for your long-term health.",
+        "goal_connection": "Lowering homocysteine will support your longevity goals and improve overall cardiovascular and cognitive health.",
+        "longevity_performance_impact": "High homocysteine can damage blood vessels and increase the risk of heart attack, stroke, and dementia, significantly impacting longevity.",
+        "lifestyle_contributors": [
+          "Smoker: Yes",
+          "Caffeine: 2+/day"
+        ],
+        "consequences_if_ignored": "Ignoring high homocysteine can lead to heart disease, stroke, cognitive decline, and other complications.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Vitamin B12"
+        ],
+        "evidence_source": "https://www.ahajournals.org/doi/full/10.1161/01.CIR.96.8.2777"
+      }
+    ],
+    "biomarker_pattern_analysis": "Suresh, the combination of elevated Fasting Glucose, HbA1c, Total Cholesterol, and LDL suggests a pattern of insulin resistance and metabolic syndrome. This is further compounded by your elevated Creatinine and reduced eGFR, indicating potential kidney strain, especially given you have one functioning kidney. Addressing these issues through diet, exercise, and targeted supplements is crucial for your long-term health and performance.",
+    "action_plan": {
+      "supplements": [
+        {
+          "supplement_name": "Omega-3 Fatty Acids",
+          "rationale": "Given your elevated total and LDL cholesterol levels, omega-3 fatty acids can help lower triglycerides and improve overall lipid profile. This is crucial for your cardiac health and longevity goals.",
+          "dosage": "Studies suggest 2-3 grams of EPA and DHA daily.",
+          "timing": "Take with a meal.",
+          "food_timing": "With food",
+          "purpose": "To reduce triglycerides, improve cholesterol levels, and support cardiovascular health.",
+          "biomarker_connection": "Targets elevated Total Cholesterol and LDL.",
+          "longevity_performance_benefit": "Supports heart health and reduces the risk of cardiovascular disease, promoting longevity.",
+          "duration": "Ongoing",
+          "retest_timing": "Retest cholesterol levels in 3 months.",
+          "evidence_source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753151/",
+          "cautions": "May cause mild gastrointestinal upset.",
+          "interactions": "May interact with blood thinners; consult your doctor.",
+          "indian_availability": "Available in most pharmacies and online stores in India."
+        },
+        {
+          "supplement_name": "Vitamin D3",
+          "rationale": "Vitamin D supports overall health and well-being. Given your limited sun exposure, supplementing with Vitamin D3 can help you reach optimal levels.",
+          "dosage": "Studies suggest 2000-4000 IU daily.",
+          "timing": "Take with a meal.",
+          "food_timing": "With food",
+          "purpose": "To support immune function, bone health, and overall well-being.",
+          "biomarker_connection": "Supports general health and addresses potential deficiency.",
+          "longevity_performance_benefit": "Supports bone health and immune function, promoting longevity.",
+          "duration": "Ongoing",
+          "retest_timing": "Retest Vitamin D levels in 3 months.",
+          "evidence_source": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+          "cautions": "High doses may cause hypercalcemia; monitor calcium levels if taking high doses.",
+          "interactions": "May interact with certain medications; consult your doctor.",
+          "indian_availability": "Available in most pharmacies and online stores in India."
+        },
+        {
+          "supplement_name": "N-Acetylcysteine (NAC)",
+          "rationale": "Given your elevated Homocysteine and ALT levels, NAC can support liver health and reduce homocysteine levels. Additionally, NAC acts as an antioxidant, supporting overall health.",
+          "dosage": "Studies suggest 600-1200 mg daily.",
+          "timing": "Take on an empty stomach.",
+          "food_timing": "Before food",
+          "purpose": "To support liver health, reduce homocysteine levels, and provide antioxidant support.",
+          "biomarker_connection": "Targets elevated Homocysteine and ALT.",
+          "longevity_performance_benefit": "Supports liver health and reduces the risk of cardiovascular disease and cognitive decline, promoting longevity.",
+          "duration": "3 months",
+          "retest_timing": "Retest Homocysteine and ALT levels in 3 months.",
+          "evidence_source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5241507/",
+          "cautions": "May cause mild gastrointestinal upset.",
+          "interactions": "May interact with certain medications; consult your doctor.",
+          "indian_availability": "Available in most pharmacies and online stores in India."
+        }
+      ],
+      "supplement_schedule_summary": "Morning: NAC (600-1200 mg before food), Vitamin D3 (2000-4000 IU with food). With a Meal: Omega-3 Fatty Acids (2-3 grams).",
+      "supplement_disclaimer": "These suggestions are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before beginning any supplement regimen.",
+      "nutrition": [
+        {
+          "nutrition_name": "Prioritize Whole, Unprocessed Foods",
+          "rationale": "Focusing on whole, unprocessed foods can help stabilize blood sugar levels, improve cholesterol, and support kidney health. Given your elevated glucose, cholesterol, and creatinine levels, this is crucial.",
+          "priority_rank": 1,
+          "evidence_strength": "High",
+          "biomarker_connection": "Targets elevated Fasting Glucose, HbA1c, Total Cholesterol, LDL, and Creatinine.",
+          "implementation_tips": [
+            "Replace refined grains with whole grains like brown rice and quinoa.",
+            "Choose fresh fruits and vegetables over processed snacks.",
+            "Prepare home-cooked meals to control ingredients and portion sizes."
+          ],
+          "foods_to_include": [
+            "Whole grains (brown rice, quinoa, oats)",
+            "Fresh fruits and vegetables",
+            "Lean proteins (fish, chicken, lentils)"
+          ],
+          "foods_to_avoid": [
+            "Processed foods (packaged snacks, sugary drinks)",
+            "Refined grains (white bread, white rice)",
+            "Fried foods"
+          ],
+          "meal_timing_guidance": null,
+          "indian_food_examples": [
+            "Include brown rice or quinoa in your meals instead of white rice.",
+            "Add plenty of vegetables to your dals and curries.",
+            "Choose whole wheat roti over maida-based parathas."
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/"
+        },
+        {
+          "nutrition_name": "Increase Fiber Intake",
+          "rationale": "Increasing fiber intake can help lower cholesterol, stabilize blood sugar levels, and support kidney health. This is particularly important given your elevated cholesterol, glucose, and creatinine levels.",
+          "priority_rank": 2,
+          "evidence_strength": "High",
+          "biomarker_connection": "Targets elevated Total Cholesterol, LDL, Fasting Glucose, HbA1c, and Creatinine.",
+          "implementation_tips": [
+            "Include fiber-rich foods like oats, lentils, and vegetables in every meal.",
+            "Add chia seeds or flaxseeds to your breakfast or snacks.",
+            "Choose whole fruits over fruit juices."
+          ],
+          "foods_to_include": [
+            "Oats",
+            "Lentils (dal)",
+            "Vegetables (broccoli, spinach, carrots)",
+            "Fruits (apples, berries)"
+          ],
+          "foods_to_avoid": [
+            "Processed foods with added sugars",
+            "Refined grains with low fiber content",
+            "Fruit juices"
+          ],
+          "meal_timing_guidance": null,
+          "indian_food_examples": [
+            "Include a bowl of dal (lentils) with every meal.",
+            "Add vegetables like spinach or fenugreek leaves to your roti.",
+            "Start your day with a bowl of oats porridge."
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983"
+        },
+        {
+          "nutrition_name": "Limit Saturated and Trans Fats",
+          "rationale": "Limiting saturated and trans fats can help lower cholesterol levels and improve cardiovascular health. This is crucial given your elevated total and LDL cholesterol.",
+          "priority_rank": 3,
+          "evidence_strength": "High",
+          "biomarker_connection": "Targets elevated Total Cholesterol and LDL.",
+          "implementation_tips": [
+            "Choose lean protein sources over fatty meats.",
+            "Use healthy cooking oils like olive oil or rice bran oil.",
+            "Avoid fried foods and processed snacks."
+          ],
+          "foods_to_include": [
+            "Lean protein (fish, chicken, lentils)",
+            "Healthy oils (olive oil, rice bran oil)",
+            "Nuts and seeds in moderation"
+          ],
+          "foods_to_avoid": [
+            "Fatty meats (red meat, processed meats)",
+            "Fried foods",
+            "Processed snacks (chips, cookies)"
+          ],
+          "meal_timing_guidance": null,
+          "indian_food_examples": [
+            "Choose grilled or baked chicken over fried chicken.",
+            "Use olive oil or rice bran oil for cooking instead of ghee or butter.",
+            "Limit your intake of processed snacks like samosas and pakoras."
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats"
+        }
+      ],
+      "exercise_lifestyle": [
+        {
+          "exercise_name": "Incorporate Low-Intensity Steady State (LISS) Cardio",
+          "rationale": "Adding LISS cardio can help improve cardiovascular health, lower cholesterol, and stabilize blood sugar levels. Given your elevated cholesterol and glucose levels, this is beneficial.",
+          "workout_type": "Cardio",
+          "frequency": "2-3 times per week",
+          "duration": "30-45 minutes per session",
+          "intensity": "Low (e.g., brisk walking, cycling at a comfortable pace)",
+          "volume": "Moderate",
+          "rest_periods": "N/A",
+          "biomarker_connection": "Targets elevated Total Cholesterol, LDL, Fasting Glucose, and HbA1c.",
+          "current_optimization": "You're already doing CrossFit, which is great for strength and endurance. Adding LISS cardio will complement your training by improving cardiovascular health.",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5548287/"
+        },
+        {
+          "exercise_name": "Prioritize Sleep Hygiene",
+          "rationale": "Improving sleep hygiene can enhance sleep quality, reduce stress levels, and support overall recovery. Given your struggles with falling and staying asleep, this is crucial.",
+          "workout_type": "Lifestyle",
+          "frequency": "Daily",
+          "duration": "Ongoing",
+          "intensity": "N/A",
+          "volume": "N/A",
+          "rest_periods": "N/A",
+          "biomarker_connection": "Supports optimal Cortisol levels and overall Sleep & Recovery.",
+          "current_optimization": null,
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "https://www.sleepfoundation.org/sleep-hygiene"
+        }
+      ],
+      "six_month_timeline": [
+        {
+          "month_range": "Months 0-2",
+          "focus_areas": [
+            "Nutrition: Prioritize whole, unprocessed foods and increase fiber intake.",
+            "Lifestyle: Implement a consistent sleep schedule and improve sleep hygiene.",
+            "Exercise: Incorporate LISS cardio 2-3 times per week."
+          ],
+          "supplement_adjustments": [
+            "Start Omega-3 Fatty Acids (2-3 grams daily).",
+            "Start Vitamin D3 (2000-4000 IU daily).",
+            "Start N-Acetylcysteine (NAC) (600-1200 mg daily)."
+          ],
+          "nutrition_focus": [
+            "Replace refined grains with whole grains.",
+            "Include fiber-rich foods in every meal."
+          ],
+          "exercise_goals": [
+            "Add LISS cardio to your routine.",
+            "Maintain your current CrossFit training."
+          ],
+          "lifestyle_targets": [
+            "Go to bed and wake up at the same time every day.",
+            "Create a relaxing bedtime routine."
+          ],
+          "retest_schedule": [
+            "Retest Fasting Glucose, HbA1c, Total Cholesterol, LDL, ALT, and Homocysteine at the end of Month 2."
+          ]
+        },
+        {
+          "month_range": "Months 3-4",
+          "focus_areas": [
+            "Nutrition: Continue prioritizing whole foods and fiber intake.",
+            "Lifestyle: Maintain consistent sleep hygiene practices.",
+            "Exercise: Continue LISS cardio and CrossFit training."
+          ],
+          "supplement_adjustments": [
+            "Continue Omega-3 Fatty Acids, Vitamin D3, and NAC, adjusting dosages based on retest results."
+          ],
+          "nutrition_focus": [
+            "Further reduce saturated and trans fats.",
+            "Monitor portion sizes to manage calorie intake."
+          ],
+          "exercise_goals": [
+            "Increase the intensity of LISS cardio sessions if tolerated.",
+            "Focus on proper form and technique in CrossFit training."
+          ],
+          "lifestyle_targets": [
+            "Limit caffeine intake, especially in the afternoon.",
+            "Manage stress levels through relaxation techniques."
+          ],
+          "retest_schedule": [
+            "Retest Creatinine and eGFR at the end of Month 4."
+          ]
+        },
+        {
+          "month_range": "Months 5-6",
+          "focus_areas": [
+            "Nutrition: Maintain a balanced diet with whole foods and adequate fiber.",
+            "Lifestyle: Continue practicing consistent sleep hygiene and stress management.",
+            "Exercise: Maintain a consistent exercise routine with both LISS cardio and CrossFit training."
+          ],
+          "supplement_adjustments": [
+            "Continue Omega-3 Fatty Acids, Vitamin D3, and NAC, adjusting dosages based on retest results and consultation with your healthcare provider."
+          ],
+          "nutrition_focus": [
+            "Fine-tune your diet based on your individual needs and preferences.",
+            "Consult with a registered dietitian for personalized guidance."
+          ],
+          "exercise_goals": [
+            "Set new fitness goals to challenge yourself and stay motivated.",
+            "Consider working with a certified personal trainer for advanced training techniques."
+          ],
+          "lifestyle_targets": [
+            "Prioritize self-care activities to maintain overall well-being.",
+            "Stay consistent with healthy habits for long-term success."
+          ],
+          "retest_schedule": [
+            "Comprehensive retest of all biomarkers at the end of Month 6 to assess overall progress."
+          ]
+        }
+      ]
+    },
+    "escalation_needed": false,
+    "escalation_reason": null,
+    "disclaimer": "Suresh, these recommendations are specifically designed with your goals in mind. These recommendations are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before starting any new regimen."
+  }
+}

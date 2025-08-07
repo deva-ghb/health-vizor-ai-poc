@@ -1,0 +1,87 @@
+Example as how category output looks like:
+4. 💪 Strength & Endurance
+Summary: You’ve got a strong base — Hemoglobin, hematocrit, and red cell markers are in excellent range. These support oxygen delivery and endurance. However, recovery markers (Ferritin, Free T3, Cortisol) indicate stress. You may be hitting the gym hard but not fully bouncing back. This may limit gains, create cumulative fatigue, or increase injury risk.
+What’s Working Well
+Excellent oxygen delivery (Hemoglobin, MCHC, MCV).
+Iron and TIBC values support performance metabolism.
+What Needs Work
+Ferritin is Amber — limited recovery iron stores.
+Low Free T3 and low-normal Cortisol indicate poor adaptive recovery.
+Behavioral Contributors
+4x intense sessions/week without structured deload or recovery strategy.
+Sleep quality may be insufficient.
+Priority Actions
+Add Glycine + Magnesium at night to enhance recovery.
+Consider zinc repletion and L-Carnitine for mitochondrial output.
+Ensure 1.6–2.0g/kg protein intake, evenly distributed.
+Add active recovery + rest days strategically.
+How this Links to Your Goals:
+Improving recovery → improved gains, fewer plateaus, and more sustainable training progress.
+ 
+3. 🩸 Metabolic Health
+Summary: Metabolism powers your system — converting food into energy and regulating body composition. While your glucose control looks good (HbA1c and fasting glucose are solid), lipid markers point to underlying metabolic strain. ApoB and triglycerides are elevated — a sign of inefficient fat handling and early insulin resistance, despite a healthy fasting insulin.
+What’s Working Well
+Fasting Insulin = 2.6 μIU/mL — highly insulin sensitive.
+HbA1c and Glucose = Optimal — current carb intake is well tolerated.
+What Needs Work
+Triglycerides and ApoB = High — signals that liver/lipid metabolism may be under strain.
+LDL = High-Normal — raises cardiovascular risk if left unchecked.
+Behavioral Contributors
+Possible fat intake or timing mismatch.
+Elevated Creatinine may reflect stress on clearance systems.
+Priority Actions
+Introduce time-restricted eating (TRE) to improve fat oxidation.
+Increase fiber intake (especially from flax, psyllium, lentils).
+Add Omega-3s (2–3g/day) and consider Berberine for lipid lowering.
+Consider phospholipid support (e.g., phosphatidylcholine) if liver burden suspected.
+How this Links to Your Goals
+
+
+Metabolic flexibility enhances training, maintains body composition, and prevents disease. Optimizing this now prevents insulin resistance later.
+ 
+2. 🧬 Hormone Balance
+Summary: Hormones are your body's messengers — they regulate energy, muscle mass, libido, motivation, and recovery. Your profile suggests signs of adrenal strain: both AM Cortisol and DHEA-S are low, indicating HPA axis fatigue. Testosterone and SHBG are in good shape, but thyroid function shows slight sluggishness. These hormonal imbalances could reduce stamina, impair body composition, and compromise stress resilience.
+What’s Working Well
+Testosterone (Total and Free) are well balanced.
+SHBG is optimal — supports free hormone availability.
+What Needs Work
+DHEA-S (Low) and AM Cortisol (Low-Normal) — signs of adrenal suppression.
+Free T3 is low — slowing your metabolic engine and downstream hormone activation.
+Behavioral Contributors
+4+ intense training sessions/week + caffeine + possible under-recovery.
+One functioning kidney may alter hormonal metabolism and detox pathways.
+Priority Actions
+Start adaptogens (Rhodiola, Ashwagandha, Cordyceps) for adrenal support.
+Consider low-dose DHEA (only under medical supervision) if fatigue persists.
+Support thyroid function with Selenium, Iodine (monitor), and stress reduction.
+Improve sleep depth and circadian rhythm alignment.
+How this Links to Your Goals
+
+
+Balanced hormones = higher energy, better training adaptation, and mood stability. Supporting this axis will help you break through fatigue and build resilience.
+ 
+Make sure it recognized multi marker patterns. e.g. HPA axis fatigue.
+ 
+
+### This is a great example of what GPT should have identified as priorities. 
+ 
+🎯 Your Top 3 Priorities (Based on your biomarker data, symptoms, lifestyle, and goals):
+1. Rebuild Adrenal Resilience
+Your DHEA-S and Cortisol (AM) are both at the low end of the optimal range.
+You’re training hard (CrossFit 4x/week), and reporting moderate stress and poor sleep recovery.
+These signals point to early adrenal fatigue or HPA-axis suppression.
+Restoring this balance is essential for energy, hormonal health, and mental clarity.
+2. Improve Metabolic Flexibility & Lipid Profile
+Your HbA1c and fasting glucose are in range but trending toward the upper end.
+Triglycerides and total cholesterol are slightly elevated.
+ApoB, a key atherogenic marker, is borderline amber.
+Addressing this will improve insulin sensitivity, fat metabolism, and cardiovascular resilience.
+3. Restore Sleep-Driven Recovery
+Low-normal cortisol and DHEA-S, combined with subjective sleep issues and stimulant reliance, point to poor overnight recovery.
+You’ll benefit from optimizing sleep onset, depth, and circadian rhythm — which will directly boost metabolic and cognitive performance
+
+ 
+
+
+
+

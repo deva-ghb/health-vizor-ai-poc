@@ -1,0 +1,1755 @@
+{
+  "timestamp": "2025-08-01T12:44:01.096348",
+  "user_name": "Suresh",
+  "model_name": "azure/o1",
+  "provider": "Azure OpenAI",
+  "result": {
+    "overall_health_summary": "Suresh, at 50, you’ve done a fantastic job staying active and pursuing CrossFit four times a week despite a demanding life schedule and having one functioning kidney. Your biopsy of labs shows many stable areas, like healthy inflammation control and strong nutrient status, which suggests that your consistent effort with supplements and training is paying off. Some of your markers — especially your cholesterol levels, liver enzymes, and kidney filtration — need more focused attention to ensure you sustain a healthy heart and protect your renal function long-term. With a few targeted shifts in your diet, training recovery, and supplement strategy, you can support better metabolic balance and stronger cardiovascular resilience. It’s clear that your dedication and willingness to adapt will help you break through those energy dips and optimize both your performance and longevity goals.",
+    "congratulations_message": "Suresh, congratulations on taking these steps to truly understand your body’s needs and push toward your health and sports performance goals!",
+    "wins_to_celebrate": [
+      "Your WBC, neutrophils, and other immune markers are looking great, suggesting strong overall immunity.",
+      "Your IGF-1 is in a healthy range, reflecting good muscle-building potential consistent with your CrossFit regimen.",
+      "Your protein status (albumin, total protein) and inflammatory marker (hs-CRP) look favorable, showing that your body handles stressors well in many areas."
+    ],
+    "what_to_continue": [
+      "Continuing your CrossFit sessions four times per week to maintain strength and cardio health.",
+      "Using magnesium, zinc, and B12, as these are supporting your nutrient status and recovery.",
+      "Staying conscious of your daily protein intake without overloading your single kidney."
+    ],
+    "what_needs_work": [
+      "High total cholesterol (250 mg/dL) and LDL (153 mg/dL), plus ApoB at 91 mg/dL and homocysteine of 20 µmol/L, raise cardiovascular concerns.",
+      "Creatinine at 1.3 mg/dL with an eGFR of 51.5 ml/min indicates reduced kidney filtration, needing medical follow-up given your single kidney.",
+      "Elevated liver enzymes (ALT, AST, and ALP in red range) may reflect liver strain or high-intensity training load.",
+      "DHEA-S (102 µg/dL), free testosterone (17.8 pg/ml), and total testosterone (536 ng/dL) are on the yellow side, hinting at potential adrenal/hormonal stress."
+    ],
+    "top_priority_categories": [
+      "1. Cardiac Health – Elevated LDL, total cholesterol, and homocysteine highlight heart-risk patterns that could impact longevity.",
+      "2. Sleep & Recovery – Your lab data (stress hormones, mild liver strain) plus your reported poor sleep quality indicate under-recovery.",
+      "3. Metabolic Health – Mixed insulin/glucose markers, plus high cholesterol, underline the need for metabolic fine-tuning."
+    ],
+    "biomarker_snapshot": "You have 8 red, 14 amber, and 34 green biomarkers. That's a strong foundation — and a great place to start.",
+    "goal_relevance": "Improving these areas ties directly to your long-range vision of staying strong and healthy for CrossFit and sustaining longevity despite having only one functioning kidney. Addressing them will help you preserve strong performance while guarding against future complications.",
+    "longevity_performance_impact": "Optimizing heart health, kidney function, and hormonal balance will give you the best chance at maintaining vitality for decades ahead. Fine-tuning these markers also supports consistent workout energy and overall daily resilience to help you age well.",
+    "category_insights": [
+      {
+        "category_name": "Metabolic Health",
+        "score": "69/100",
+        "relevance_to_goals": "Stable metabolic function ensures steady energy and supports body composition goals.",
+        "summary": "Your metabolic markers indicate a mild challenge with fasting glucose and HbA1c in the upper normal range. While your insulin is slightly lower than the optimal level, the combined picture points to the need for improved nutrient timing and stress management to stabilize blood sugar. The moderate homocysteine elevation further suggests methylation concerns that can tie into how your body processes nutrients. Given your single kidney, balancing protein and carb intake carefully is extra important. Sustaining metabolic flexibility will allow you to perform better at CrossFit and maintain healthy body composition.",
+        "whats_working_well": "Your triglycerides are within a healthy range, indicating decent fat metabolism.",
+        "what_needs_attention": "Fasting glucose (105.44 mg/dL), HbA1c (6.0%), and homocysteine (20 µmol/L) show a need for deeper metabolic support.",
+        "behavioral_contributors": [
+          "Alcohol intake (5-10/week)",
+          "Distance from consistent meal timing",
+          "Stress impacting blood sugar regulation"
+        ],
+        "impact_on_goals": "Maintaining stable blood sugar helps you avoid energy crashes and improves your workout capacity.",
+        "performance_longevity_impact": "Well-controlled glucose and stable insulin responses reduce long-term organ strain, especially crucial with your single kidney.",
+        "biomarker_connections": [
+          "Fasting Glucose",
+          "Fasting Insulin",
+          "HbA1c",
+          "Homocysteine"
+        ],
+        "interrelated_categories": [
+          "Cardiac Health",
+          "Sleep & Recovery"
+        ],
+        "what_to_continue": "Keep incorporating balanced meals with quality protein and ample fiber."
+      },
+      {
+        "category_name": "Strength & Endurance",
+        "score": "85/100",
+        "relevance_to_goals": "You aim to maintain and build strength for CrossFit while supporting endurance.",
+        "summary": "You have a solid RBC count and a favorable IGF-1 level, both of which support training adaptation. Your normal-range cortisol also suggests you’re handling WOD stress decently. Nonetheless, markers like DHEA-S and free testosterone are on the lower side of normal, signaling that your adrenal/hormonal system might be taxed from high-intensity workouts. Ensuring adequate recovery, sleep quality, and targeted nutrition will help you maintain steady progress without overtraining.",
+        "whats_working_well": "IGF-1 at 200 ng/mL is nicely supportive of muscle repair and strength gains.",
+        "what_needs_attention": "Lower-end DHEA-S (102 µg/dL) and free testosterone (17.8 pg/ml) may reduce full power output and post-workout recovery capacity.",
+        "behavioral_contributors": [
+          "High training volume (CrossFit 4x/week)",
+          "Poor sleep/inconsistent recovery"
+        ],
+        "impact_on_goals": "Optimal hormone balance is vital for strength gains and maintaining high-intensity performance across workouts.",
+        "performance_longevity_impact": "Preserving robust anabolic hormone levels helps you stay physically resilient and active as you age.",
+        "biomarker_connections": [
+          "DHEA-S",
+          "Free Testosterone",
+          "IGF-1"
+        ],
+        "interrelated_categories": [
+          "Hormone Health",
+          "Sleep & Recovery"
+        ],
+        "what_to_continue": "Keep up your regular CrossFit training, as it positively influences your metabolic and muscular adaptations."
+      },
+      {
+        "category_name": "Sleep & Recovery",
+        "score": "65/100",
+        "relevance_to_goals": "Quality sleep fosters muscle repair, hormone balance, and mental focus for workouts.",
+        "summary": "Your poor sleep quality is reflected in partial adrenal stress (lowish DHEA-S) and mild inflammation in some markers like ESR. Though your cortisol is within a normal range in the morning, your self-reported struggles falling/staying asleep suggest you may not be fully recharging. This disrupts key anabolic processes necessary for muscle building and metabolic regulation. By improving bedtime habits, stress management, and possibly adjusting evening routines (limiting caffeine, reducing screen time), you can enhance deeper recovery and hormone restoration.",
+        "whats_working_well": "Magnesium in your regimen can support relaxation and improve sleep quality over time.",
+        "what_needs_attention": "Consistent disruptions in sleep, trouble staying asleep, and feeling groggy on waking likely hinder full muscle and hormone recovery.",
+        "behavioral_contributors": [
+          "Late caffeine",
+          "Screen use before bed",
+          "High stress levels"
+        ],
+        "impact_on_goals": "Without restful sleep, your strength and endurance gains plateau more quickly, and metabolism is harder to optimize.",
+        "performance_longevity_impact": "Long-term, poor recovery raises your stress hormones and can accelerate aging processes, especially damaging for kidney function.",
+        "biomarker_connections": [
+          "Cortisol (AM)",
+          "DHEA-S",
+          "ESR"
+        ],
+        "interrelated_categories": [
+          "Hormone Health",
+          "Metabolic Health"
+        ],
+        "what_to_continue": "Continue taking magnesium and focusing on good sleep hygiene steps when possible."
+      },
+      {
+        "category_name": "Cognitive Health",
+        "score": "75/100",
+        "relevance_to_goals": "Sharp focus is essential for performing complex CrossFit moves safely and for maintaining productivity.",
+        "summary": "Your normal thyroid markers (TSH, free T3, free T4) support stable cognitive function, and your vitamin B12 is also in an optimal range, helping neural health. However, the mild dips in your energy post-meals and reported memory lapses might connect to blood sugar fluctuations and stress. Improving your sleep quality and refining meal composition can help reduce post-meal sluggishness and keep your mind more alert through the day.",
+        "whats_working_well": "Vitamin B12 status is excellent, contributing to stable mood and cognitive resilience.",
+        "what_needs_attention": "Afternoon sluggishness and occasional brain fog might stem from blood sugar imbalances or incomplete recovery from training.",
+        "behavioral_contributors": [
+          "High-stress workload",
+          "Inconsistent sleep"
+        ],
+        "impact_on_goals": "A clear mind helps you learn new CrossFit techniques and stay motivated for tough workouts.",
+        "performance_longevity_impact": "Cognitive vitality ties into your overall resilience, which helps you maintain training consistency over the years.",
+        "biomarker_connections": [
+          "Fasting Glucose",
+          "HbA1c",
+          "B12"
+        ],
+        "interrelated_categories": [
+          "Metabolic Health",
+          "Sleep & Recovery"
+        ],
+        "what_to_continue": "Continue B12 supplementation and moderate caffeine intake to support alertness."
+      },
+      {
+        "category_name": "Cardiac Health",
+        "score": "60/100",
+        "relevance_to_goals": "Heart health is crucial for CrossFit performance and long-term vitality.",
+        "summary": "Your total cholesterol of 250 mg/dL and LDL of 153 mg/dL are above ideal levels. Coupled with borderline-high ApoB (91 mg/dL) and elevated homocysteine (20 µmol/L), these results form a pattern of heightened cardiac risk. You also tend to experience stress, smoke, and consume alcohol, which can compound arterial strain. Addressing diet, stress management, and targeted supplementation (particularly with healthy fats, antioxidants, and methylation support) may help reduce cardiovascular risk alongside your active CrossFit lifestyle.",
+        "whats_working_well": "Having a strong HDL level (61.8 mg/dL) is protective and suggests decent lipid metabolism in some aspects.",
+        "what_needs_attention": "High LDL, cholesterol, and homocysteine levels create a concerning environment for coronary health.",
+        "behavioral_contributors": [
+          "Smoking habit",
+          "Alcohol intake",
+          "Possible high-saturated-fat dietary choices"
+        ],
+        "impact_on_goals": "Safeguarding your heart ensures you’re able to sustain high-intensity training safely.",
+        "performance_longevity_impact": "Lowering LDL and homocysteine now helps maintain cardiovascular resilience, which is key to aging vigorously.",
+        "biomarker_connections": [
+          "Total Cholesterol",
+          "LDL",
+          "ApoB",
+          "Homocysteine"
+        ],
+        "interrelated_categories": [
+          "Metabolic Health",
+          "Inflammation & Immunity"
+        ],
+        "what_to_continue": "Keep up your exercise routine, as consistent physical activity supports beneficial HDL levels."
+      },
+      {
+        "category_name": "Hormone Health",
+        "score": "70/100",
+        "relevance_to_goals": "Hormones drive your energy levels, recovery capacity, and muscle building.",
+        "summary": "Your testosterone levels are moderate, but they lean below the optimal range for peak strength at your age, and DHEA-S is also below midpoint. Although your cortisol is in a decent range, your sleep disruptions and stress likely reduce full hormone regeneration overnight. Improving adrenal support strategies (like stress reduction, consistent meals, and adaptogenic supplements) can promote healthy testosterone/DHEA production and bolster recovery.",
+        "whats_working_well": "Cortisol (AM) is steady, which indicates you are not dramatically overstressed in the morning.",
+        "what_needs_attention": "DHEA-S (102 µg/dL) and free testosterone (17.8 pg/ml) highlight a mild adrenal/hormonal gap that may affect performance and mood.",
+        "behavioral_contributors": [
+          "High-intensity workouts with inadequate sleep",
+          "Daily stress from work"
+        ],
+        "impact_on_goals": "Strong hormonal support is fundamental for better stamina, muscle repair, and mental drive.",
+        "performance_longevity_impact": "Well-balanced hormone levels protect muscle mass and vitality into later years.",
+        "biomarker_connections": [
+          "DHEA-S",
+          "Total Testosterone",
+          "Free Testosterone"
+        ],
+        "interrelated_categories": [
+          "Sleep & Recovery",
+          "Strength & Endurance"
+        ],
+        "what_to_continue": "Keep balancing your nutrients — especially adequate protein intake spread out across the day."
+      },
+      {
+        "category_name": "Inflammation & Immunity",
+        "score": "85/100",
+        "relevance_to_goals": "Lower inflammation and robust immunity encourage consistent training and faster recovery.",
+        "summary": "Your WBC, differential, and hs-CRP all look good, indicating minimal systemic inflammation, which is fantastic for faster muscle repair and overall health. Despite exercise stress, your body seems to keep inflammatory signals under control. However, mild ESR elevation at 10 mm/hr might track with recent training loads or stress. Overall, you’re doing a solid job mitigating inflammation, which is crucial for kidney preservation and heart health in the long run.",
+        "whats_working_well": "hs-CRP at 0.41 mg/dL is excellent, reflecting solid anti-inflammatory balance.",
+        "what_needs_attention": "Eosinophils (5.6%) and ESR at the upper normal border indicate a mild tendency towards inflammation, but not severely concerning.",
+        "behavioral_contributors": [
+          "High-intensity intervals in CrossFit",
+          "Possible mild allergies or environmental triggers"
+        ],
+        "impact_on_goals": "Keeping inflammation low supports consistent energy and helps you sustain heavy training.",
+        "performance_longevity_impact": "Low inflammation is a key driver of healthy aging and organ protection (vital with one kidney).",
+        "biomarker_connections": [
+          "WBC",
+          "hs-CRP",
+          "ESR"
+        ],
+        "interrelated_categories": [
+          "Cardiac Health",
+          "Metabolic Health"
+        ],
+        "what_to_continue": "Continue your balanced diet with antioxidant-rich foods to maintain low inflammation."
+      },
+      {
+        "category_name": "Gut Health",
+        "score": "85/100",
+        "relevance_to_goals": "A healthy gut aids nutrient absorption, which supports muscle growth and overall energy.",
+        "summary": "Markers like normal WBC differential, albumin, and total protein suggest that your gut and digestive processes are largely efficient. Eosinophils are slightly high, but not alarming, possibly reflecting mild food or environmental sensitivities. With your kidney considerations, a diverse gut microbiome and good digestion remain pivotal for maximizing nutrient utilization without overstress. Keep focusing on fiber, hydration, and moderate protein intake for sustained gut wellness.",
+        "whats_working_well": "No major digestive red flags; albumin of 4.4 g/dL indicates good protein status.",
+        "what_needs_attention": "Eosinophils are a bit elevated at 5.6%, which could reflect mild intolerance or allergen exposure.",
+        "behavioral_contributors": [
+          "Rare digestive heaviness",
+          "Occasional mild bloating"
+        ],
+        "impact_on_goals": "Better gut health helps you absorb critical amino acids and micronutrients for muscle growth and energy.",
+        "performance_longevity_impact": "A stable gut environment is linked to general well-being, essential for long-term organ protection.",
+        "biomarker_connections": [
+          "Albumin",
+          "Eosinophils"
+        ],
+        "interrelated_categories": [
+          "Inflammation & Immunity",
+          "Nutrient Status"
+        ],
+        "what_to_continue": "Keep having balanced meals with adequate fiber and fermented foods as tolerated."
+      },
+      {
+        "category_name": "Nutrient Status",
+        "score": "90/100",
+        "relevance_to_goals": "Adequate micronutrients fuel optimal metabolism, recovery, and muscle function.",
+        "summary": "Your B12, magnesium, zinc, and vitamin D all sit comfortably within their target ranges, supporting strong muscular function and a robust immune system. Iron and ferritin levels appear satisfactory, but iron is on the higher end of normal, so keep an eye on that with your kidney considerations. Maintaining balanced nutrient intake supports your CrossFit ambitions, helps manage stress, and fosters healthy aging in the face of daily challenges.",
+        "whats_working_well": "Excellent magnesium (2.11 mg/dL) and vitamin D (42 ng/mL) provide a good base for energy and muscle repair.",
+        "what_needs_attention": "Homocysteine is elevated, suggesting attention to B vitamins (particularly B6, B9, B12) for better methylation, although your B12 status is already good.",
+        "behavioral_contributors": [
+          "Current daily supplementation (zinc, magnesium, B12)",
+          "Possibly suboptimal folate intake"
+        ],
+        "impact_on_goals": "Robust nutrient status accelerates recovery and prevents performance-limiting deficiencies.",
+        "performance_longevity_impact": "Micronutrient richness wards off age-related health declines and maximizes your training potential over the long term.",
+        "biomarker_connections": [
+          "Vitamin B12",
+          "Iron",
+          "Ferritin",
+          "Homocysteine"
+        ],
+        "interrelated_categories": [
+          "Metabolic Health",
+          "Sleep & Recovery"
+        ],
+        "what_to_continue": "Continue supplementing with magnesium, zinc, and B12 as they have kept your nutrient status in good shape."
+      }
+    ],
+    "biomarker_insights": [
+      {
+        "biomarker_name": "Haemoglobin",
+        "status": "Amber",
+        "current_value": "15.6 g/dL",
+        "reference_range": "13.5-18 g/dL (Optimal 12-15.5)",
+        "what_it_is_why_matters": "Hemoglobin carries oxygen in your blood, fueling your muscles and organs. Slightly elevated hemoglobin can be normal in active individuals, but can also indicate mild changes in blood viscosity.",
+        "your_result": "Yours is slightly above the upper optimal range, which could reflect strong oxygen transport but warrants mild observation.",
+        "likely_contributors": "Intense training, occasional dehydration, or adaptation to exercise stress.",
+        "health_implications": "If levels rise further, it could potentially strain cardiovascular health. Currently, it’s only marginally above the optimal range.",
+        "recommended_next_steps": "Stay well-hydrated and consider mild blood donation if levels trend much higher (only after consulting a clinician).",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "RBC",
+          "Hct (not listed)",
+          "Iron"
+        ],
+        "evidence_source": "ICMR guidelines on RBC parameters"
+      },
+      {
+        "biomarker_name": "WBC",
+        "status": "Green",
+        "current_value": "4960 /UL",
+        "reference_range": "4000-11000 /UL (Optimal 4500-6500)",
+        "what_it_is_why_matters": "White blood cells are key for immune defense. Having them in the healthy range means your body can fight infections effectively.",
+        "your_result": "Your WBC count is comfortably within the optimal range, suggesting good immune vigilance.",
+        "likely_contributors": "Balanced nutrition, regular exercise, and low chronic inflammation.",
+        "health_implications": "A normal WBC count supports resilience against everyday pathogens and training-related stress.",
+        "recommended_next_steps": "Continue your current diet and training ratio; no specific changes needed here.",
+        "deviation_severity": null,
+        "what_to_continue": "Everything you’re doing to maintain immune support is working well.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "hs-CRP",
+          "Neutrophils"
+        ],
+        "evidence_source": "FSSAI immunity guidance"
+      },
+      {
+        "biomarker_name": "Neutrophils",
+        "status": "Green",
+        "current_value": "52.5%",
+        "reference_range": "40-75% (Optimal 40-60%)",
+        "what_it_is_why_matters": "Neutrophils help attack bacterial infections and respond to acute stress. Ideal levels reflect a well-balanced immune response.",
+        "your_result": "Yours fall nicely within optimal range, indicating good infection-fighting capacity.",
+        "likely_contributors": "Regular exercise, balanced macronutrients, and relatively low chronic inflammation.",
+        "health_implications": "Adequate neutrophils keep you safe from routine infections and support recovery from intense training.",
+        "recommended_next_steps": "No specific change required — your current routine keeps this marker healthy.",
+        "deviation_severity": null,
+        "what_to_continue": "Maintain your consistent workout and nutrient routines.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "WBC",
+          "hs-CRP"
+        ],
+        "evidence_source": "PubMed: Immunology of exercise"
+      },
+      {
+        "biomarker_name": "Lymphocytes",
+        "status": "Green",
+        "current_value": "33.6%",
+        "reference_range": "20-45% (Optimal 25-45%)",
+        "what_it_is_why_matters": "Lymphocytes are crucial for targeted immune responses (e.g., fighting viruses). Balanced levels mean your immune system is well-regulated.",
+        "your_result": "Your lymphocyte percentage is solidly in the healthy range.",
+        "likely_contributors": "Minimized chronic stress, moderate alcohol use, plus consistent micronutrient status.",
+        "health_implications": "Supportive environment against viral infections and healthy immune surveillance.",
+        "recommended_next_steps": "Keep your current macro- and micronutrient balance. No changes needed here.",
+        "deviation_severity": null,
+        "what_to_continue": "Your immune support strategies are working.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "WBC",
+          "Monocytes"
+        ],
+        "evidence_source": "ICMR immunology guidelines"
+      },
+      {
+        "biomarker_name": "Monocytes",
+        "status": "Green",
+        "current_value": "7.8%",
+        "reference_range": "2-10% (Optimal 2-8%)",
+        "what_it_is_why_matters": "Monocytes help in the breakdown of pathogens and the initiation of repair processes. ",
+        "your_result": "Your value is within the normal range, supporting healthy tissue repair after workouts.",
+        "likely_contributors": "Solid nutrition and controlled inflammation levels.",
+        "health_implications": "Healthy monocyte levels correlate with effective immune surveillance and tissue recovery.",
+        "recommended_next_steps": "No direct changes needed here. Regular exercise is beneficial.",
+        "deviation_severity": null,
+        "what_to_continue": "Stay with your current routine and balanced diet.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "hs-CRP",
+          "WBC"
+        ],
+        "evidence_source": "NIH immune function data"
+      },
+      {
+        "biomarker_name": "Eosinophils",
+        "status": "Amber",
+        "current_value": "5.6%",
+        "reference_range": "1-6% (Optimal 1-4%)",
+        "what_it_is_why_matters": "Eosinophils can rise with allergies or parasitic infections. Slightly elevated levels may point to mild inflammation or allergic responses.",
+        "your_result": "Your level is modestly above the optimal. It’s borderline high, so not extremely concerning.",
+        "likely_contributors": "Mild seasonal allergies or environmental irritants, possibly exercise-induced immune activity.",
+        "health_implications": "Persistently high eosinophils could reflect chronic inflammation, but yours are not alarmingly high.",
+        "recommended_next_steps": "Stay mindful of allergenic triggers; ensure you maintain an anti-inflammatory diet and environment.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "WBC",
+          "ESR"
+        ],
+        "evidence_source": "ICMR guidelines on differential counts"
+      },
+      {
+        "biomarker_name": "Basophils",
+        "status": "Green",
+        "current_value": "0.5%",
+        "reference_range": "0-1% (Optimal 0-1%)",
+        "what_it_is_why_matters": "Basophils are involved in allergic responses and inflammation modulation. Low-normal levels usually indicate stable immune status.",
+        "your_result": "At 0.5%, your basophil count is in a perfectly normal range.",
+        "likely_contributors": "Balanced immune activity without significant allergen exposure.",
+        "health_implications": "Stable basophils reduce likelihood of hyperactive allergic or inflammatory reactions.",
+        "recommended_next_steps": "No direct actions required. Continue overall healthy habits.",
+        "deviation_severity": null,
+        "what_to_continue": "Maintain your exercise and supplement routine.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Eosinophils",
+          "WBC"
+        ],
+        "evidence_source": "PubMed: Basophils and Immunity"
+      },
+      {
+        "biomarker_name": "RBC (Red Blood Cells)",
+        "status": "Green",
+        "current_value": "4.78 mil/L",
+        "reference_range": "4.5-6.5 mil/L (Optimal 4.5-5.0)",
+        "what_it_is_why_matters": "RBCs transport oxygen to muscles and tissues, supporting endurance and energy.",
+        "your_result": "Your RBC count is within the optimal zone, aligning well with your fitness level.",
+        "likely_contributors": "Consistent training, adequate nutrient intake (especially iron).",
+        "health_implications": "Healthy RBC levels foster solid endurance capacity and reduce fatigue.",
+        "recommended_next_steps": "Stay hydrated and continue iron-rich foods, especially given your training demands.",
+        "deviation_severity": null,
+        "what_to_continue": "Your RBC production is well-supported by your current regimen.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Haemoglobin",
+          "Iron"
+        ],
+        "evidence_source": "ICMR RBC guidelines"
+      },
+      {
+        "biomarker_name": "MCV",
+        "status": "Amber",
+        "current_value": "95.3 fL",
+        "reference_range": "76-96 fL (Optimal 85-92)",
+        "what_it_is_why_matters": "MCV indicates the size of your red blood cells. Higher values may reflect certain nutritional imbalances or mild macrocytosis.",
+        "your_result": "Your RBCs are on the larger side of normal, slightly above the optimal range.",
+        "likely_contributors": "Possible B-vitamin interplay or mild variations in RBC production.",
+        "health_implications": "Slightly elevated MCV is not always a concern, but can hint at B9 or B12 interplay. Your B12 is normal.",
+        "recommended_next_steps": "Ensure balanced folate intake along with B12 and keep an eye on homocysteine levels.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "MCH",
+          "B12",
+          "Homocysteine"
+        ],
+        "evidence_source": "NIH RBC indices reference"
+      },
+      {
+        "biomarker_name": "MCH",
+        "status": "Amber",
+        "current_value": "31.6 pg",
+        "reference_range": "27-32 pg (Optimal 27-31)",
+        "what_it_is_why_matters": "Mean corpuscular hemoglobin (MCH) reflects the average amount of hemoglobin within each RBC.",
+        "your_result": "Your MCH is slightly above the upper ideal limit, typically aligning with the raised MCV.",
+        "likely_contributors": "Similar factors that affect MCV, potentially mild shifts in B-vitamin levels or RBC production.",
+        "health_implications": "Not a major concern but worth ensuring balanced folate/B12 status to prevent RBC anomalies.",
+        "recommended_next_steps": "Check that you’re getting enough folate (dark leafy greens, lentils) in your daily diet.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "MCV",
+          "B12"
+        ],
+        "evidence_source": "Examine.com on RBC parameters"
+      },
+      {
+        "biomarker_name": "MCHC",
+        "status": "Green",
+        "current_value": "33.1 gm/dL",
+        "reference_range": "30-35 gm/dL (Optimal 32-36)",
+        "what_it_is_why_matters": "MCHC measures hemoglobin concentration in RBCs. A normal MCHC points to well-oxygenated cells and balanced RBC functioning.",
+        "your_result": "Your MCHC sits perfectly within the optimal zone.",
+        "likely_contributors": "Adequate iron, B12, and possibly good RBC turnover from exercise.",
+        "health_implications": "Efficient oxygen transport, supporting your CrossFit demands.",
+        "recommended_next_steps": "No direct interventions needed. Continue your balanced diet and workout regimen.",
+        "deviation_severity": null,
+        "what_to_continue": "Your RBC oxygen transport capacity is in great shape.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Haemoglobin",
+          "RBC"
+        ],
+        "evidence_source": "NIH RBC parameter details"
+      },
+      {
+        "biomarker_name": "Fasting Glucose",
+        "status": "Amber",
+        "current_value": "105.44 mg/dL",
+        "reference_range": "70-110 mg/dL (Optimal 70-90)",
+        "what_it_is_why_matters": "Fasting glucose indicates your baseline blood sugar control. Elevated levels can predict metabolic stress.",
+        "your_result": "Your value is within clinical normal but above the optimal range, indicating mild insulin/glucose stress.",
+        "likely_contributors": "Post-workout muscle recovery demands, stress, occasional suboptimal carb timing.",
+        "health_implications": "If it trends higher, you risk impaired metabolic control, impacting energy consistency and kidney health.",
+        "recommended_next_steps": "Focus on balanced meals with protein and fiber, and reduce high-GI carbohydrates late at night.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "HbA1c",
+          "Fasting Insulin"
+        ],
+        "evidence_source": "ICMR diabetes prevention guidelines"
+      },
+      {
+        "biomarker_name": "HbA1c",
+        "status": "Amber",
+        "current_value": "6.0%",
+        "reference_range": "4.5-6.2% (Optimal 4.5-5.5%)",
+        "what_it_is_why_matters": "HbA1c reflects average blood sugar levels over ~3 months. Elevated levels signal possible prediabetes or glucose handling issues.",
+        "your_result": "At 6.0%, you are at the high-normal boundary, suggesting some insulin management concerns.",
+        "likely_contributors": "Periodic sugar/carb spikes, stress, or inconsistent meal spacing.",
+        "health_implications": "Continued elevation over time increases cardiovascular and kidney risk, especially with one kidney.",
+        "recommended_next_steps": "Emphasize complex carbs, consider meal spacing or mild intermittent fasting, and track carbohydrate quality.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Fasting Glucose",
+          "Fasting Insulin"
+        ],
+        "evidence_source": "PubMed: Glycemic control and complications"
+      },
+      {
+        "biomarker_name": "Fasting Insulin",
+        "status": "Amber",
+        "current_value": "2.6 µU/mL",
+        "reference_range": "2.6-24.9 µU/mL (Optimal 3-8)",
+        "what_it_is_why_matters": "Fasting insulin is critical for regulating blood sugar. Too low or too high can indicate metabolic imbalance.",
+        "your_result": "You’re at the very low end of clinical normal, slightly below the ideal range for healthy glucose handling.",
+        "likely_contributors": "Potential stress response, or relatively low carbohydrate intake at certain times.",
+        "health_implications": "If insulin remains too low or become dysregulated, you may struggle with stable sugar control, especially around intense exercise.",
+        "recommended_next_steps": "Maintain balanced macros at each meal and ensure you’re not skipping key carbs around training.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Fasting Glucose",
+          "HbA1c"
+        ],
+        "evidence_source": "Examine.com insulin metabolism"
+      },
+      {
+        "biomarker_name": "IGF-1",
+        "status": "Green",
+        "current_value": "200 ng/mL",
+        "reference_range": "200-350 ng/mL (Optimal 200-350)",
+        "what_it_is_why_matters": "Insulin-like growth factor-1 supports muscle development, recovery, and overall anabolic processes.",
+        "your_result": "You are at the lower bound of the ideal range, still supportive of muscle-building efforts.",
+        "likely_contributors": "Regular intense workouts and decent protein intake, balanced nutrition.",
+        "health_implications": "Adequate IGF-1 is valuable for muscle and connective tissue repair, fueling your CrossFit performance goals.",
+        "recommended_next_steps": "Maintain consistent protein consumption post-workout to help keep IGF-1 robust.",
+        "deviation_severity": null,
+        "what_to_continue": "Your exercise and nutrient approach is sustaining an acceptable IGF-1 level.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Cortisol (AM)",
+          "DHEA-S"
+        ],
+        "evidence_source": "NIH: Role of IGF-1 in athletics"
+      },
+      {
+        "biomarker_name": "Total Cholesterol",
+        "status": "Red",
+        "current_value": "250.0 mg/dL",
+        "reference_range": "200-235 mg/dL (Optimal 150-180)",
+        "what_it_is_why_matters": "Total cholesterol evaluates the sum of HDL, LDL, and other lipids. Elevated levels often correlate with cardiovascular risks.",
+        "your_result": "At 250 mg/dL, your total cholesterol is in the red zone and needs addressing to protect heart health.",
+        "likely_contributors": "Excess saturated fat, stress, smoking, possible genetic hypercholesterolemia.",
+        "health_implications": "Long-term high cholesterol speeds plaque formation in arteries and raises heart disease risk.",
+        "recommended_next_steps": "Introduce more fiber (oats, legumes), add healthy fats (like fish oil), and reduce saturated fats. Consider Omega-3 supplementation.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "ApoB"
+        ],
+        "evidence_source": "PubMed: Cholesterol management guidelines"
+      },
+      {
+        "biomarker_name": "LDL",
+        "status": "Red",
+        "current_value": "153 mg/dL",
+        "reference_range": "30-100 mg/dL (Optimal 70-100)",
+        "what_it_is_why_matters": "LDL is often called 'bad' cholesterol. High levels lead to arterial plaque buildup and heart problems over time.",
+        "your_result": "Your LDL is significantly above optimal, increasing cardiovascular risk factors.",
+        "likely_contributors": "Dietary choices, stress, smoking, and possibly lower intake of protective antioxidants.",
+        "health_implications": "Prolonged high LDL can contribute to coronary artery disease and hamper longevity goals.",
+        "recommended_next_steps": "Adopt a heart-healthy diet (beans, vegetables, omega-3s) and reduce smoking or alcohol to help lower LDL.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "ApoB",
+          "Homocysteine"
+        ],
+        "evidence_source": "ICMR dyslipidemia guidelines"
+      },
+      {
+        "biomarker_name": "HDL",
+        "status": "Green",
+        "current_value": "61.8 mg/dL",
+        "reference_range": "40-150 mg/dL (Optimal 60-90)",
+        "what_it_is_why_matters": "HDL is ‘good’ cholesterol. Higher HDL helps remove excess cholesterol from arteries.",
+        "your_result": "Your HDL is in the desired range and is a protective factor for heart health.",
+        "likely_contributors": "Frequent exercise, moderate unsaturated fat intake, supportive micronutrients.",
+        "health_implications": "Healthy HDL offers protective benefits against cardiovascular disease risk.",
+        "recommended_next_steps": "Continue regular exercise and a diet rich in healthy fats (avocado, nuts, seeds).",
+        "deviation_severity": null,
+        "what_to_continue": "Active exercise routine that boosts HDL function.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "Triglycerides"
+        ],
+        "evidence_source": "PubMed: HDL protective role"
+      },
+      {
+        "biomarker_name": "Triglycerides",
+        "status": "Green",
+        "current_value": "69.2 mg/dL",
+        "reference_range": "60-150 mg/dL (Optimal 60-100)",
+        "what_it_is_why_matters": "Triglycerides are a type of fat in your blood. Normal levels reduce metabolic and cardiovascular strain.",
+        "your_result": "Very much in the healthy range, suggesting strong fat metabolism.",
+        "likely_contributors": "Active lifestyle, balanced diet, lower intake of refined carbs.",
+        "health_implications": "Keeping triglycerides low is heart-protective and aids metabolic flexibility.",
+        "recommended_next_steps": "Carry on with your exercise routine and balanced carb/fat intake.",
+        "deviation_severity": null,
+        "what_to_continue": "Your current approach to dietary fats is working well.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "HDL"
+        ],
+        "evidence_source": "ICMR guidelines on lipid profiles"
+      },
+      {
+        "biomarker_name": "ESR",
+        "status": "Amber",
+        "current_value": "10 mm/hr",
+        "reference_range": "3-15 mm/hr (Optimal < 10)",
+        "what_it_is_why_matters": "Erythrocyte sedimentation rate is a nonspecific marker of inflammation. Elevated levels can mean chronic inflammatory processes.",
+        "your_result": "At 10 mm/hr, you’re on the borderline of the optimal limit. Could reflect mild workout-induced inflammation.",
+        "likely_contributors": "Rigorous CrossFit sessions, occasional stress, or mild immune activity.",
+        "health_implications": "Slightly above the best range but not in a worrisome zone. Monitor to prevent bigger spikes.",
+        "recommended_next_steps": "Continue anti-inflammatory strategies (omega-3s, adequate rest). Evaluate for any persistent aches.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "hs-CRP",
+          "WBC"
+        ],
+        "evidence_source": "NIH ESR knowledgebase"
+      },
+      {
+        "biomarker_name": "Bilirubin (Total)",
+        "status": "Green",
+        "current_value": "0.79 mg/dL",
+        "reference_range": "0.1-1.2 mg/dL (Optimal < 1.0)",
+        "what_it_is_why_matters": "Bilirubin is a breakdown product of red blood cells. Normal levels mean your liver is processing waste effectively.",
+        "your_result": "Well within normal limits, indicating healthy liver clearance.",
+        "likely_contributors": "Balanced hydration, no significant hemolysis or liver dysfunction.",
+        "health_implications": "A normal bilirubin points to stable liver metabolism, good for overall health.",
+        "recommended_next_steps": "No changes needed; keep up balanced hydration and nutrition.",
+        "deviation_severity": null,
+        "what_to_continue": "Continuing your current nutrition strategy helps maintain healthy bilirubin.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "ALT",
+          "AST"
+        ],
+        "evidence_source": "FSSAI liver function references"
+      },
+      {
+        "biomarker_name": "Albumin",
+        "status": "Green",
+        "current_value": "4.4 g/dL",
+        "reference_range": "3.5-5 g/dL (Optimal 4.0-5.0)",
+        "what_it_is_why_matters": "Albumin is the most abundant protein in the blood, reflecting nutrition status and liver function.",
+        "your_result": "Nice and healthy at 4.4 g/dL, indicating good protein status and liver health.",
+        "likely_contributors": "Adequate protein intake, good overall nutrition, no major inflammation.",
+        "health_implications": "Strong albumin supports optimal healing, muscle repair, and fluid balance.",
+        "recommended_next_steps": "Maintain consistent protein intake. No urgent change required.",
+        "deviation_severity": null,
+        "what_to_continue": "Your protein balance is robust – keep it up.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Total Protein",
+          "Liver Enzymes"
+        ],
+        "evidence_source": "PubMed: Role of albumin in health"
+      },
+      {
+        "biomarker_name": "Total Protein",
+        "status": "Green",
+        "current_value": "7.69 g/dL",
+        "reference_range": "6.0-8.2 g/dL (Optimal 6.5-7.8)",
+        "what_it_is_why_matters": "Total protein measures albumin and globulins. Sufficient levels reflect adequate nutritional and immune protein reserves.",
+        "your_result": "At 7.69, you’re near the higher end of optimal, signifying strong protein status.",
+        "likely_contributors": "Appropriate dietary protein, beneficial for muscle building, especially with CrossFit.",
+        "health_implications": "Enough total protein is vital for tissue repair, hormone production, and enzyme function.",
+        "recommended_next_steps": "Watch protein intake to avoid overburdening your single kidney. But currently levels are solid.",
+        "deviation_severity": null,
+        "what_to_continue": "Keep your balanced approach, avoid excessive protein loading.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Albumin",
+          "BUN"
+        ],
+        "evidence_source": "ICMR guidelines on protein status"
+      },
+      {
+        "biomarker_name": "BUN",
+        "status": "Green",
+        "current_value": "15.3 mg/dL",
+        "reference_range": "13-43 mg/dL (Optimal 10-18)",
+        "what_it_is_why_matters": "Blood urea nitrogen reflects protein breakdown and kidney excretion function. Healthy ranges imply balanced nitrogen metabolism.",
+        "your_result": "You’re comfortably within the optimal zone, indicating stable protein metabolism.",
+        "likely_contributors": "Moderate protein intake, adequate hydration, well-managed training stress.",
+        "health_implications": "Normal BUN is supportive of kidney function, especially crucial with a single kidney.",
+        "recommended_next_steps": "Continue your balanced protein approach and hydration practices.",
+        "deviation_severity": null,
+        "what_to_continue": "You’re doing well to avoid excessive protein load for kidney safety.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Creatinine",
+          "eGFR"
+        ],
+        "evidence_source": "NIH BUN standards"
+      },
+      {
+        "biomarker_name": "Creatinine",
+        "status": "Red",
+        "current_value": "1.3 mg/dL",
+        "reference_range": "0.7-1.1 mg/dL (Optimal 0.8-1.1)",
+        "what_it_is_why_matters": "Creatinine is a waste product filtered by the kidneys. Elevated levels indicate reduced filtration or high muscle breakdown.",
+        "your_result": "At 1.3 mg/dL, you exceed the upper range, especially concerning with only one functioning kidney.",
+        "likely_contributors": "Intense training, muscle mass, and potentially compromised kidney filtration.",
+        "health_implications": "Over time, elevated creatinine can signal kidney strain. Monitoring is crucial given your single kidney status.",
+        "recommended_next_steps": "Consult with a doctor for thorough kidney evaluation. Adjust protein intake as recommended, stay well-hydrated, and manage training load to avoid further kidney stress.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "BUN",
+          "eGFR"
+        ],
+        "evidence_source": "ICMR nephrology guidelines"
+      },
+      {
+        "biomarker_name": "eGFR",
+        "status": "Red",
+        "current_value": "51.5 ml/min",
+        "reference_range": ">90 ml/min (Optimal >90)",
+        "what_it_is_why_matters": "Estimated Glomerular Filtration Rate measures kidney function. Values under 60 ml/min indicate stage-3 kidney disease risk.",
+        "your_result": "Your eGFR is significantly below normal, reflecting reduced filtration capacity and confirming the need for medical oversight.",
+        "likely_contributors": "Having one functioning kidney, possibly higher training demands, and protein/blood pressure factors.",
+        "health_implications": "A lower eGFR raises concern for CKD progression. This must be followed closely to protect long-term health.",
+        "recommended_next_steps": "Immediate consult with your nephrologist to manage protein load, blood pressure (Lisinopril regimen), and avoid further kidney stress.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Creatinine",
+          "BUN"
+        ],
+        "evidence_source": "NIH CKD classification"
+      },
+      {
+        "biomarker_name": "ALT",
+        "status": "Red",
+        "current_value": "47.4 U/L",
+        "reference_range": "10-26 U/L (Optimal 10-26)",
+        "what_it_is_why_matters": "Alanine aminotransferase is a liver enzyme. Elevated ALT can reflect liver cell damage or stress.",
+        "your_result": "Your ALT is nearly double the upper optimal limit, indicating mild to moderate liver stress.",
+        "likely_contributors": "Higher alcohol intake, intense exercise, potential protein load, or medication interplay (Lisinopril).",
+        "health_implications": "Persistently high ALT can progress to more significant liver dysfunction if unaddressed.",
+        "recommended_next_steps": "Limit alcohol, ensure adequate rest and hydration, consider supportive supplements (like milk thistle or NAC) under medical guidance.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "AST",
+          "ALP"
+        ],
+        "evidence_source": "PubMed: Liver enzymes and lifestyle"
+      },
+      {
+        "biomarker_name": "AST",
+        "status": "Red",
+        "current_value": "36 U/L",
+        "reference_range": "10-26 U/L (Optimal 10-26)",
+        "what_it_is_why_matters": "Aspartate aminotransferase is another enzyme indicating muscle or liver stress. Elevated levels warrant further assessment if persistent.",
+        "your_result": "Your AST is above the normal limit, consistent with mild liver or muscle strain.",
+        "likely_contributors": "High-intensity exercise, possible alcoholic load, or suboptimal liver recovery.",
+        "health_implications": "In conjunction with elevated ALT, there’s likely an ongoing hepatic or muscular strain. Monitoring is prudent.",
+        "recommended_next_steps": "Spread out intense workouts, moderate alcohol, and consider a follow-up liver function test.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "ALT",
+          "ALP"
+        ],
+        "evidence_source": "ICMR hepatic guidelines"
+      },
+      {
+        "biomarker_name": "ALP",
+        "status": "Red",
+        "current_value": "45.5 U/L",
+        "reference_range": "50-100 U/L (Optimal 50-100)",
+        "what_it_is_why_matters": "Alkaline phosphatase is associated with liver and bone health. Low or below the normal range can also indicate an imbalance.",
+        "your_result": "At 45.5 U/L, it is actually slightly below the suggested optimal range, flagged here as red for being under the typical mask.",
+        "likely_contributors": "Nutrient deficiencies (zinc or magnesium), or individual variation. However, your zinc and magnesium are good, so it may be an isolated lab variation.",
+        "health_implications": "If persistently low, it might be worth checking bone metabolism or mild liver-bone interplay, but generally less concerning than high ALP.",
+        "recommended_next_steps": "Retest to confirm. Continue monitoring for bone health support (vitamin D, K2) and ensure no hidden deficiency.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "ALT",
+          "AST"
+        ],
+        "evidence_source": "NIH: ALP lab reference"
+      },
+      {
+        "biomarker_name": "Uric Acid",
+        "status": "Green",
+        "current_value": "4.82 mg/dL",
+        "reference_range": "3.5-7.2 mg/dL (Optimal 4.0-6.0)",
+        "what_it_is_why_matters": "Uric acid is a byproduct of purine metabolism. Normal levels mean lower risk of gout and excess oxidative stress.",
+        "your_result": "Nicely within range, suggesting good purine metabolism.",
+        "likely_contributors": "Balanced diet and hydration, moderate protein intake.",
+        "health_implications": "Less risk of gout flares or inflammatory issues tied to high uric acid.",
+        "recommended_next_steps": "Keep up a balanced diet with good water intake. No special adjustments needed.",
+        "deviation_severity": null,
+        "what_to_continue": "Whatever you’re doing is working for reducing uric acid load.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "BUN",
+          "Creatinine"
+        ],
+        "evidence_source": "Examine.com on uric acid"
+      },
+      {
+        "biomarker_name": "Sodium",
+        "status": "Green",
+        "current_value": "138.63 mmol/L",
+        "reference_range": "136-145 mmol/L (Optimal 136-142)",
+        "what_it_is_why_matters": "Sodium is crucial for fluid balance, nerve transmission, and muscle function. ",
+        "your_result": "Within optimal range, indicating proper electrolyte balance.",
+        "likely_contributors": "Sufficient hydration and balanced diet with moderate salt intake.",
+        "health_implications": "Stable sodium helps maintain blood pressure, muscle contractions, and prevents cramps.",
+        "recommended_next_steps": "Maintain current fluid and salt balance. Avoid excessive sodium with your kidney condition.",
+        "deviation_severity": null,
+        "what_to_continue": "Your hydration and electrolyte approach is on point.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Potassium",
+          "Chloride"
+        ],
+        "evidence_source": "FSSAI electrolyte recommendations"
+      },
+      {
+        "biomarker_name": "Potassium",
+        "status": "Green",
+        "current_value": "4.98 mmol/L",
+        "reference_range": "3.5-5.1 mmol/L (Optimal 3.9-4.5)",
+        "what_it_is_why_matters": "Potassium is vital for nerve signaling, muscle contraction, and cardiovascular stability.",
+        "your_result": "Slightly higher than the optimal range but still within normal limits, so not clinically alarming.",
+        "likely_contributors": "Intense workouts, high-potassium foods, or mild kidney excretion nuances.",
+        "health_implications": "Monitor for further elevation as reduced kidney function can hamper potassium excretion. Currently not in a danger zone.",
+        "recommended_next_steps": "Ensure consistent kidney monitoring. Avoid extremely high-potassium diets or supplements if not needed.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Sodium",
+          "eGFR"
+        ],
+        "evidence_source": "ICMR electrolyte management"
+      },
+      {
+        "biomarker_name": "Chloride",
+        "status": "Red",
+        "current_value": "109.2 mmol/L",
+        "reference_range": "98-107 mmol/L (Optimal 98-106)",
+        "what_it_is_why_matters": "Chloride aids in maintaining acid-base balance and hydration status. High levels can reflect certain metabolic states or dehydration.",
+        "your_result": "At 109.2, this is slightly above normal, requiring a check on acid-base balance.",
+        "likely_contributors": "Mild dehydration, high intake of sodium-chloride salt, or kidney function changes.",
+        "health_implications": "If consistently high, can indicate metabolic imbalance or compromised kidney handling of electrolytes.",
+        "recommended_next_steps": "Increase clean water intake, moderate salt usage, and keep monitoring kidney function closely.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Sodium",
+          "CO2"
+        ],
+        "evidence_source": "NIH: Chloride and electrolyte disorders"
+      },
+      {
+        "biomarker_name": "TSH",
+        "status": "Green",
+        "current_value": "2.41 µIU/mL",
+        "reference_range": "0.4-4.2 µIU/mL (Optimal 0.5-2.5)",
+        "what_it_is_why_matters": "Thyroid-stimulating hormone regulates your thyroid gland, affecting metabolism, energy, and mood.",
+        "your_result": "Your TSH is near the upper boundary of the optimal range, which is generally acceptable.",
+        "likely_contributors": "Overall stable thyroid function, consistent approach to diet and exercise.",
+        "health_implications": "No major concerns regarding hypothyroidism or hyperthyroidism indicated.",
+        "recommended_next_steps": "Retest occasionally to ensure TSH remains stable. Continue balanced lifestyle.",
+        "deviation_severity": null,
+        "what_to_continue": "Maintain your current approach to nutrition and exercise that supports thyroid health.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Free T3",
+          "Free T4"
+        ],
+        "evidence_source": "NIH thyroid studies"
+      },
+      {
+        "biomarker_name": "Free T3",
+        "status": "Green",
+        "current_value": "3.09 pg/mL",
+        "reference_range": "1.17-3.17 pg/mL (Optimal 3.0-4.2)",
+        "what_it_is_why_matters": "Free T3 is the active thyroid hormone influencing metabolism, energy, and body temperature regulation.",
+        "your_result": "Within normal, on the lower edge of optimal, still supportive of healthy metabolism.",
+        "likely_contributors": "Stable thyroid axis function, no major deficiency in iodine or selenium.",
+        "health_implications": "Maintaining free T3 helps keep your metabolic rate stable for weight management and energy levels.",
+        "recommended_next_steps": "Focus on consistent stress management, as chronic stress can reduce T3 conversion.",
+        "deviation_severity": null,
+        "what_to_continue": "Current dietary and supplement patterns are supporting normal thyroid hormone levels.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "TSH",
+          "Free T4"
+        ],
+        "evidence_source": "PubMed: Thyroid hormone and exercise"
+      },
+      {
+        "biomarker_name": "Free T4",
+        "status": "Green",
+        "current_value": "1.13 ng/dL",
+        "reference_range": "0.70-1.48 ng/dL (Optimal 1.0-1.5)",
+        "what_it_is_why_matters": "Free T4 is the thyroid hormone precursor to T3. Balanced levels indicate good thyroid gland output.",
+        "your_result": "Your Free T4 is comfortably within the optimal range.",
+        "likely_contributors": "Quality micronutrient intake, balanced overall endocrine function.",
+        "health_implications": "Stable T4 supply ensures your body can produce adequate T3 for metabolic control.",
+        "recommended_next_steps": "Keep monitoring thyroid function occasionally, especially under high stress or dietary changes.",
+        "deviation_severity": null,
+        "what_to_continue": "Maintain your current balanced diet and training routine.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "TSH",
+          "Free T3"
+        ],
+        "evidence_source": "Examine.com thyroid basics"
+      },
+      {
+        "biomarker_name": "Total Testosterone",
+        "status": "Amber",
+        "current_value": "536 ng/dL",
+        "reference_range": "241-827 ng/dL (Optimal 600-900)",
+        "what_it_is_why_matters": "Testosterone is key for muscle mass, drive, and recovery, especially in men. ",
+        "your_result": "Though within clinical norms, it’s below the 600+ range considered optimal for peak performance.",
+        "likely_contributors": "High stress, insufficient sleep, possible dietary gaps, age-related decline.",
+        "health_implications": "Suboptimal testosterone can slow muscle gains, reduce stamina, and affect mood or energy.",
+        "recommended_next_steps": "Prioritize sleep hygiene, reduce stress, and consider adaptogens or weight management strategies.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Free Testosterone",
+          "DHEA-S"
+        ],
+        "evidence_source": "PubMed: Testosterone optimization in aging men"
+      },
+      {
+        "biomarker_name": "SHBG",
+        "status": "Green",
+        "current_value": "34.1 nmol/L",
+        "reference_range": "13-71 nmol/L (Optimal 20-40)",
+        "what_it_is_why_matters": "Sex Hormone-Binding Globulin binds testosterone and other sex hormones. Balanced SHBG ensures proper hormone availability.",
+        "your_result": "Well placed within the ideal band, maintaining a reasonable portion of free/available testosterone.",
+        "likely_contributors": "Regular exercise, stable insulin sensitivity, moderate stress management.",
+        "health_implications": "Good SHBG levels help keep hormones in equilibrium for muscle building and recovery.",
+        "recommended_next_steps": "No special changes needed. Just continue balanced training and nutrition.",
+        "deviation_severity": null,
+        "what_to_continue": "Your lifestyle helps keep SHBG nicely balanced with your testosterone levels.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Total Testosterone",
+          "Free Testosterone"
+        ],
+        "evidence_source": "Examine.com hormone binding"
+      },
+      {
+        "biomarker_name": "Cortisol (AM)",
+        "status": "Green",
+        "current_value": "11.4 µg/dL",
+        "reference_range": "3.7-19.4 µg/dL (Optimal 10-18)",
+        "what_it_is_why_matters": "Morning cortisol helps jumpstart your day, regulating stress response and energy. Normal levels assist healthy circadian rhythm.",
+        "your_result": "You’re in a good morning range, indicating a reasonably normal stress-cortisol curve.",
+        "likely_contributors": "Consistent morning routine, exercise habits, adequate dietary support.",
+        "health_implications": "A stable AM cortisol fosters good energy early in the day for workouts and daily tasks.",
+        "recommended_next_steps": "Focus on evening wind-down to preserve healthy circadian cortisol patterns.",
+        "deviation_severity": null,
+        "what_to_continue": "Keep balancing training with rest to avoid adrenal overdrive.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "DHEA-S",
+          "Free Testosterone"
+        ],
+        "evidence_source": "PubMed: Cortisol circadian rhythm"
+      },
+      {
+        "biomarker_name": "Vitamin B12",
+        "status": "Green",
+        "current_value": "454 pg/mL",
+        "reference_range": "187-883 pg/mL (Optimal 400-800)",
+        "what_it_is_why_matters": "B12 is essential for nervous system function, red blood cell formation, and DNA synthesis.",
+        "your_result": "Solidly within the optimal zone, supporting energy and neurological health.",
+        "likely_contributors": "Regular B12 supplementation, plus dietary sources from non-veg intake.",
+        "health_implications": "Good B12 enhances cognitive clarity and helps keep homocysteine in check.",
+        "recommended_next_steps": "Maintain B12 intake through diet or supplement. Monitor homocysteine synergy with folate.",
+        "deviation_severity": null,
+        "what_to_continue": "Your B12 supplementation is effective.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Homocysteine",
+          "MCV"
+        ],
+        "evidence_source": "NIH B12 fact sheet"
+      },
+      {
+        "biomarker_name": "Iron",
+        "status": "Amber",
+        "current_value": "122.5 µg/dL",
+        "reference_range": "65-175 µg/dL (Optimal 80-120)",
+        "what_it_is_why_matters": "Iron is crucial for RBC production and oxygen delivery, fueling endurance and preventing anemia.",
+        "your_result": "Your iron is slightly above the top edge of optimal, but within clinical norms.",
+        "likely_contributors": "Adequate to high intake of red meat or iron sources, possibly adaptive from training.",
+        "health_implications": "High iron can be beneficial up to a point, but watch for overload given your single kidney and mild liver enzyme elevation.",
+        "recommended_next_steps": "Avoid excessive iron supplementation or heavy red meat consumption; monitor levels over time.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Ferritin",
+          "Transferrin Saturation"
+        ],
+        "evidence_source": "ICMR recommendations on iron levels"
+      },
+      {
+        "biomarker_name": "Ferritin",
+        "status": "Green",
+        "current_value": "82.23 ng/mL",
+        "reference_range": "22-322 ng/mL (Optimal 50-150)",
+        "what_it_is_why_matters": "Ferritin reflects stored iron. Healthy levels protect against anemia and fatigue but avoid excess.",
+        "your_result": "Within the healthy range, providing a decent reserve of iron for RBC production.",
+        "likely_contributors": "Balanced intake of iron-rich foods and possible good absorption.",
+        "health_implications": "Adequate ferritin ensures you’re less likely to experience microdeficiencies in iron-related stamina.",
+        "recommended_next_steps": "Monitor for any changes in RBC parameters. Continue balanced iron consumption.",
+        "deviation_severity": null,
+        "what_to_continue": "Your iron stores are well-managed — keep your diet consistent.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Iron",
+          "Transferrin Saturation"
+        ],
+        "evidence_source": "PubMed: Ferritin as an iron marker"
+      },
+      {
+        "biomarker_name": "TIBC",
+        "status": "Green",
+        "current_value": "319.50 µg/dL",
+        "reference_range": "250-450 µg/dL (Optimal 250-350)",
+        "what_it_is_why_matters": "Total iron-binding capacity measures how well transferrin binds iron. Healthy TIBC suggests balanced iron metabolism.",
+        "your_result": "You’re in a good range for TIBC, signifying balanced iron transport.",
+        "likely_contributors": "Appropriate protein and micronutrient status (esp. B vitamins).",
+        "health_implications": "A normal TIBC helps ensure iron is adequately delivered for RBC production.",
+        "recommended_next_steps": "No major changes; continue a balanced approach to iron intake.",
+        "deviation_severity": null,
+        "what_to_continue": "Stable iron-binding capacity indicates you’re fueling RBC needs properly.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Iron",
+          "Transferrin Saturation"
+        ],
+        "evidence_source": "Examine.com on TIBC"
+      },
+      {
+        "biomarker_name": "Transferrin Saturation",
+        "status": "Green",
+        "current_value": "38.98%",
+        "reference_range": "20-40% (Optimal 25-40%)",
+        "what_it_is_why_matters": "Transferrin saturation shows how much iron is bound to the iron-carrying protein transferrin.",
+        "your_result": "At 39%, you’re near the upper boundary but still in the optimal range, reflecting good iron usage.",
+        "likely_contributors": "Sufficient iron intake and good absorption from non-veg diet.",
+        "health_implications": "You likely have enough iron for RBC production without major overload issues.",
+        "recommended_next_steps": "Moderate intake of high-iron foods. Keep an eye on iron to avoid spiking saturation further.",
+        "deviation_severity": null,
+        "what_to_continue": "Your balanced approach to iron sources is appropriate.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Iron",
+          "Ferritin"
+        ],
+        "evidence_source": "ICMR guidelines on transferrin saturation"
+      },
+      {
+        "biomarker_name": "Homocysteine",
+        "status": "Red",
+        "current_value": "20 µmol/L",
+        "reference_range": "5.4-16.2 µmol/L (Optimal 6-8)",
+        "what_it_is_why_matters": "Homocysteine is an amino acid. Elevated levels can damage blood vessels and increase heart disease risk.",
+        "your_result": "20 µmol/L is clearly above optimal, forming an added cardiovascular risk factor along with high LDL.",
+        "likely_contributors": "Possible low folate or B vitamin synergy, stress, smoking, and genetic methylation variations.",
+        "health_implications": "Increased heart disease risk and potential for faster vascular aging if uncorrected.",
+        "recommended_next_steps": "Boost folate intake from leafy greens, consider a B-complex with methylated folate/B6. Reduce smoking.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Total Cholesterol",
+          "LDL",
+          "ApoB"
+        ],
+        "evidence_source": "PubMed: Homocysteine-lowering interventions"
+      },
+      {
+        "biomarker_name": "Free Testosterone",
+        "status": "Amber",
+        "current_value": "17.8 pg/ml",
+        "reference_range": "15-50 pg/ml (Optimal 30-50)",
+        "what_it_is_why_matters": "Free testosterone is the bioavailable form of testosterone crucial for muscle-building, recovery, and libido.",
+        "your_result": "Near the lower end of the clinically acceptable range but below the 30 pg/ml considered ideal for performance.",
+        "likely_contributors": "High training demand, stress, limited sleep, or mild adrenal fatigue.",
+        "health_implications": "Suboptimal free T could hamper maximal muscle growth and reduce resilience to training stress.",
+        "recommended_next_steps": "Improve sleep duration and quality, consider stress-lowering strategies (yoga, mindfulness), and track progress over time.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Total Testosterone",
+          "DHEA-S"
+        ],
+        "evidence_source": "Examine.com free testosterone info"
+      },
+      {
+        "biomarker_name": "DHEA-S",
+        "status": "Amber",
+        "current_value": "102 µg/dL",
+        "reference_range": "80-560 µg/dL (Optimal 280-400)",
+        "what_it_is_why_matters": "DHEA-S is an adrenal hormone precursor for testosterone and estrogen. It supports energy, mood, and recovery.",
+        "your_result": "At 102 µg/dL, you’re quite below the optimal range, possibly indicating adrenal fatigue or stress.",
+        "likely_contributors": "Chronic stress, intense workouts, insufficient rest, smoking.",
+        "health_implications": "Low DHEA-S can reduce stress resilience, hamper muscle recovery, and influence hormone balance.",
+        "recommended_next_steps": "Prioritize rest days, consider adaptogens like ashwagandha, reduce smoking/alcohol, and retest in a few months.",
+        "deviation_severity": "Moderate",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Cortisol (AM)",
+          "Testosterone"
+        ],
+        "evidence_source": "PubMed: DHEA supplementation and adrenal function"
+      },
+      {
+        "biomarker_name": "Anti-TPO",
+        "status": "Green",
+        "current_value": "4.49 IU/mL",
+        "reference_range": "2-5.61 IU/mL (Optimal < 9)",
+        "what_it_is_why_matters": "Anti-thyroid peroxidase antibodies measure autoimmune activity toward the thyroid. Low levels mean less autoimmune risk.",
+        "your_result": "Well within normal, showing minimal thyroid autoimmunity.",
+        "likely_contributors": "Healthy immune regulation, no significant autoimmune triggers.",
+        "health_implications": "Low likelihood of Hashimoto’s or related thyroid concerns.",
+        "recommended_next_steps": "No direct action needed. Keep monitoring if you experience thyroid-related symptoms.",
+        "deviation_severity": null,
+        "what_to_continue": "Current lifestyle is supportive of normal thyroid antibody status.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "TSH",
+          "Free T4"
+        ],
+        "evidence_source": "Examine.com thyroid autoimmunity"
+      },
+      {
+        "biomarker_name": "ApoA1",
+        "status": "Green",
+        "current_value": "150 mg/dL",
+        "reference_range": ">140 mg/dL (Optimal >140)",
+        "what_it_is_why_matters": "ApoA1 is the main protein in HDL, protective against heart disease. High levels support efficient cholesterol clearance.",
+        "your_result": "Above 140 mg/dL, indicating robust HDL functioning.",
+        "likely_contributors": "Frequent exercise, healthy unsaturated fats, good overall lipoprotein metabolism.",
+        "health_implications": "Associated with a reduced risk of atherosclerosis, beneficial for heart health.",
+        "recommended_next_steps": "Continue your heart-friendly lifestyle, add more fiber and maintain good hydration.",
+        "deviation_severity": null,
+        "what_to_continue": "Your cardio-protective habits are effective.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "HDL",
+          "LDL"
+        ],
+        "evidence_source": "PubMed: ApoA1 and lipoprotein metabolism"
+      },
+      {
+        "biomarker_name": "ApoB",
+        "status": "Amber",
+        "current_value": "91 mg/dL",
+        "reference_range": "50-100 mg/dL (Optimal 60-90)",
+        "what_it_is_why_matters": "ApoB is the key protein in LDL and other atherogenic particles. Higher levels correlate with cardiovascular risks.",
+        "your_result": "Close to the upper limit of the optimal range, paralleling high LDL. This is borderline high.",
+        "likely_contributors": "Saturated fat intake, overall dyslipidemia pattern, smoking.",
+        "health_implications": "Elevated ApoB intensifies risk for arterial plaque buildup over time.",
+        "recommended_next_steps": "Focus on a fiber-rich diet, reduce saturated fats, and consider supplementation targeting LDL-lowering (like Omega-3 or plant sterols).",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "Total Cholesterol"
+        ],
+        "evidence_source": "ICMR lipid management guidelines"
+      },
+      {
+        "biomarker_name": "Lp(a)",
+        "status": "Amber",
+        "current_value": "20 mg/dL",
+        "reference_range": "<20 mg/dL (Optimal <20)",
+        "what_it_is_why_matters": "Lipoprotein(a) is a genetic variation of LDL that can increase heart disease risk. ",
+        "your_result": "Right at the threshold, so we consider it borderline; it can elevate cardiac risk when combined with other lipid issues.",
+        "likely_contributors": "Genetic predisposition, also impacted by other lifestyle factors (smoking, diet).",
+        "health_implications": "Can further exacerbate plaque formation if LDL is high, raising cardiovascular risk.",
+        "recommended_next_steps": "Discuss with your physician if advanced lipid-lowering strategies are needed; maintain anti-inflammatory diet.",
+        "deviation_severity": "Mild",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "ApoB"
+        ],
+        "evidence_source": "PubMed: Lp(a) in cardiovascular risk"
+      },
+      {
+        "biomarker_name": "hs-CRP",
+        "status": "Green",
+        "current_value": "0.41 mg/dL",
+        "reference_range": "1-3 mg/dL (Optimal <0.5)",
+        "what_it_is_why_matters": "High-sensitivity CRP is an inflammation marker. Low levels signify minimal systemic inflammation.",
+        "your_result": "Excellent at 0.41, indicating you’re controlling chronic inflammation well.",
+        "likely_contributors": "Balanced diet, exercise, and micronutrient adequacy (omega-3s, antioxidants).",
+        "health_implications": "Low CRP is protective against heart disease and fosters better recovery.",
+        "recommended_next_steps": "Maintain your current routine; keep stress in check to preserve low CRP.",
+        "deviation_severity": null,
+        "what_to_continue": "Your low inflammation status is a major win.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "ESR",
+          "WBC"
+        ],
+        "evidence_source": "ICMR: CRP and inflammation"
+      },
+      {
+        "biomarker_name": "Vitamin D",
+        "status": "Green",
+        "current_value": "42 ng/mL",
+        "reference_range": "20-100 ng/mL (Optimal 40-60)",
+        "what_it_is_why_matters": "Vitamin D supports bone density, immune function, and muscle strength.",
+        "your_result": "Within the optimal bracket, a strong position for overall health.",
+        "likely_contributors": "Supplementation, limited sun exposure, dietary vitamin D intake.",
+        "health_implications": "Good vitamin D helps you recover quicker, maintain bone health, and support immune resilience.",
+        "recommended_next_steps": "Maintain consistent vitamin D support, especially with limited direct sunlight.",
+        "deviation_severity": null,
+        "what_to_continue": "Keep up your supplementation strategy and brief sun exposure.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Calcium (not reported)",
+          "Magnesium"
+        ],
+        "evidence_source": "PubMed: Vitamin D benefits"
+      },
+      {
+        "biomarker_name": "Anti-Thyroglobulin",
+        "status": "Green",
+        "current_value": "3 IU/mL",
+        "reference_range": "<4 IU/mL (Optimal <4)",
+        "what_it_is_why_matters": "Anti-thyroglobulin antibodies measure autoimmune activity towards thyroid proteins. Low levels indicate negligible autoimmune risk.",
+        "your_result": "Well below the threshold, minimal sign of thyroid autoimmunity.",
+        "likely_contributors": "Stable immune regulation, no significant triggers for thyroid autoimmunity.",
+        "health_implications": "Unlikely to be dealing with thyroid autoimmunity issues such as Hashimoto’s or Graves’ disease.",
+        "recommended_next_steps": "No action needed aside from routine thyroid monitoring if clinically warranted.",
+        "deviation_severity": null,
+        "what_to_continue": "Continue your supportive approach to thyroid health.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "TSH",
+          "Free T4"
+        ],
+        "evidence_source": "Examine.com thyroid antibodies"
+      },
+      {
+        "biomarker_name": "Zinc",
+        "status": "Green",
+        "current_value": "90 µg/dL",
+        "reference_range": "70-100 µg/dL (Optimal 70-110)",
+        "what_it_is_why_matters": "Zinc is essential for immune health, protein synthesis, and hormone production.",
+        "your_result": "Within the ideal range, reflecting sufficient dietary or supplemental zinc.",
+        "likely_contributors": "Your zinc supplementation and balanced dietary sources (meat, seeds).",
+        "health_implications": "Aids testosterone production, immune function, and wound healing.",
+        "recommended_next_steps": "Keep supplementation or dietary intake consistent.",
+        "deviation_severity": null,
+        "what_to_continue": "Zinc supplementation is supporting your hormone and immune status.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Testosterone",
+          "Immune markers"
+        ],
+        "evidence_source": "NIH zinc fact sheet"
+      },
+      {
+        "biomarker_name": "Magnesium",
+        "status": "Green",
+        "current_value": "2.11 mg/dL",
+        "reference_range": "1.7-2.3 mg/dL (Optimal 2.0-2.4)",
+        "what_it_is_why_matters": "Magnesium is integral to muscle relaxation, energy metabolism, and nervous system function.",
+        "your_result": "Within the ideal zone, beneficial for training recovery and stress resilience.",
+        "likely_contributors": "Magnesium supplementation, which helps sleep and muscle relaxation.",
+        "health_implications": "Adequate magnesium supports better strength gains, less cramping, and improved sleep quality.",
+        "recommended_next_steps": "Continue your current magnesium regimen, especially before bedtime.",
+        "deviation_severity": null,
+        "what_to_continue": "Your magnesium supplementation is clearly effective.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Free Testosterone",
+          "DHEA-S"
+        ],
+        "evidence_source": "Examine.com magnesium benefits"
+      },
+      {
+        "biomarker_name": "Vitamin B6",
+        "status": "Green",
+        "current_value": "40 ng/mL",
+        "reference_range": "20-80 ng/mL (Optimal 30-80)",
+        "what_it_is_why_matters": "Vitamin B6 supports protein metabolism, cognitive function, and neurotransmitter synthesis.",
+        "your_result": "Excellent mid-range, suggesting healthy intake of B6 from diet or multi-supplements.",
+        "likely_contributors": "Dietary variety (pulses, fish) or a quality multi-vitamin regimen.",
+        "health_implications": "Helps in controlling homocysteine levels when combined with B12 and folate.",
+        "recommended_next_steps": "Maintain consistent B-vitamin coverage, especially focusing on folate to lower homocysteine further.",
+        "deviation_severity": null,
+        "what_to_continue": "Your B-vitamin practice is good; keep it going.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "HbA1c",
+          "Homocysteine"
+        ],
+        "evidence_source": "PubMed: B6 in metabolism"
+      },
+      {
+        "biomarker_name": "CO2(Bicarbonate)",
+        "status": "Green",
+        "current_value": "22 mmol/L",
+        "reference_range": "22-26 mmol/L (Optimal 22-26)",
+        "what_it_is_why_matters": "Bicarbonate helps maintain your acid-base balance. Normal levels support metabolic homeostasis.",
+        "your_result": "At the lower bound of normal, indicating good overall acid-base regulation.",
+        "likely_contributors": "Balanced diet, no major acid load or kidney acid retention issues yet.",
+        "health_implications": "Stable CO2 helps maintain exercise capacity and reduce fatigue from acid buildup.",
+        "recommended_next_steps": "Ensure ample vegetable intake and hydration, especially because of your kidney challenges.",
+        "deviation_severity": null,
+        "what_to_continue": "Your approach to diet and hydration is supporting a normal acid-base environment.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Chloride",
+          "Anion Gap"
+        ],
+        "evidence_source": "ICMR metabolic panel references"
+      },
+      {
+        "biomarker_name": "Anion Gap",
+        "status": "Green",
+        "current_value": "10 mmol/L",
+        "reference_range": "10-14 mmol/L (Optimal 10-14)",
+        "what_it_is_why_matters": "Anion gap helps assess electrolyte and acid-base balance. Normal values show no big metabolic disturbances.",
+        "your_result": "At the lower cusp of normal, stable and healthy from an acid-base standpoint.",
+        "likely_contributors": "Well-rounded diet, no severe metabolic acidosis or alkalosis.",
+        "health_implications": "Healthy gap indicates no underlying metabolic issues from your training or diet.",
+        "recommended_next_steps": "Continue a balanced approach to macros and hydration.",
+        "deviation_severity": null,
+        "what_to_continue": "All good for electrolyte and acid-base status.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Sodium",
+          "Chloride"
+        ],
+        "evidence_source": "NIH reference for anion gap"
+      }
+    ],
+    "biomarker_pattern_analysis": "1) Cardiovascular Risk Pattern: Elevated LDL (153), Total Cholesterol (250), ApoB (91), and Homocysteine (20) combined with smoking indicates a strong need for lipid and methylation support. 2) Reduced Kidney Function: eGFR of 51.5 plus creatinine of 1.3 mg/dL signals stage-3 kidney function; with one kidney, you must closely monitor protein intake, hydration, and blood pressure. 3) Adrenal/Hormone Stress Pattern: Low DHEA-S (102) with borderline free testosterone (17.8) and frequent training suggests mild HPA-axis strain. 4) Mild Liver Stress: Elevated ALT (47.4), AST (36), and borderline ALP point to potential hepatic overload, possibly from alcohol, high-intensity exercise, or inadequate recovery. These patterns impact your energy stability, heart health, and long-term kidney viability, tying directly to your CrossFit and longevity goals.",
+    "action_plan": {
+      "supplements": [
+        {
+          "supplement_name": "Omega-3 (Fish Oil)",
+          "rationale": "Why This Supplement for Suresh: To help lower LDL, total cholesterol, and curb inflammation, particularly beneficial given high LDL of 153 mg/dL and ApoB borderline high.",
+          "dosage": "Studies suggest 1000-2000 mg of combined EPA/DHA may support heart health.",
+          "timing": "Take in the morning or midday.",
+          "food_timing": "With meals",
+          "purpose": "May help improve lipid profile and reduce cardiovascular risk factors.",
+          "biomarker_connection": "Connects to high LDL and ApoB markers to reduce cardiovascular risk.",
+          "longevity_performance_benefit": "Helps protect heart and support extended performance capacity.",
+          "duration": "At least 6 months, can be continued long-term.",
+          "retest_timing": "Retest lipids around 3-4 months to check improvement.",
+          "evidence_source": "PubMed: Omega-3 meta-analyses",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": "Commonly found as fish oil capsules, also vegetarian Omega-3 algal oil options."
+        },
+        {
+          "supplement_name": "Methylated B-Complex",
+          "rationale": "Why This Supplement for Suresh: Elevated homocysteine (20 µmol/L) suggests the need for active B vitamins (B6, B9, B12) to support proper methylation pathways.",
+          "dosage": "Studies suggest a daily B-complex providing methylfolate, methylcobalamin, and B6 may help lower homocysteine.",
+          "timing": "Take in the morning.",
+          "food_timing": "With or after meals to enhance absorption.",
+          "purpose": "Helps convert homocysteine into safer compounds, reducing cardiovascular risk.",
+          "biomarker_connection": "Directly addresses high homocysteine levels.",
+          "longevity_performance_benefit": "Supports healthy blood vessels, better recovery, and energy metabolism.",
+          "duration": "Use for at least 3-6 months, then reassess homocysteine.",
+          "retest_timing": "Check homocysteine in 3-4 months.",
+          "evidence_source": "NIH: B-vitamin supplementation efficacy",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": "Methylfolate-based B-complex is available from certain Indian nutraceutical brands."
+        },
+        {
+          "supplement_name": "Liver Support Blend (Milk Thistle + NAC)",
+          "rationale": "Why This Supplement for Suresh: ALT 47.4 U/L, AST 36 U/L, and mild alcohol consumption indicate mild liver stress. Milk thistle and NAC can support liver detox functions.",
+          "dosage": "Studies suggest 200-300 mg milk thistle extract and 600 mg NAC may support liver health.",
+          "timing": "Take in the evening or before bed.",
+          "food_timing": "With a light meal or just after dinner.",
+          "purpose": "Aids in reducing oxidative stress and supporting liver enzyme normalization.",
+          "biomarker_connection": "Connects to elevated ALT/AST indicating hepatic stress.",
+          "longevity_performance_benefit": "Maintains healthy liver function for better metabolic handling and overall vitality.",
+          "duration": "3 months initially, consider continuing if enzymes remain elevated.",
+          "retest_timing": "Retest liver enzymes at 3 months.",
+          "evidence_source": "PubMed: Milk Thistle, NAC for liver",
+          "cautions": "If any allergic reaction or GI upset occurs, discontinue and consult a doctor.",
+          "interactions": null,
+          "indian_availability": "Milk thistle and NAC are found in combination or separately in Indian supplement stores."
+        },
+        {
+          "supplement_name": "Ashwagandha",
+          "rationale": "Why This Supplement for Suresh: Low DHEA-S (102 µg/dL) and borderline free testosterone highlight adrenal stress. Ashwagandha (Withania somnifera) is known to support stress relief and hormone balance.",
+          "dosage": "Studies suggest 300-600 mg of standardized extract daily may support healthy cortisol and DHEA-S levels.",
+          "timing": "Take in the evening to help relaxation.",
+          "food_timing": "With a small snack or after dinner.",
+          "purpose": "May reduce stress and help restore adrenal reserve, thereby supporting hormone balance.",
+          "biomarker_connection": "Supports DHEA-S and improves stress resilience highlighted by your labs and symptoms.",
+          "longevity_performance_benefit": "Better hormone balance fosters sustainable strength gains and improved sleep quality.",
+          "duration": "Use for 3-4 months, then reassess hormone labs.",
+          "retest_timing": "Retest DHEA-S in about 3-4 months.",
+          "evidence_source": "PubMed: Ashwagandha’s adaptogenic effects",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": "Widely available in India as capsules or powders."
+        },
+        {
+          "supplement_name": "Continue Magnesium, Zinc, B12, Berberine",
+          "rationale": "Why This Supplement for Suresh: You’re already on magnesium, zinc, B12, and berberine. These support nutrient status, immune health, glucose metabolism, and muscle recovery.",
+          "dosage": "Keep your current usage, e.g., magnesium 200-400 mg, B12 as needed, zinc in modest doses, etc. Studies suggest these continue to be beneficial.",
+          "timing": "As previously advised, typically magnesium in the evening, B12 in the morning, zinc with meals, berberine pre-meals.",
+          "food_timing": "Follow your current pattern (e.g., berberine before meals, magnesium with or after dinner).",
+          "purpose": "Maintain strong glucose control, nutrient repletion, and recovery status.",
+          "biomarker_connection": "Helps keep RBC, WBC, and nutrient markers in their excellent ranges.",
+          "longevity_performance_benefit": "Provides foundational support for consistent performance and healthy aging.",
+          "duration": "Long term as needed, reevaluate levels occasionally.",
+          "retest_timing": "Micronutrient labs can be rechecked in 6 months as needed.",
+          "evidence_source": "NIH ODS for magnesium, zinc, B12; examine.com for berberine",
+          "cautions": null,
+          "interactions": "Monitor kidney function carefully, especially with any changes.",
+          "indian_availability": "All are readily available in Indian pharmacies and supplement shops."
+        }
+      ],
+      "supplement_schedule_summary": "Morning: Omega-3, Methylated B-Complex, Berberine (before meals), B12 (if separate). Midday/Evening: Ashwagandha (dinner), Milk Thistle + NAC (dinner). Bedtime: Magnesium, Zinc. Continue routine as directed.",
+      "supplement_disclaimer": "These suggestions are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before beginning any supplement regimen.",
+      "nutrition": [
+        {
+          "nutrition_name": "Increase Soluble Fiber Intake",
+          "rationale": "Why This Matters for Suresh: High LDL (153 mg/dL) and total cholesterol (250 mg/dL) suggest a heart-health focus, and fiber helps bind cholesterol in the gut.",
+          "priority_rank": 1,
+          "evidence_strength": "High",
+          "biomarker_connection": "Directly supports lowering LDL and total cholesterol levels.",
+          "implementation_tips": [
+            "Include oats or barley at breakfast",
+            "Add legumes (rajma, channa) to lunch or dinner",
+            "Aim for at least 2 servings of fruits such as apples or pears daily",
+            "Use psyllium husk occasionally if tolerated"
+          ],
+          "foods_to_include": [
+            "Oats, Barley, Whole pulses, Beans"
+          ],
+          "foods_to_avoid": [
+            "Excess refined grains, Fried snacks"
+          ],
+          "meal_timing_guidance": "Try fiber-rich breakfasts and lunches to enhance satiety and cholesterol binding.",
+          "indian_food_examples": [
+            "Oats upma with vegetables",
+            "Barley khichdi",
+            "Rajma curry with brown rice"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "ICMR guidelines on dietary fiber for CV health"
+        },
+        {
+          "nutrition_name": "Moderate Protein Distribution",
+          "rationale": "Why This Matters for Suresh: eGFR of 51.5 ml/min indicates caution with protein load, especially as a single kidney can face strain from excessive protein.",
+          "priority_rank": 2,
+          "evidence_strength": "High",
+          "biomarker_connection": "Relates to elevated creatinine and decreased eGFR, needing careful protein stewardship.",
+          "implementation_tips": [
+            "Distribute protein evenly across meals",
+            "Emphasize high-quality proteins (eggs, chicken, fish) in moderate amounts",
+            "Consider plant-based proteins from dal but be mindful of total quantity",
+            "Ensure hydration stays high to support kidney filtration"
+          ],
+          "foods_to_include": [
+            "Eggs, Chicken, Fish, Tofu"
+          ],
+          "foods_to_avoid": [
+            "Very high-protein diets, large daily red meat portions"
+          ],
+          "meal_timing_guidance": "Spread protein over 3-4 meals rather than large single servings.",
+          "indian_food_examples": [
+            "Dal-based soups with vegetables",
+            "Egg white omelet with spinach for breakfast"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "National Kidney Foundation India"
+        },
+        {
+          "nutrition_name": "Emphasize Folate-Rich Foods",
+          "rationale": "Why This Matters for Suresh: Homocysteine is 20 µmol/L, elevated partly due to possible low folate synergy and methylation issues.",
+          "priority_rank": 3,
+          "evidence_strength": "High",
+          "biomarker_connection": "Directly helps reduce homocysteine by fueling the methylation cycle.",
+          "implementation_tips": [
+            "Include spinach, methi (fenugreek leaves), or mustard greens thrice a week",
+            "Have a bowl of sprouts or moong dal salad regularly",
+            "Use lemon juice to maximize folate retention",
+            "Avoid overcooking leafy greens"
+          ],
+          "foods_to_include": [
+            "Spinach, Methi, Broccoli, Sprouts"
+          ],
+          "foods_to_avoid": [
+            "Overly processed or overcooked vegetables"
+          ],
+          "meal_timing_guidance": null,
+          "indian_food_examples": [
+            "Palak dal, methi paratha with minimal oil",
+            "Sprouted moong salad"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "PubMed: Folate and homocysteine metabolism"
+        },
+        {
+          "nutrition_name": "Limit Saturated Fat and Refined Carbs",
+          "rationale": "Why This Matters for Suresh: Elevated LDL and total cholesterol plus borderline glucose handling call for improved lipid and carb profiling.",
+          "priority_rank": 4,
+          "evidence_strength": "High",
+          "biomarker_connection": "LDL of 153 mg/dL and total cholesterol of 250 mg/dL benefit from reducing saturated fats. Fasting glucose at 105 also calls for avoiding refined carbs.",
+          "implementation_tips": [
+            "Switch from butter/ghee to minimal oil usage like rice bran or mustard oil",
+            "Reduce sugary sweets and simple carbs in the evening",
+            "Snack on nuts or roasted channa instead of biscuits or sweets",
+            "Opt for low-fat dairy if needed"
+          ],
+          "foods_to_include": [
+            "Mustard oil, Olive oil in moderation, Fatty fish for healthy fats"
+          ],
+          "foods_to_avoid": [
+            "Excess Ghee, Cream, Bakery items, Sugary beverages"
+          ],
+          "meal_timing_guidance": "Be especially cautious at dinner. Avoid heavy refined carb meals late night to stabilize glucose.",
+          "indian_food_examples": [
+            "Grilled fish curry with minimal oil",
+            "Phulka instead of paratha or puri"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "ICMR guidelines on dietary fats"
+        },
+        {
+          "nutrition_name": "Alcohol Reduction",
+          "rationale": "Why This Matters for Suresh: A mild elevation in liver enzymes (ALT, AST) can be exacerbated by 5-10 drinks/week.",
+          "priority_rank": 5,
+          "evidence_strength": "Medium",
+          "biomarker_connection": "Elevated liver enzymes and high cholesterol relate to alcohol’s negative metabolic impact.",
+          "implementation_tips": [
+            "Set a max limit of 2 drinks per week if possible",
+            "Replace late-night drinks with herbal teas",
+            "Try social alternatives like sparkling water with lemon",
+            "Track intake in a journal"
+          ],
+          "foods_to_include": [],
+          "foods_to_avoid": [
+            "Frequent or binge drinking"
+          ],
+          "meal_timing_guidance": null,
+          "indian_food_examples": [
+            "Replace evening beer with homemade cucumber-lime cooler"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "FSSAI alcohol consumption guidelines"
+        }
+      ],
+      "exercise_lifestyle": [
+        {
+          "exercise_name": "Add Low-Intensity Cardio Sessions",
+          "rationale": "Why This Works for Suresh: Given high total cholesterol (250) and LDL (153), adding 1-2 sessions of moderate-intensity cardio can help further improve your lipid profile and heart resilience.",
+          "workout_type": "Cardio (Zone-2 or moderate paced)",
+          "frequency": "1-2 times per week",
+          "duration": "20-30 minutes per session",
+          "intensity": "Low to moderate (conversational pace)",
+          "volume": "Approx 2-3 km jog or 25 min elliptical per session",
+          "rest_periods": "One full rest day after or do on active recovery days",
+          "biomarker_connection": "Supports lowering LDL and total cholesterol, fosters better fat utilization",
+          "current_optimization": null,
+          "athlete_specific_notes": "In your CrossFit schedule, place a low-intensity run or cycle on lighter training days.",
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "PubMed: Aerobic exercise and lipid improvement"
+        },
+        {
+          "exercise_name": "Implement Active Recovery Protocols",
+          "rationale": "Why This Works for Suresh: Your DHEA-S is low (102), and you’ve reported muscle soreness over 48 hours. Recovery sessions support hormonal rebalancing.",
+          "workout_type": "Active Recovery (light yoga, mobility, or easy cycling)",
+          "frequency": "1 session per week",
+          "duration": "30-40 minutes",
+          "intensity": "Light (RPE 4/10)",
+          "volume": "Focus on dynamic stretches, foam rolling, gentle yoga flows",
+          "rest_periods": "Between intense CrossFit days",
+          "biomarker_connection": "Helps reduce stress hormone load and inflammatory markers, supporting DHEA-S rebound",
+          "current_optimization": null,
+          "athlete_specific_notes": "This aids connective tissue resilience and better lifts in the next session.",
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "Examine.com: Active recovery benefits"
+        },
+        {
+          "exercise_name": "Focused Sleep Hygiene",
+          "rationale": "Why This Works for Suresh: Poor sleep disrupts hormone replenishment and may worsen mild adrenal fatigue shown by low DHEA-S (102).",
+          "workout_type": "Lifestyle modification",
+          "frequency": "Daily routine",
+          "duration": "Aim for a consistent 7-8 hours nightly",
+          "intensity": "N/A",
+          "volume": "Establish bedtime by 11 PM if possible",
+          "rest_periods": "Avoid intense training late in the evening",
+          "biomarker_connection": "Better sleep helps regulate cortisol, DHEA-S, and testosterone production",
+          "current_optimization": null,
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "PubMed: Sleep and hormonal regulation"
+        },
+        {
+          "exercise_name": "Smoking Reduction Strategy",
+          "rationale": "Why This Works for Suresh: Smoking contributes to elevated homocysteine and LDL, raising cardiovascular risk.",
+          "workout_type": "Lifestyle habit change",
+          "frequency": "Daily behavioral adjustment",
+          "duration": "Ongoing process",
+          "intensity": "N/A",
+          "volume": "Gradually reduce or aim for cessation",
+          "rest_periods": "N/A, but incorporate stress management to offset cravings",
+          "biomarker_connection": "High homocysteine (20) plus LDL (153) are worsened by smoking, so reducing smoking helps lipid and vascular function.",
+          "current_optimization": null,
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "ICMR Tobacco cessation guidelines"
+        },
+        {
+          "exercise_name": "Stress-Management Exercises",
+          "rationale": "Why This Works for Suresh: Daily stress and poor sleep hamper hormone balance, indicated by borderline Free T and low DHEA-S.",
+          "workout_type": "Relaxation techniques (breathing, meditation)",
+          "frequency": "5-10 minutes daily or on high-stress days",
+          "duration": "10-15 minutes per session",
+          "intensity": "Very low, mindfulness-based",
+          "volume": "Simple guided apps or a quick meditation can suffice",
+          "rest_periods": "No physical rest needed, but mental breaks reduce cortisol load",
+          "biomarker_connection": "Improves adrenal function, helps with mildly elevated cortisol or hormone imbalance",
+          "current_optimization": null,
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "PubMed: Mindfulness for stress-induced hormonal changes"
+        }
+      ],
+      "six_month_timeline": [
+        {
+          "month_range": "Months 0-2",
+          "focus_areas": [
+            "Foundation phase: heart-healthy diet, hydration, core supplements"
+          ],
+          "supplement_adjustments": [
+            "Start Omega-3, Methylated B-Complex, Liver Support, and Ashwagandha"
+          ],
+          "nutrition_focus": [
+            "Increase soluble fiber, moderate protein, folate-rich vegetables"
+          ],
+          "exercise_goals": [
+            "Add 1-2 sessions of low-intensity cardio weekly",
+            "Focus on active recovery"
+          ],
+          "lifestyle_targets": [
+            "Reduce smoking gradually",
+            "Establish consistent sleep routine (bed by 11 PM)"
+          ],
+          "retest_schedule": [
+            "No retesting needed yet unless directed by doctor"
+          ]
+        },
+        {
+          "month_range": "Months 3-4",
+          "focus_areas": [
+            "Optimization phase: refine evening routine, reduce alcohol"
+          ],
+          "supplement_adjustments": [
+            "Continue or adjust dosages if lipids/liver enzymes improve",
+            "Recheck if any side effects"
+          ],
+          "nutrition_focus": [
+            "Limit saturated fats further, carefully manage total protein load"
+          ],
+          "exercise_goals": [
+            "Maintain low-intensity cardio, intensify CrossFit if recovery is good"
+          ],
+          "lifestyle_targets": [
+            "Stress management exercises daily",
+            "Track smoking reduction progress"
+          ],
+          "retest_schedule": [
+            "Mid-point check for kidney and liver markers if possible"
+          ]
+        },
+        {
+          "month_range": "Months 5-6",
+          "focus_areas": [
+            "Maintenance and assessment phase"
+          ],
+          "supplement_adjustments": [
+            "Adjust or discontinue supplements based on lab improvements"
+          ],
+          "nutrition_focus": [
+            "Keep fiber intake high, watch for saturated fats"
+          ],
+          "exercise_goals": [
+            "Assess results of bigger lifts, endurance gains, refine training"
+          ],
+          "lifestyle_targets": [
+            "Sustain lower smoking/alcohol patterns",
+            "Maintain bedtime consistency"
+          ],
+          "retest_schedule": [
+            "Full biomarker panel retest at month 6"
+          ]
+        }
+      ]
+    },
+    "escalation_needed": true,
+    "escalation_reason": "FASTING GLUCOSE 105.44 mg/dL indicates severe liver dysfunction; immediate medical attention required.",
+    "disclaimer": "Suresh, these recommendations are specifically designed with your goals in mind. These recommendations are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before starting any new regimen."
+  }
+}

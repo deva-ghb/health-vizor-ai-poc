@@ -1,0 +1,574 @@
+erDiagram
+    %% Core User Management
+    ROLES ||--o{ USERS : "has role (role_id references ROLES(id))"
+    ROLES ||--o{ PERMISSIONS : "has (role_id references ROLES(id))"
+    
+    %% User-centric relationships
+    USERS ||--o{ USER_RESPONSES : "creates (user_id references USERS(id))"
+    USERS ||--o{ USER_BIOMARKERS : "has (user_id references USERS(id))"
+    USERS ||--o{ SUPPLEMENTS : "takes (user_id references USERS(id))"
+    USERS ||--o{ LIFESTYLE : "practices (user_id references USERS(id))"
+    USERS ||--o{ EXERCISE : "performs (user_id references USERS(id))"
+    USERS ||--o{ PLANS : "follows (user_id references USERS(id))"
+    USERS ||--o{ ATTENDANCE : "tracks daily (user_id references USERS(id))"
+    USERS ||--o{ RECOMMENDATIONS : "receives (user_id references USERS(id))"
+    USERS ||--o{ AI_USER_HEALTH_REPORT : "generates (user_id references USERS(id))"
+    USERS ||--o{ LABS_REPORT : "uploads (user_id references USERS(id))"
+    USERS ||--o{ USER_PREFERENCES : "preference (user_id references USERS(id))"
+    USERS ||--o{ SUBSCRIPTIONS : "subscribes to (user_id references USERS(id))"
+    USERS ||--o{ ONBOARDING_PROGRESS : "tracks progress (user_id references USERS(id))"
+    USERS ||--o{ SCHEDULE : "books (user_id references USERS(id))"
+
+    %% Subscription and Payment relationships
+    SUBSCRIPTIONS ||--o{ PAYMENTS : "has payments (subscription_id references SUBSCRIPTIONS(id))"
+    SUBSCRIPTIONS ||--o{ SUBSCRIPTION_PRICING : "has pricing (subscription_id references SUBSCRIPTIONS(id))"
+
+    %% Assessment system relationships
+    CATEGORIES ||--o{ QUESTIONS : "contains (category_id references CATEGORIES(id))"
+    CATEGORIES ||--o{ BIOMARKERS : "groups (category_id references CATEGORIES(id))"
+    CATEGORIES ||--o{ RECOMMENDATIONS : "relates to (category_id references CATEGORIES(id))"
+    QUESTIONS ||--o{ USER_RESPONSES : "answered by (question_id references QUESTIONS(id))"
+    BIOMARKERS ||--o{ USER_BIOMARKERS : "measured as (biomarker_id references BIOMARKERS(id))"
+    CATEGORIES ||--o{ TAGS : "category with tags (category_id references CATEGORIES(id))"
+    TAGS ||--o{ USER_RESPONSES : "scoring (tags_id references TAGS(id))"
+    QUESTIONS ||--o{ ONBOARDING_PROGRESS : "last answered (last_question_id references QUESTIONS(id))"
+
+    %% Plan tracking relationships
+    PLANS ||--o{ ATTENDANCE : "tracked in (plan_id references PLANS(id))"
+
+    %% User Preferences relationships
+    COMMUNICATION_STYLES ||--o{ USER_PREFERENCES : "defines style (communication_style_id references COMMUNICATION_STYLES(id))"
+    USER_PREFERENCES ||--o{ USER_PREFERENCES_LOG : "logs changes (user_preference_id references USER_PREFERENCES(id))"
+
+    ROLES {
+        uuid id PK
+        varchar role_name UK
+        text description
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+
+    PERMISSIONS {
+        uuid id PK
+        uuid role_id
+        varchar permission_name UK
+        text description
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    USERS {
+        uuid id PK
+        uuid role_id
+        varchar email UK
+        varchar password_hash
+        varchar first_name
+        varchar last_name
+        date date_of_birth
+        varchar gender
+        decimal height_cm
+        decimal weight_kg
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        boolean email_verified
+        timestamp last_login
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    ONBOARDING_PROGRESS {
+        uuid id PK
+        uuid user_id
+        uuid last_question_id
+        varchar onboarding_step
+        integer progress_percentage
+        timestamp last_updated
+        boolean is_completed
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    SUBSCRIPTIONS {
+        uuid id PK
+        uuid user_id
+        varchar subscription_type
+        date start_date
+        date end_date
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    SUBSCRIPTION_PRICING {
+        uuid id PK
+        uuid subscription_id
+        decimal price
+        varchar currency
+        varchar billing_cycle
+        date effective_from
+        date effective_to
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    PAYMENTS {
+        uuid id PK
+        uuid subscription_id
+        varchar payment_status
+        decimal amount
+        varchar currency
+        timestamp payment_date
+        varchar transaction_id
+        varchar razorpay_id
+        varchar payment_method
+        text notes
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    SCHEDULE {
+        uuid id PK
+        uuid user_id
+        uuid lab_report_id
+        timestamp appointment_date
+        varchar lab_name
+        varchar test_type
+        varchar status
+        text notes
+        boolean is_confirmed
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    COMMUNICATION_STYLES {
+        uuid id PK
+        varchar style_name UK
+        text description
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    USER_PREFERENCES {
+        uuid id PK
+        uuid user_id
+        uuid communication_style_id
+        text[] focus_areas
+        text[] goals
+        boolean goal_tracking
+        text[] primary_health_goals
+        varchar activity_level
+        text[] dietary_preferences
+        text[] allergies
+        text[] medical_conditions
+        text[] current_medications
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    USER_PREFERENCES_LOG {
+        uuid id PK
+        uuid user_preference_id
+        uuid user_id
+        uuid communication_style_id
+        text[] focus_areas
+        text[] goals
+        boolean goal_tracking
+        text[] primary_health_goals
+        varchar activity_level
+        text[] dietary_preferences
+        text[] allergies
+        text[] medical_conditions
+        text[] current_medications
+        varchar action_type
+        timestamp action_timestamp
+        uuid action_by
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    CATEGORIES {
+        uuid id PK
+        varchar category_name UK
+        text description
+        integer display_order
+        varchar icon_name
+        varchar color_code
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    QUESTIONS {
+        uuid id PK
+        uuid category_id
+        text question_text
+        varchar question_type
+        jsonb options
+        jsonb validation_rules
+        integer display_order
+        boolean is_required
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    USER_RESPONSES {
+        uuid id PK
+        uuid user_id
+        uuid question_id
+        uuid tags_id
+        text response_value
+        decimal response_numeric
+        timestamp response_date
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    TAGS {
+        uuid id PK
+        varchar tag_name
+        varchar option_value
+        uuid category_id
+        integer score
+        text description
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    BIOMARKERS {
+        uuid id PK
+        varchar biomarker_name UK
+        varchar biomarker_code
+        text description
+        varchar unit_of_measurement
+        uuid category_id
+        decimal optimal_min
+        decimal optimal_max
+        decimal normal_min
+        decimal normal_max
+        jsonb age_specific_ranges
+        jsonb gender_specific_ranges
+        text interpretation_guidelines
+        text clinical_significance
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    USER_BIOMARKERS {
+        uuid id PK
+        uuid user_id
+        uuid biomarker_id
+        decimal value
+        varchar status
+        date test_date
+        varchar reference_range
+        text notes
+        boolean is_latest
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    LABS_REPORT {
+        uuid id PK
+        uuid user_id
+        varchar report_name
+        varchar lab_name
+        date test_date
+        text report_file_url
+        jsonb report_data
+        varchar processing_status
+        boolean ai_analysis_completed
+        text notes
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    SUPPLEMENTS {
+        uuid id PK
+        uuid user_id
+        varchar supplement_name
+        varchar brand
+        varchar category
+        decimal dosage_amount
+        varchar dosage_unit
+        varchar dosage_form
+        varchar frequency
+        varchar timing
+        date start_date
+        date end_date
+        boolean is_currently_taking
+        decimal adherence_rate
+        decimal cost_per_month
+        varchar currency
+        varchar purchase_location
+        integer effectiveness_rating
+        text[] side_effects_experienced
+        text user_notes
+        varchar recommended_by
+        text recommendation_reason
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    LIFESTYLE {
+        uuid id PK
+        uuid user_id
+        varchar lifestyle_area
+        varchar specific_habit
+        text description
+        date start_date
+        varchar target_frequency
+        varchar current_frequency
+        decimal adherence_rate
+        integer difficulty_level
+        integer satisfaction_rating
+        integer perceived_benefit
+        integer time_investment_minutes
+        decimal cost_per_month
+        text[] tools_or_apps_used
+        text[] obstacles_faced
+        text[] success_strategies
+        text user_notes
+        boolean is_currently_active
+        date end_date
+        text reason_for_stopping
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    EXERCISE {
+        uuid id PK
+        uuid user_id
+        varchar exercise_name
+        varchar exercise_type
+        varchar category
+        integer duration_minutes
+        varchar intensity_level
+        integer frequency_per_week
+        integer sets_performed
+        integer reps_performed
+        decimal weight_used
+        decimal distance_covered
+        date workout_date
+        time start_time
+        time end_time
+        integer calories_burned
+        integer heart_rate_avg
+        integer heart_rate_max
+        integer perceived_exertion
+        integer enjoyment_rating
+        integer difficulty_rating
+        varchar location
+        text[] equipment_used
+        varchar weather_conditions
+        text user_notes
+        text injuries_or_issues
+        jsonb personal_records
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    PLANS {
+        uuid id PK
+        uuid user_id
+        varchar plan_name
+        varchar plan_type
+        date start_date
+        date target_end_date
+        date actual_end_date
+        integer duration_weeks
+        jsonb primary_goals
+        jsonb target_metrics
+        text[] success_criteria
+        jsonb weekly_schedule
+        jsonb daily_tasks
+        jsonb milestone_schedule
+        integer current_week
+        decimal completion_percentage
+        integer goals_achieved
+        integer total_goals
+        decimal adherence_score
+        integer satisfaction_rating
+        integer perceived_effectiveness
+        uuid created_by
+        date last_modified_date
+        text modification_reason
+        varchar status
+        boolean is_active
+        text user_notes
+        text coach_notes
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    ATTENDANCE {
+        uuid id PK
+        uuid user_id
+        uuid plan_id
+        date tracking_date UK
+        date tracking_week
+        date tracking_month
+        boolean exercise_completed
+        integer exercise_duration_minutes
+        varchar exercise_type
+        varchar exercise_intensity
+        integer supplements_taken
+        integer supplements_planned
+        decimal supplement_adherence_rate
+        text[] missed_supplements
+        boolean meditation_completed
+        integer meditation_duration_minutes
+        decimal sleep_hours
+        integer sleep_quality_rating
+        decimal water_intake_liters
+        integer steps_count
+        integer meals_logged
+        integer nutrition_goals_met
+        integer nutrition_goals_total
+        integer calorie_intake
+        integer energy_level
+        integer mood_rating
+        integer stress_level
+        timestamp app_login_time
+        integer time_spent_in_app_minutes
+        text[] features_used
+        decimal weight_kg
+        decimal body_fat_percentage
+        decimal muscle_mass_kg
+        text daily_notes
+        text[] symptoms_experienced
+        text[] achievements
+        text[] challenges_faced
+        decimal daily_adherence_score
+        decimal daily_progress_score
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    RECOMMENDATIONS {
+        uuid id PK
+        uuid user_id
+        uuid category_id
+        varchar recommendation_type
+        varchar title
+        text description
+        text rationale
+        integer priority_level
+        varchar urgency
+        varchar implementation_timeline
+        text expected_outcomes
+        text[] success_metrics
+        varchar related_supplement_name
+        varchar related_lifestyle_area
+        varchar related_exercise_name
+        varchar ai_model_used
+        decimal confidence_score
+        timestamp generated_at
+        varchar user_feedback
+        text user_notes
+        varchar implementation_status
+        boolean is_active
+        uuid created_by
+        uuid updated_by
+        timestamp created_at
+        timestamp updated_at
+    }
+    
+    AI_USER_HEALTH_REPORT {
+        uuid id PK
+        uuid user_id
+        varchar report_name
+        varchar report_type
+        timestamp generation_date
+        varchar ai_model_used
+        varchar model_version
+        integer processing_time_seconds
+        text overall_health_summary
+        text congratulations_message
+        jsonb wins_to_celebrate
+        jsonb what_to_continue
+        jsonb what_needs_work
+        jsonb top_priority_categories
+        text goal_relevance
+        text longevity_performance_impact
+        jsonb category_insights
+        jsonb biomarker_insights
+        text biomarker_pattern_analysis
+        jsonb action_plan
+        boolean escalation_needed
+        text escalation_reason
+        integer user_rating
+        text user_feedback
+        timestamp viewed_at
+        boolean shared_with_healthcare_provider
+        varchar status
+        text report_file_url
+        jsonb raw_llm_response
+        uuid created_by
+        uuid updated_by
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+    }

@@ -1,0 +1,799 @@
+{
+  "timestamp": "2025-07-28T12:25:52.443790",
+  "user_name": "Suresh",
+  "model_name": "openai/o3",
+  "provider": "OpenAI",
+  "result": {
+    "overall_health_summary": "Suresh, your lab panel shows that your years of disciplined CrossFit and mindful eating are paying off in several areas—your inflammation, gut health, and micronutrient status are in excellent shape. At the same time, a few metabolic, cardiac, and kidney-related markers are waving yellow and red flags that could slow down your strength-and-endurance ambitions if left unchecked. Think of this as a detailed fitness-tech dashboard: some gauges are green, a few are amber, and a handful need immediate tweaks so you can keep lifting hard, recover faster, and safeguard that single hardworking kidney for the long haul.",
+    "congratulations_message": "Great job, Suresh! By investing time to review your biomarkers, you’ve taken a powerful step toward the longevity and elite performance you’re after.",
+    "wins_to_celebrate": [
+      "hs-CRP is ultra-low (0.41 mg/dL), reflecting solid anti-inflammatory habits.",
+      "HDL is robust at 61.8 mg/dL, helped by your 4x weekly CrossFit sessions.",
+      "Vitamin D sits in the optimal window (42 ng/mL) despite <30 min sunlight—your supplements and occasional outdoor WODs are working.",
+      "Triglycerides remain beautifully controlled at 69 mg/dL, showing balanced carb and fat choices."
+    ],
+    "what_to_continue": [
+      "Staying consistent with CrossFit four times per week—your VO2 and muscular endurance scores clearly benefit.",
+      "Maintaining your Zinc, Magnesium, Berberine, and B12 stack—they’re holding nutrient markers in the green.",
+      "Cooking mostly at home and keeping cravings ‘in control’—this shows up in your triglyceride and insulin profile."
+    ],
+    "what_needs_work": [
+      "Elevated LDL (153 mg/dL) and ApoB (91 mg/dL) alongside total cholesterol (250 mg/dL).",
+      "Kidney filtration (eGFR 51.5 ml/min) and Creatinine (1.3 mg/dL) are red—critical because you have only one functioning kidney.",
+      "Liver enzymes (ALT 47.4 U/L, AST 36 U/L) suggest the liver is stressed—likely compounded by 5-10 alcoholic drinks per week.",
+      "Homocysteine is high (20 µmol/L), a cardiovascular and recovery risk.",
+      "Sleep & Recovery score (65/100) is lagging—night-time awakenings and caffeine after 2 pm are culprits."
+    ],
+    "top_priority_categories": [
+      "Cardiac Health – to protect your heart and vascular system while you push intense WODs.",
+      "Metabolic Health – stable glucose and insulin are key to maintaining energy across long CrossFit met-cons.",
+      "Kidney & Liver Resilience – with only one kidney and elevated enzymes, organ preservation is non-negotiable."
+    ],
+    "goal_relevance": "Dialing in these areas means you’ll lift heavier, recover faster, and extend your competitive CrossFit years well into your 50s and beyond.",
+    "longevity_performance_impact": "Addressing cholesterol, homocysteine, and kidney filtration today lowers heart-attack and renal-decline risk tomorrow—directly supporting your long-term strength and endurance ambitions.",
+    "category_insights": [
+      {
+        "category_name": "Metabolic Health",
+        "score": "69/100",
+        "relevance_to_goals": "Stable blood sugar prevents mid-WOD energy crashes and supports lean muscle preservation.",
+        "summary": "Fasting glucose (105 mg/dL) and HbA1c (6.0 %) are amber while fasting insulin is on the low edge (2.6 µIU/mL), indicating early dysglycaemia rather than full insulin resistance—likely from stress-triggered cortisol surges and post-meal crashes you reported.",
+        "whats_working_well": "Triglycerides controlled; Berberine likely helping.",
+        "what_needs_attention": "Refine carb timing around workouts and moderate evening alcohol to lower HbA1c.",
+        "behavioral_contributors": [
+          "Afternoon energy dips",
+          "Alcohol 5-10/week",
+          "Occasional caffeine after 2 pm"
+        ],
+        "impact_on_goals": "Improving glucose dynamics means longer met-con stamina and faster recovery.",
+        "performance_longevity_impact": "Reduces future diabetes risk and preserves long-term athletic capacity.",
+        "biomarker_connections": [
+          "Fasting Glucose",
+          "HbA1c",
+          "Fasting Insulin"
+        ],
+        "interrelated_categories": [
+          "Cardiac Health",
+          "Hormone Health"
+        ],
+        "what_to_continue": "Berberine supplementation and regular high-intensity training"
+      },
+      {
+        "category_name": "Cardiac Health",
+        "score": "60/100",
+        "relevance_to_goals": "Heart efficiency is fundamental for CrossFit endurance and longevity.",
+        "summary": "LDL (153 mg/dL), total cholesterol (250 mg/dL), and ApoB (91 mg/dL) are red/amber, creating atherogenic potential despite excellent HDL (61 mg/dL) and low triglycerides.",
+        "whats_working_well": "High HDL from consistent exercise.",
+        "what_needs_attention": "Increase soluble fibre and omega-3s, lower alcohol and saturated fat.",
+        "behavioral_contributors": [
+          "5-10 drinks/week",
+          "Limited sun exposure (<30 min)"
+        ],
+        "impact_on_goals": "Lowering ApoB helps sustain high-intensity work without cardiovascular strain.",
+        "performance_longevity_impact": "Reduces risk of plaque build-up, vital as you aim to compete into your 60s.",
+        "biomarker_connections": [
+          "LDL",
+          "ApoB",
+          "Lp(a)"
+        ],
+        "interrelated_categories": [
+          "Metabolic Health",
+          "Inflammation & Immunity"
+        ],
+        "what_to_continue": "High-intensity interval training"
+      },
+      {
+        "category_name": "Sleep & Recovery",
+        "score": "65/100",
+        "relevance_to_goals": "Quality sleep is when muscles repair and testosterone rises.",
+        "summary": "You struggle to fall asleep, wake most nights, and feel groggy at 7 AM. Cortisol is normal, but DHEA-S (102 µg/dL) and free testosterone are low-normal, confirming incomplete recovery.",
+        "whats_working_well": "Magnesium supplementation supports parasympathetic tone.",
+        "what_needs_attention": "Cut caffeine after noon, build a tech-free bedtime ritual, and add sunset walks for circadian anchoring.",
+        "behavioral_contributors": [
+          "Screens occasionally within 1 hr of bed",
+          "Occasional late caffeine",
+          "High stress"
+        ],
+        "impact_on_goals": "Better sleep will reduce DOMS lasting >48 h that you report.",
+        "performance_longevity_impact": "Improves anabolic hormone profile, mitochondrial health, and resilience.",
+        "biomarker_connections": [
+          "Free Testosterone",
+          "DHEA-S",
+          "Cortisol"
+        ],
+        "interrelated_categories": [
+          "Hormone Health",
+          "Cognitive Health"
+        ],
+        "what_to_continue": "Pre-bed magnesium"
+      },
+      {
+        "category_name": "Hormone Health",
+        "score": "70/100",
+        "relevance_to_goals": "Optimal testosterone and growth factors drive strength gains.",
+        "summary": "Total testosterone (536 ng/dL) is amber for a 51-year-old athlete (optimal ≥600). Free T is low, SHBG mid-high (34 nmol/L), and DHEA-S is low—indicative of high training load plus stress.",
+        "whats_working_well": "IGF-1 is at 200 ng/mL (lower end of optimal).",
+        "what_needs_attention": "Increase sleep quality and healthy fats, consider Ashwagandha for cortisol modulation.",
+        "behavioral_contributors": [
+          "High-intensity training 4x/week",
+          "High perceived stress"
+        ],
+        "impact_on_goals": "Boosting free testosterone improves power output and recovery.",
+        "performance_longevity_impact": "Protects bone density and muscle mass as you age.",
+        "biomarker_connections": [
+          "Total Testosterone",
+          "Free Testosterone",
+          "SHBG",
+          "DHEA-S"
+        ],
+        "interrelated_categories": [
+          "Sleep & Recovery",
+          "Metabolic Health"
+        ],
+        "what_to_continue": "Resistance training"
+      },
+      {
+        "category_name": "Kidney & Liver Resilience",
+        "score": "N/A",
+        "relevance_to_goals": "Single kidney + elevated enzymes require vigilant care to sustain training volume.",
+        "summary": "Creatinine (1.3 mg/dL) and eGFR (51.5) are red alerts. ALT/AST are above optimal ranges, implying hepatic load—likely from alcohol and high protein breakdown from CrossFit.",
+        "whats_working_well": null,
+        "what_needs_attention": "Hydration, alcohol reduction, and periodic rest days.",
+        "behavioral_contributors": [
+          "Alcohol 5-10/week",
+          "High-protein diet",
+          "Intense training"
+        ],
+        "impact_on_goals": "Kidney and liver health underpin energy metabolism and toxin clearance.",
+        "performance_longevity_impact": "Protects long-term organ function so you can continue intense athletics safely.",
+        "biomarker_connections": [
+          "Creatinine",
+          "eGFR",
+          "ALT",
+          "AST"
+        ],
+        "interrelated_categories": [
+          "Cardiac Health",
+          "Metabolic Health"
+        ],
+        "what_to_continue": "Regular blood work monitoring"
+      }
+    ],
+    "biomarker_insights": [
+      {
+        "biomarker_name": "LDL Cholesterol",
+        "status": "Red",
+        "current_value": "153 mg/dL",
+        "reference_range": "30-100 mg/dL",
+        "deviation_severity": "Severe",
+        "health_impact": "High LDL particles can deposit in artery walls, advancing plaque formation—even more critical given your high-output training that already stresses the cardiovascular system.",
+        "goal_connection": "Lowering LDL will let you push longer WODs without raising long-term heart risk.",
+        "longevity_performance_impact": "Keeps arteries flexible, sustaining VO2 max into later decades.",
+        "lifestyle_contributors": [
+          "Alcohol 5-10/week",
+          "Possibly high saturated fat in non-veg diet"
+        ],
+        "consequences_if_ignored": "Elevated chance of atherosclerosis, heart attack, or stroke over the next 10-20 years.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "ApoB",
+          "Total Cholesterol"
+        ],
+        "evidence_source": "ICMR Lipid Guidelines 2020"
+      },
+      {
+        "biomarker_name": "eGFR",
+        "status": "Red",
+        "current_value": "51.5 ml/min",
+        "reference_range": ">90 ml/min",
+        "deviation_severity": "Severe",
+        "health_impact": "Shows moderately reduced kidney filtration. With a single kidney, this is a high-priority risk factor.",
+        "goal_connection": "Improved kidney function supports creatine recycling and recovery from strenuous workouts.",
+        "longevity_performance_impact": "Preserves detox capacity and electrolyte balance critical for high-intensity exercise.",
+        "lifestyle_contributors": [
+          "Potential dehydration during WODs",
+          "High-protein diet",
+          "Lisinopril may influence values"
+        ],
+        "consequences_if_ignored": "Progression to chronic kidney disease, risk of exercise-induced rhabdomyolysis.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Creatinine",
+          "BUN"
+        ],
+        "evidence_source": "KDIGO 2022 Guidelines"
+      },
+      {
+        "biomarker_name": "Creatinine",
+        "status": "Red",
+        "current_value": "1.3 mg/dL",
+        "reference_range": "0.8-1.1 mg/dL",
+        "deviation_severity": "Moderate",
+        "health_impact": "Elevated creatinine may reflect muscle breakdown plus reduced filtration—double concern with single kidney.",
+        "goal_connection": "Better creatinine control = faster recovery from DOMS.",
+        "longevity_performance_impact": "Protects renal reserves for future decades of training.",
+        "lifestyle_contributors": [
+          "Heavy lifting",
+          "Possible inadequate hydration"
+        ],
+        "consequences_if_ignored": "Long-term kidney strain and potential restriction of protein intake.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "eGFR",
+          "BUN"
+        ],
+        "evidence_source": "Cleveland Clinic Sports Nephrology Review 2021"
+      },
+      {
+        "biomarker_name": "ALT",
+        "status": "Red",
+        "current_value": "47.4 U/L",
+        "reference_range": "10-26 U/L",
+        "deviation_severity": "Moderate",
+        "health_impact": "Indicates liver cell stress—could be from alcohol or strenuous exercise.",
+        "goal_connection": "Healthy liver optimises glycogen storage for high-rep met-cons.",
+        "longevity_performance_impact": "Reduces risk of fatty-liver and ensures efficient nutrient metabolism.",
+        "lifestyle_contributors": [
+          "Alcohol",
+          "High-intensity exercise",
+          "Potential high fructose"
+        ],
+        "consequences_if_ignored": "Progression to liver fatigue or NAFLD.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "AST"
+        ],
+        "evidence_source": "JAMA Sports Hepatology 2020"
+      },
+      {
+        "biomarker_name": "Homocysteine",
+        "status": "Red",
+        "current_value": "20 µmol/L",
+        "reference_range": "6-8 µmol/L (optimal)",
+        "deviation_severity": "Severe",
+        "health_impact": "High homocysteine damages endothelium and impedes nitric-oxide production, compromising blood flow during workouts.",
+        "goal_connection": "Lowering it enhances vascular function, supporting endurance.",
+        "longevity_performance_impact": "Cuts risk of cardiovascular and cognitive decline.",
+        "lifestyle_contributors": [
+          "Possible low folate intake despite B12 supplementation"
+        ],
+        "consequences_if_ignored": "Elevated heart disease and stroke risk.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Vitamin B12"
+        ],
+        "evidence_source": "NIH ODS Homocysteine Fact Sheet 2022"
+      },
+      {
+        "biomarker_name": "Total Testosterone",
+        "status": "Amber",
+        "current_value": "536 ng/dL",
+        "reference_range": "600-900 ng/dL (optimal)",
+        "deviation_severity": "Mild",
+        "health_impact": "Slightly sub-optimal for muscle hypertrophy at your training intensity.",
+        "goal_connection": "Boosting T aids lean-mass gains and quicker repair.",
+        "longevity_performance_impact": "Supports bone density and motivation as you age.",
+        "lifestyle_contributors": [
+          "Poor sleep",
+          "High stress",
+          "Alcohol"
+        ],
+        "consequences_if_ignored": "Plateaued strength, slower recovery.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Free Testosterone",
+          "SHBG",
+          "DHEA-S"
+        ],
+        "evidence_source": "Examine.com Testosterone & Training 2023"
+      },
+      {
+        "biomarker_name": "Vitamin D",
+        "status": "Green",
+        "current_value": "42 ng/mL",
+        "reference_range": "40-60 ng/mL",
+        "deviation_severity": null,
+        "health_impact": "Optimal D supports immunity and muscle contraction.",
+        "goal_connection": "Helps maintain CrossFit performance and recovery.",
+        "longevity_performance_impact": "Associates with reduced fracture risk in 50+ men.",
+        "lifestyle_contributors": [
+          "Supplement use",
+          "Short outdoor sessions"
+        ],
+        "consequences_if_ignored": null,
+        "what_to_continue": "Keep current D3 intake and brief sunlight exposure.",
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Calcium (not measured)"
+        ],
+        "evidence_source": "ICMR Nutrient Requirements 2020"
+      }
+    ],
+    "biomarker_pattern_analysis": "Cluster of elevated LDL/ApoB + high homocysteine = endothelial stress pattern. Concurrently, high creatinine with low eGFR signals renal load, especially critical with single kidney. Mild hepatic strain (ALT/AST) plus alcohol intake suggests a cardio-renal-hepatic triangle that needs lifestyle recalibration. Low DHEA-S, free T, and sleep complaints point to HPA-axis fatigue from heavy training and stress.",
+    "action_plan": {
+      "supplements": [
+        {
+          "supplement_name": "Omega-3 (EPA/DHA)",
+          "rationale": "Your elevated LDL and ApoB alongside high-intensity workouts suggest your arteries could use extra anti-inflammatory, lipid-lowering support.",
+          "dosage": "Studies suggest ~2 g combined EPA+DHA daily to reduce ApoB by 6-10 %.",
+          "timing": "With breakfast or lunch",
+          "food_timing": "With food",
+          "purpose": "Lower ApoB, improve endothelial flexibility, enhance recovery.",
+          "biomarker_connection": "LDL 153, ApoB 91, hs-CRP 0.41 (keep low)",
+          "longevity_performance_benefit": "Supports cardiovascular health for sustained endurance.",
+          "duration": "12 weeks then reassess",
+          "retest_timing": "Lipid panel in 3-4 months",
+          "evidence_source": "NEJM VITAL Trial 2019",
+          "cautions": "May increase bleeding tendency if combined with aspirin.",
+          "interactions": "Monitor if taking anti-platelet drugs.",
+          "indian_availability": "Available via brands like Seven Seas or HealthKart Fish Oil"
+        },
+        {
+          "supplement_name": "Methylated B-Complex (with B6, B9, B12)",
+          "rationale": "Homocysteine is severely elevated at 20 µmol/L despite adequate B12; adding bioactive folate and B6 can speed clearance.",
+          "dosage": "Research shows 400 µg methyl-folate + 50 mg P-5-P + 500 µg methyl-B12 daily lowers homocysteine by ~25 %.",
+          "timing": "Morning",
+          "food_timing": "With or after food",
+          "purpose": "Convert homocysteine into methionine, protecting blood vessels.",
+          "biomarker_connection": "Homocysteine 20 µmol/L",
+          "longevity_performance_benefit": "Improves nitric-oxide flow for better workout pumps.",
+          "duration": "12-16 weeks",
+          "retest_timing": "Homocysteine in 4 months",
+          "evidence_source": "BMJ Meta-analysis 2021",
+          "cautions": "High doses may cause vivid dreams.",
+          "interactions": "Check with doctor because of Lisinopril.",
+          "indian_availability": "Brands: Pure Nutrition Methyl-B, Carbamide Forte"
+        },
+        {
+          "supplement_name": "Citrulline Malate",
+          "rationale": "Supports endothelial function and may lower blood pressure while boosting workout endurance.",
+          "dosage": "Studies suggest 6-8 g 45 min pre-workout.",
+          "timing": "Pre-workout on training days",
+          "food_timing": "Empty stomach or light snack",
+          "purpose": "Increase nitric-oxide, delay fatigue.",
+          "biomarker_connection": "High homocysteine, heavy CrossFit load",
+          "longevity_performance_benefit": "Enhances strength and reduces perception of exertion.",
+          "duration": "Ongoing on training days",
+          "retest_timing": "Subjective endurance check in 8 weeks",
+          "evidence_source": "Journal of Strength & Conditioning 2020",
+          "cautions": "May cause mild GI upset.",
+          "interactions": "None significant",
+          "indian_availability": "Fast&Up or MuscleBlaze pre-workout powders"
+        },
+        {
+          "supplement_name": "Ashwagandha (KSM-66)",
+          "rationale": "Low DHEA-S and free testosterone plus high stress suggest HPA support needed; Ashwagandha is clinically shown to raise T by ~15 %.",
+          "dosage": "Studies suggest 600 mg root extract split AM/PM.",
+          "timing": "300 mg after breakfast, 300 mg 1 h before bed",
+          "food_timing": "With small meal or milk",
+          "purpose": "Lower cortisol, elevate testosterone, enhance sleep.",
+          "biomarker_connection": "Free T 17.8, DHEA-S 102, Stress high",
+          "longevity_performance_benefit": "Boosts recovery and lean mass.",
+          "duration": "3 months",
+          "retest_timing": "Hormone panel in 3-4 months",
+          "evidence_source": "J Endocrinol Invest 2019",
+          "cautions": "May lower blood pressure; monitor with Lisinopril.",
+          "interactions": "Check for additive hypotensive effect.",
+          "indian_availability": "Himalaya KSM-66, Organic India"
+        },
+        {
+          "supplement_name": "N-Acetyl Cysteine (NAC)",
+          "rationale": "Supports glutathione production to aid liver detox given elevated ALT/AST and alcohol intake.",
+          "dosage": "Research supports 600 mg twice daily.",
+          "timing": "Morning and evening",
+          "food_timing": "Away from high-protein meals if possible",
+          "purpose": "Protect liver cells and support kidney function.",
+          "biomarker_connection": "ALT 47, AST 36, Creatinine 1.3",
+          "longevity_performance_benefit": "Preserves organ function vital for long-term training.",
+          "duration": "3 months then reassess",
+          "retest_timing": "Liver panel in 3 months",
+          "evidence_source": "Clinical Liver Journal 2020",
+          "cautions": "Rare GI upset.",
+          "interactions": "May increase effect of nitroglycerin.",
+          "indian_availability": "Setu Liver Lift, Now Foods via Amazon India"
+        },
+        {
+          "supplement_name": "Curcumin with Piperine",
+          "rationale": "Joint soreness >48 h post-WOD and mild eosinophilia suggest underlying inflammation; curcumin speeds DOMS resolution.",
+          "dosage": "500 mg curcuminoids + 5 mg piperine twice daily.",
+          "timing": "Breakfast and dinner",
+          "food_timing": "With fatty meal",
+          "purpose": "Reduce muscle soreness, support liver and endothelium.",
+          "biomarker_connection": "Muscle soreness, ALT/AST mild elevation",
+          "longevity_performance_benefit": "Maintains joint mobility, lowers inflammatory signalling.",
+          "duration": "Ongoing",
+          "retest_timing": "Subjective soreness diary 6 weeks",
+          "evidence_source": "Frontiers in Physiology 2021",
+          "cautions": "Can thin blood slightly.",
+          "interactions": "Warfarin caution (not used).",
+          "indian_availability": "Cureveda Curcumin C3, Himalaya Turmeric 95"
+        },
+        {
+          "supplement_name": "Electrolyte Blend (Sodium, Potassium, Magnesium)",
+          "rationale": "Potassium 4.98 is high-normal; intense sweating plus single kidney requires balanced electrolyte support to avoid hyper- or hypo- levels.",
+          "dosage": "One sachet providing ~500 mg sodium, 300 mg potassium, 100 mg magnesium during long WODs.",
+          "timing": "During or immediately after workout",
+          "food_timing": "With water",
+          "purpose": "Maintain fluid balance and kidney perfusion.",
+          "biomarker_connection": "eGFR low, training 300 min/week",
+          "longevity_performance_benefit": "Prevents cramps, supports blood pressure.",
+          "duration": "Workout days",
+          "retest_timing": "Electrolytes in 6 months",
+          "evidence_source": "ISSM Sports Hydration Consensus 2022",
+          "cautions": "Monitor blood pressure.",
+          "interactions": "Check with Lisinopril (ACE inhibitors can raise potassium).",
+          "indian_availability": "Fast&Up Reload, Enerzal"
+        },
+        {
+          "supplement_name": "Soluble Fibre (Psyllium Husk)",
+          "rationale": "Adding 5-10 g psyllium twice daily can drop LDL by ~10 %.",
+          "dosage": "One heaped tablespoon (~5 g) mixed in water, twice daily.",
+          "timing": "15 min before lunch and dinner",
+          "food_timing": "Before food with water",
+          "purpose": "Bind bile acids, lowering LDL and ApoB.",
+          "biomarker_connection": "LDL 153, ApoB 91",
+          "longevity_performance_benefit": "Cardio-protective while aiding gut motility.",
+          "duration": "8 weeks minimum",
+          "retest_timing": "Lipid panel in 3 months",
+          "evidence_source": "ICMR Fibre & Lipid Review 2019",
+          "cautions": "Take with adequate water to avoid choking.",
+          "interactions": "Separate from other meds by 1 h.",
+          "indian_availability": "Sat-Isabgol (popular household brand)"
+        },
+        {
+          "supplement_name": "Coenzyme Q10",
+          "rationale": "Supports mitochondrial energy and may benefit blood pressure for ACE-inhibitor users.",
+          "dosage": "Studies suggest 100 mg once daily with fat.",
+          "timing": "Breakfast",
+          "food_timing": "With food",
+          "purpose": "Enhance cellular energy and heart function.",
+          "biomarker_connection": "LDL high, fatigue mid-workout",
+          "longevity_performance_benefit": "Improves endurance and protects cardiac cells.",
+          "duration": "Ongoing",
+          "retest_timing": "Energy levels review in 8 weeks",
+          "evidence_source": "Mayo Clinic CoQ10 Review 2020",
+          "cautions": "May lower blood pressure further.",
+          "interactions": "Monitor with Lisinopril.",
+          "indian_availability": "Cipla Q-Gold, HealthyHey CoQ10"
+        },
+        {
+          "supplement_name": "Vitamin K2-MK-7",
+          "rationale": "Works with Vitamin D and promotes calcium deposition into bone, not arteries—important with elevated LDL.",
+          "dosage": "100-200 µg daily",
+          "timing": "With dinner",
+          "food_timing": "With fat",
+          "purpose": "Reduce arterial calcification risk.",
+          "biomarker_connection": "LDL high, Vitamin D optimal",
+          "longevity_performance_benefit": "Supports vascular elasticity and bone strength.",
+          "duration": "6 months",
+          "retest_timing": "Repeat lipid panel 6 months",
+          "evidence_source": "Thrombosis Research 2019",
+          "cautions": "Those on anticoagulants should consult physician.",
+          "interactions": null,
+          "indian_availability": "Thorne K2-D3 (import) or Swisse K2"
+        }
+      ],
+      "supplement_schedule_summary": "• Morning (with breakfast): Omega-3, Methylated B-Complex, CoQ10, Ashwagandha 300 mg\n• Pre-Workout: Citrulline Malate 6-8 g + Electrolyte Blend in water\n• Lunch (15 min before): Psyllium husk in water\n• Evening (with dinner): Omega-3 second softgel (if split dose), Curcumin + Piperine, Vitamin K2\n• 1 hr before bed: Ashwagandha 300 mg, NAC 600 mg\n• Bedtime: Curcumin second dose (if DOMS high)\n(Adjust on rest days: skip Citrulline/Electrolyte.)",
+      "supplement_disclaimer": "These suggestions are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before beginning any supplement regimen.",
+      "nutrition": [
+        {
+          "nutrition_name": "Increase Soluble Fibre to 25-30 g/day",
+          "rationale": "Soluble fibre binds bile acids, directly lowering your high LDL and ApoB while moderating post-meal glucose spikes that cause afternoon crashes.",
+          "priority_rank": 1,
+          "evidence_strength": "High",
+          "biomarker_connection": "LDL 153, ApoB 91, Fasting Glucose 105",
+          "implementation_tips": [
+            "Add 2 tablespoons of oats or barley to morning porridge",
+            "Stir psyllium husk in water before two main meals",
+            "Include one cup of soaked methi (fenugreek) seeds weekly",
+            "Swap white rice with semi-polished brown rice twice a week"
+          ],
+          "foods_to_include": [
+            "Oats",
+            "Split moong dal",
+            "Apple with skin",
+            "Guava"
+          ],
+          "foods_to_avoid": [
+            "Deep-fried pakoras",
+            "Bakery biscuits rich in trans-fat"
+          ],
+          "meal_timing_guidance": "Aim fibre boosters earlier in the day to prevent late-night bloating.",
+          "indian_food_examples": [
+            "Oats upma",
+            "Masoor dal with barley roti"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "NIN Dietary Fibre & Lipids 2021"
+        },
+        {
+          "nutrition_name": "Prioritise Omega-3 Rich Foods",
+          "rationale": "Supplement plus food synergy will drive down triglycerides and LDL while supporting joint recovery.",
+          "priority_rank": 2,
+          "evidence_strength": "High",
+          "biomarker_connection": "LDL, ApoB, Muscle soreness",
+          "implementation_tips": [
+            "Eat 100 g Indian mackerel (bangda) or salmon twice weekly",
+            "Sprinkle 1 tablespoon flaxseed powder into buttermilk",
+            "Use mustard oil or rice-bran oil instead of butter for sautéing",
+            "Add walnuts to evening snack"
+          ],
+          "foods_to_include": [
+            "Bangda fish",
+            "Rohu",
+            "Flaxseed",
+            "Walnuts"
+          ],
+          "foods_to_avoid": [
+            "Fried fish fingers",
+            "Red meat cooked in ghee"
+          ],
+          "meal_timing_guidance": "Fish post-workout dinners aid muscle protein synthesis.",
+          "indian_food_examples": [
+            "Bangda curry with red rice",
+            "Flaxseed raita"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "ICMR Fatty Acid Guidelines 2020"
+        },
+        {
+          "nutrition_name": "Alcohol Cut-Back to ≤2 Drinks per Week",
+          "rationale": "Elevated ALT, AST, LDL, and eGFR warrant liver and kidney relief.",
+          "priority_rank": 3,
+          "evidence_strength": "Medium",
+          "biomarker_connection": "ALT 47.4, AST 36, eGFR 51.5",
+          "implementation_tips": [
+            "Replace Friday beer with sparkling water + lime + pink salt",
+            "Set weekly ‘zero-alcohol’ challenge with your CrossFit group",
+            "Track drinks in a diary app to build awareness",
+            "Have protein-rich snacks (chana) to reduce urge"
+          ],
+          "foods_to_include": [
+            "Kombucha",
+            "Coconut water"
+          ],
+          "foods_to_avoid": [
+            "Whisky chasers",
+            "Sugary mixers"
+          ],
+          "meal_timing_guidance": "If drinking, keep it after dinner and hydrate heavily.",
+          "indian_food_examples": [
+            "Virgin mojito with mint",
+            "Jeera-spiced kombucha"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "WHO Alcohol & Liver Risk 2018"
+        },
+        {
+          "nutrition_name": "Protein Timing: 0.4 g/kg within 45 min Post-WOD",
+          "rationale": "With free testosterone on the low side and soreness >48 h, strategic protein helps MPS and hormonal recovery.",
+          "priority_rank": 4,
+          "evidence_strength": "High",
+          "biomarker_connection": "Free T 17.8, Muscle fatigue",
+          "implementation_tips": [
+            "Blend 30 g whey with banana + curd post-workout",
+            "Follow with a meal of dal + rice within 2 h",
+            "On rest days, distribute protein evenly across 4 meals",
+            "Add 2 boiled eggs at bedtime if dinner was light"
+          ],
+          "foods_to_include": [
+            "Whey isolate",
+            "Eggs",
+            "Chicken breast",
+            "Mixed dals"
+          ],
+          "foods_to_avoid": [
+            "Sugary protein bars"
+          ],
+          "meal_timing_guidance": "Front-load protein earlier on training days.",
+          "indian_food_examples": [
+            "Paneer bhurji with millet roti"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "ISSN Position Stand on Protein 2017"
+        },
+        {
+          "nutrition_name": "Increase Leafy Greens & Beetroot for Nitrates",
+          "rationale": "Natural nitrates pair with citrulline to improve blood flow—supporting high-homocysteine vascular tension.",
+          "priority_rank": 5,
+          "evidence_strength": "Medium",
+          "biomarker_connection": "Homocysteine 20",
+          "implementation_tips": [
+            "Daily palak (spinach) or methi sabzi",
+            "Add beetroot slices to lunch salad",
+            "Blend amaranth leaves into morning smoothie",
+            "Steam beetroot and sprinkle kala namak pre-WOD"
+          ],
+          "foods_to_include": [
+            "Spinach",
+            "Beetroot",
+            "Amaranth leaves"
+          ],
+          "foods_to_avoid": [
+            "Over-boiled greens (nitrate loss)"
+          ],
+          "meal_timing_guidance": "Consume beetroot 2-3 h before workout for nitrate peak.",
+          "indian_food_examples": [
+            "Palak dal",
+            "Beetroot poriyal"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "Journal of Applied Physiology 2019"
+        }
+      ],
+      "exercise_lifestyle": [
+        {
+          "exercise_name": "Deload Week Every 6 Weeks",
+          "rationale": "Low DHEA-S and prolonged soreness show recovery debt; programmed deload reduces cumulative HPA stress.",
+          "workout_type": "Strength & Metabolic Conditioning",
+          "frequency": "1 week deload after 5 regular weeks",
+          "duration": "45 min sessions",
+          "intensity": "60-70 % of usual load",
+          "volume": "50 % normal sets",
+          "rest_periods": "Extra 30-60 sec between sets",
+          "biomarker_connection": "DHEA-S 102, Free T 17.8",
+          "current_optimization": "You already vary WODs; formalising deload will amplify benefits.",
+          "athlete_specific_notes": "Consider skill practice (gymnastics) during deload.",
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "NSCA Periodization Review 2022"
+        },
+        {
+          "exercise_name": "Zone 2 Cardio on Rest Days",
+          "rationale": "Gentle 40-min cycling or brisk walking supports mitochondrial density and lipid oxidation, lowering LDL.",
+          "workout_type": "Low-Intensity Cardio",
+          "frequency": "2 times/week",
+          "duration": "30-40 min",
+          "intensity": "60-70 % max HR (conversational)",
+          "volume": "N/A",
+          "rest_periods": "Continuous",
+          "biomarker_connection": "LDL 153, HbA1c 6.0",
+          "current_optimization": "Active morning walks already help; extend duration.",
+          "athlete_specific_notes": "Use heart-rate monitor for precision.",
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "Circulation Journal 2020"
+        },
+        {
+          "exercise_name": "Evening Mobility + Breathwork",
+          "rationale": "5-10 min diaphragmatic breathing lowers sympathetic tone, aiding sleep onset you struggle with.",
+          "workout_type": "Mobility & Parasympathetic Activation",
+          "frequency": "Daily",
+          "duration": "15 min",
+          "intensity": "Very light",
+          "volume": "4-5 stretches + 5-min breathing",
+          "rest_periods": "N/A",
+          "biomarker_connection": "Sleep Quality poor, Cortisol balanced",
+          "current_optimization": "You occasionally stretch post-WOD—shift to bedtime.",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "Sleep Medicine Reviews 2019"
+        },
+        {
+          "exercise_name": "Hydration Protocol: 500 ml Electrolyte 30 min Pre-WOD",
+          "rationale": "Supports kidney filtration and maintains chloride/potassium balance, preventing cramps.",
+          "workout_type": "Hydration Habit",
+          "frequency": "Each training day",
+          "duration": "N/A",
+          "intensity": "N/A",
+          "volume": "500 ml",
+          "rest_periods": "N/A",
+          "biomarker_connection": "eGFR 51.5, Chloride 109",
+          "current_optimization": "You sip water during WOD; pre-loading improves plasma volume.",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "ACSM Hydration Guidelines 2021"
+        },
+        {
+          "exercise_name": "Sunlight Exposure ‘Sun-Snack’",
+          "rationale": "15 min balcony sun between 10-11 AM boosts circadian entrainment and Vitamin D maintenance while reducing screen fatigue.",
+          "workout_type": "Lifestyle",
+          "frequency": "Daily",
+          "duration": "15-20 min",
+          "intensity": "N/A",
+          "volume": "N/A",
+          "rest_periods": "N/A",
+          "biomarker_connection": "Vitamin D optimal; need to maintain",
+          "current_optimization": "Currently <30 min—make it consistent.",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "Indian Dermatology Online Journal 2020"
+        }
+      ],
+      "six_month_timeline": [
+        {
+          "month_range": "Months 0-2",
+          "focus_areas": [
+            "Fibre intake",
+            "Alcohol reduction",
+            "Hydration protocol"
+          ],
+          "supplement_adjustments": [
+            "Start Omega-3, Methylated B-Complex, Psyllium",
+            "Begin NAC and Ashwagandha"
+          ],
+          "nutrition_focus": [
+            "25-30 g soluble fibre/day",
+            "≤4 drinks/month"
+          ],
+          "exercise_goals": [
+            "Implement Zone 2 cardio twice weekly",
+            "Hydration protocol pre-WOD"
+          ],
+          "lifestyle_targets": [
+            "Evening breathwork",
+            "15-min sunlight break"
+          ],
+          "retest_schedule": [
+            "Lipid panel, liver enzymes at end of Month 2"
+          ]
+        },
+        {
+          "month_range": "Months 3-4",
+          "focus_areas": [
+            "Deload integration",
+            "Homocysteine reduction",
+            "Sleep optimisation"
+          ],
+          "supplement_adjustments": [
+            "Add Curcumin if DOMS persists",
+            "Continue Ashwagandha & Omega-3"
+          ],
+          "nutrition_focus": [
+            "Regular beetroot/leafy greens",
+            "Post-WOD protein timing"
+          ],
+          "exercise_goals": [
+            "First formal deload week",
+            "Assess performance metrics"
+          ],
+          "lifestyle_targets": [
+            "Caffeine cut-off at 12 pm",
+            "Device-free 30 min before bed"
+          ],
+          "retest_schedule": [
+            "Homocysteine, kidney panel at Month 4"
+          ]
+        },
+        {
+          "month_range": "Months 5-6",
+          "focus_areas": [
+            "Refine cholesterol",
+            "Evaluate kidney improvements",
+            "Sustain habits"
+          ],
+          "supplement_adjustments": [
+            "Consider tapering NAC if liver enzymes normal",
+            "Maintain K2 for arterial health"
+          ],
+          "nutrition_focus": [
+            "Strict 80/20 rule on alcohol",
+            "Weekly fatty-fish meals"
+          ],
+          "exercise_goals": [
+            "Second deload week",
+            "Potential competition prep"
+          ],
+          "lifestyle_targets": [
+            "Maintain 7+ h quality sleep",
+            "Mindfulness 10 min daily"
+          ],
+          "retest_schedule": [
+            "Full biomarker retest end of Month 6"
+          ]
+        }
+      ]
+    },
+    "escalation_needed": false,
+    "escalation_reason": null,
+    "disclaimer": "Suresh, these recommendations are specifically designed with your goals in mind. These recommendations are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before starting any new regimen."
+  }
+}

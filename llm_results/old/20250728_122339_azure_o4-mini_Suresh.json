@@ -1,0 +1,685 @@
+{
+  "timestamp": "2025-07-28T12:23:39.181353",
+  "user_name": "Suresh",
+  "model_name": "azure/o4-mini",
+  "provider": "Azure OpenAI",
+  "result": {
+    "overall_health_summary": "Suresh, your dedication to competing in CrossFit and hitting the gym 4 times a week is paying off in many ways—from healthy muscle performance to solid inflammation markers. At the same time, subtle signs in your labs around blood sugar, liver enzymes, cholesterol, kidney function, and stress hormones show opportunities to fine-tune your nutrition, recovery, and supplement strategy for even stronger performance and long-term health.",
+    "congratulations_message": "Kudos to you, Suresh, for staying consistent with intense 300 minutes of weekly training and for taking this next step in understanding your biomarkers! Your proactive approach at age 51, while managing a single kidney and competitive athlete load, is impressive.",
+    "wins_to_celebrate": [
+      "Your ESR, WBC, and gut health markers are in optimal range—your immune resilience is strong despite high training loads.",
+      "HDL cholesterol is in the optimal range, reflecting positive effects of your regular exercise and non-vegetarian diet rich in lean protein.",
+      "Vitamin D, B12, zinc, and magnesium levels are all in good range—your supplement routine and sun exposure habits are working."
+    ],
+    "what_to_continue": [
+      "Maintaining your 4x weekly CrossFit sessions to support strength and metabolic health.",
+      "Continuing your current zinc, magnesium, and B12 supplements that help with muscle recovery and energy.",
+      "Keeping protein intake high post-workout to sustain lean muscle mass."
+    ],
+    "what_needs_work": [
+      "Stabilizing blood sugar to prevent afternoon crashes and long-term metabolic strain.",
+      "Lowering elevated LDL and total cholesterol for better cardiac health.",
+      "Supporting liver and kidney function given elevated ALT/AST and reduced eGFR."
+    ],
+    "top_priority_categories": [
+      "Metabolic Health – because your fasting glucose (105 mg/dL) and HbA1c (6.0%) are edging into insulin resistance territory, affecting energy during workouts and overall health.",
+      "Cardiac Health – with LDL at 153 mg/dL and total cholesterol at 250 mg/dL, optimizing lipids is critical for longevity and performance.",
+      "Sleep & Recovery – poor sleep quality and slow recovery (score 65/100) are limiting your muscle building and stress resilience."
+    ],
+    "goal_relevance": "Addressing these areas will directly support your strength and endurance goals by ensuring steady energy, efficient recovery, and cardiovascular resilience—key factors for a competitive athlete at 51.",
+    "longevity_performance_impact": "By fine-tuning metabolic, cardiac, and recovery parameters now, you’ll not only boost today’s CrossFit performance but also safeguard your long-term kidney, heart, and musculoskeletal health, extending your athletic prime.",
+    "category_insights": [
+      {
+        "category_name": "Metabolic Health",
+        "score": "69/100",
+        "relevance_to_goals": "Stable blood sugar and insulin sensitivity power sustained energy during your 4x weekly workouts and prevent afternoon crashes.",
+        "summary": "Suresh, your fasting glucose of 105 mg/dL and HbA1c of 6.0% suggest early insulin resistance that could be contributing to those post-meal energy dips you mentioned. Your current low-carb days help, but occasional high refined carbs after sessions may be stressing your system. Regular CrossFit helps improve glucose uptake, yet frequent alcohol and late-night meals can blunt these benefits. Fine-tuning meal timing and adding targeted nutrients will stabilize your blood sugar for more consistent gym performance and recovery.",
+        "whats_working_well": "Your active lifestyle and CrossFit sessions support muscle glucose uptake and metabolic flexibility.",
+        "what_needs_attention": "Reduce late-night carb-heavy meals and moderate alcohol to improve fasting glucose and HbA1c.",
+        "behavioral_contributors": [
+          "Occasional alcohol intake (5-10 drinks/week)",
+          "Post-workout meals high in refined carbs",
+          "Frequent afternoon energy dips"
+        ],
+        "impact_on_goals": "Improving metabolic health will help sustain energy during CrossFit WODs and prevent muscle fatigue mid-session.",
+        "performance_longevity_impact": "Better insulin sensitivity lowers risk of type 2 diabetes and supports lean muscle preservation as you age.",
+        "biomarker_connections": [
+          "Fasting Glucose",
+          "HbA1c",
+          "Fasting Insulin"
+        ],
+        "interrelated_categories": [
+          "Sleep & Recovery",
+          "Cardiac Health"
+        ],
+        "what_to_continue": null
+      },
+      {
+        "category_name": "Cardiac Health",
+        "score": "60/100",
+        "relevance_to_goals": "Healthy lipids and vascular function support endurance and reduce downtime from cardiovascular strain.",
+        "summary": "Your total cholesterol of 250 mg/dL and LDL of 153 mg/dL are significantly above optimal, increasing long-term cardiovascular risk. Your HDL is good, reflecting exercise, but elevated ApoB (91 mg/dL) and Lp(a) (20 mg/dL) suggest persistent atherogenic potential. Smoking and alcohol can worsen these, despite your active training. Integrating more omega-3 fats, fiber, and plant sterols, plus reducing smoking, will help shift your lipid profile.",
+        "whats_working_well": "High HDL (61.8 mg/dL) and regular exercise are protective.",
+        "what_needs_attention": "Lower LDL and total cholesterol through diet, targeted supplements, and smoking reduction.",
+        "behavioral_contributors": [
+          "Current smoking status",
+          "Moderate alcohol intake",
+          "Diet low in oily fish and soluble fiber"
+        ],
+        "impact_on_goals": "Better cardiac health supports sustained endurance during CrossFit and lowers risk of exercise-induced cardiovascular events.",
+        "performance_longevity_impact": "Reducing LDL lowers atherosclerosis risk, supporting heart health for decades to come.",
+        "biomarker_connections": [
+          "Total Cholesterol",
+          "LDL",
+          "ApoB",
+          "Lp(a)"
+        ],
+        "interrelated_categories": [
+          "Metabolic Health",
+          "Inflammation & Immunity"
+        ],
+        "what_to_continue": null
+      },
+      {
+        "category_name": "Sleep & Recovery",
+        "score": "65/100",
+        "relevance_to_goals": "Quality sleep is essential for muscle repair and stress resilience, crucial given your 4x weekly CrossFit load.",
+        "summary": "Suresh, you report difficulty falling and staying asleep, waking groggy despite averaging 7 hours. Late caffeine intake and screen time before bed are likely disrupting your circadian rhythm. Your AM cortisol is healthy, but low DHEA-S suggests chronic stress may blunt recovery. Prioritizing sleep hygiene and adaptogenic support can accelerate muscle repair and energy rebound between workouts.",
+        "whats_working_well": "",
+        "what_needs_attention": "Establish a consistent wind-down routine, limit screen use 1 hour before bed, and avoid caffeine after 2 pm.",
+        "behavioral_contributors": [
+          "Occasional evening caffeine after 2 pm",
+          "Screen time within an hour of bed",
+          "High daily stress levels"
+        ],
+        "impact_on_goals": "Improved sleep quality will enhance muscle recovery, stamina, and reduce soreness.",
+        "performance_longevity_impact": "Deep, restorative sleep lowers risk of overtraining and supports hormone balance over the long term.",
+        "biomarker_connections": [
+          "Cortisol AM",
+          "DHEA-S"
+        ],
+        "interrelated_categories": [
+          "Hormone Health",
+          "Metabolic Health"
+        ],
+        "what_to_continue": null
+      },
+      {
+        "category_name": "Hormone Health",
+        "score": "70/100",
+        "relevance_to_goals": "Balanced hormones underlie energy, strength gains, and stress adaptation—key for sustaining competitive training.",
+        "summary": "Your total testosterone of 536 ng/dL is in the clinical range but below optimal for athletic performance, and SHBG is slightly elevated, which may lower free testosterone. Low DHEA-S and high homocysteine indicate mild adrenal fatigue and insufficient methylation. Correcting these imbalances with adaptogens and B-vitamin support can boost your anabolic environment and recovery.",
+        "whats_working_well": "Thyroid hormones (TSH, Free T3, Free T4) are in healthy ranges, supporting basal metabolism.",
+        "what_needs_attention": "Increase free testosterone and adrenal support via lifestyle and targeted supplements.",
+        "behavioral_contributors": [
+          "High training load without adequate deload weeks",
+          "Inconsistent sleep hygiene",
+          "Elevated stress from work and training"
+        ],
+        "impact_on_goals": "Optimizing hormones will improve strength gains, energy, and recovery between workouts.",
+        "performance_longevity_impact": "Maintaining healthy testosterone and adrenal function supports muscle mass preservation and stress resilience with age.",
+        "biomarker_connections": [
+          "Total Testosterone",
+          "Free Testosterone",
+          "DHEA-S",
+          "Homocysteine"
+        ],
+        "interrelated_categories": [
+          "Sleep & Recovery",
+          "Metabolic Health"
+        ],
+        "what_to_continue": null
+      },
+      {
+        "category_name": "Cognitive Health",
+        "score": "75/100",
+        "relevance_to_goals": "Mental clarity and focus enable you to push through technical workouts and manage stress in competition.",
+        "summary": "You occasionally experience brain fog and memory lapses, likely linked to sleep disruption and mild glucose variability. Your micronutrient status (B12, magnesium, zinc) is strong, yet inconsistent glucose control and high homocysteine can impair cognitive function. Small changes in meal balance and targeted nutrients will sharpen focus and sustain mental energy.",
+        "whats_working_well": "Excellent focus capacity and nutrient status are protective for mental performance.",
+        "what_needs_attention": "Stabilize blood sugar with balanced meals and consider B-vitamin cofactor support for methylation.",
+        "behavioral_contributors": [
+          "Occasional reliance on caffeine or sugar mid-afternoon",
+          "Disrupted sleep patterns"
+        ],
+        "impact_on_goals": "Sharper cognition supports precision and safety during complex CrossFit movements.",
+        "performance_longevity_impact": "Protecting cognitive health lowers risk of age-related decline and supports decision-making under pressure.",
+        "biomarker_connections": [
+          "Homocysteine",
+          "Fasting Glucose",
+          "HbA1c"
+        ],
+        "interrelated_categories": [
+          "Metabolic Health",
+          "Sleep & Recovery"
+        ],
+        "what_to_continue": null
+      }
+    ],
+    "biomarker_insights": [
+      {
+        "biomarker_name": "Fasting Glucose",
+        "status": "Amber",
+        "current_value": "105.44 mg/dL",
+        "reference_range": "70-90 mg/dL",
+        "deviation_severity": "Moderate",
+        "health_impact": "Your fasting glucose of 105 mg/dL may be contributing to the afternoon energy dips you report, indicating early insulin resistance. This can impair muscle recovery after CrossFit sessions and raise long-term diabetes risk.",
+        "goal_connection": "Stabilizing glucose supports consistent gym performance and energy throughout your day.",
+        "longevity_performance_impact": "Improved glucose control lowers risk of metabolic disease and preserves muscle mass as you age.",
+        "lifestyle_contributors": [
+          "Post-workout high-carb meals",
+          "Alcohol intake",
+          "Late-night eating"
+        ],
+        "consequences_if_ignored": "Persistent high glucose can lead to type 2 diabetes and decreased exercise tolerance.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "HbA1c",
+          "Fasting Insulin"
+        ],
+        "evidence_source": "PubMed: doi 10.2337/diacare.29.6.1338"
+      },
+      {
+        "biomarker_name": "Total Cholesterol",
+        "status": "Red",
+        "current_value": "250.0 mg/dL",
+        "reference_range": "150-180 mg/dL",
+        "deviation_severity": "Severe",
+        "health_impact": "Your total cholesterol of 250 mg/dL places you at increased risk for atherosclerosis and cardiac events, especially when combined with smoking.",
+        "goal_connection": "Lowering cholesterol will improve your cardiovascular endurance and reduce recovery time between workouts.",
+        "longevity_performance_impact": "Optimizing cholesterol decreases risk of heart disease and supports healthy blood flow to muscles and brain.",
+        "lifestyle_contributors": [
+          "Current smoking habit",
+          "Moderate alcohol use",
+          "Diet low in oily fish and soluble fiber"
+        ],
+        "consequences_if_ignored": "Continued elevation can lead to plaque buildup, heart attack, or stroke.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "LDL",
+          "ApoB"
+        ],
+        "evidence_source": "NIH ODS: Omega-3 and cardiovascular health"
+      },
+      {
+        "biomarker_name": "LDL Cholesterol",
+        "status": "Red",
+        "current_value": "153 mg/dL",
+        "reference_range": "70-100 mg/dL",
+        "deviation_severity": "Severe",
+        "health_impact": "High LDL levels accelerate plaque formation in arteries, increasing cardiovascular risk and potentially limiting your training capacity over time.",
+        "goal_connection": "Reducing LDL enhances endurance and ensures your heart can handle high-intensity workouts safely.",
+        "longevity_performance_impact": "Lowered LDL extends healthy lifespan by protecting vascular health.",
+        "lifestyle_contributors": [
+          "Lack of daily oily fish",
+          "Smoking",
+          "Low soluble fiber intake"
+        ],
+        "consequences_if_ignored": "Left unchecked, high LDL markedly raises risk of coronary artery disease.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Total Cholesterol",
+          "ApoB"
+        ],
+        "evidence_source": "Examine.com: Omega-3 Fatty Acids (A)"
+      },
+      {
+        "biomarker_name": "Homocysteine",
+        "status": "Red",
+        "current_value": "20 µmol/L",
+        "reference_range": "6-8 µmol/L",
+        "deviation_severity": "Severe",
+        "health_impact": "Elevated homocysteine is a marker of impaired methylation and an independent risk factor for vascular damage and cognitive decline.",
+        "goal_connection": "Lowering it can improve mood stability, mental clarity, and reduce cardiac risk during intense training.",
+        "longevity_performance_impact": "Optimizing methylation supports DNA repair, cardiovascular health, and healthy aging.",
+        "lifestyle_contributors": [
+          "Possible suboptimal folate status",
+          "High training stress without adequate nutritional support"
+        ],
+        "consequences_if_ignored": "Chronic elevation increases risk of stroke, dementia, and endothelial dysfunction.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Vitamin B12",
+          "Vitamin B6"
+        ],
+        "evidence_source": "NIH ODS: Homocysteine Fact Sheet"
+      },
+      {
+        "biomarker_name": "DHEA-S",
+        "status": "Red",
+        "current_value": "102 µg/dL",
+        "reference_range": "280-400 µg/dL",
+        "deviation_severity": "Severe",
+        "health_impact": "Low DHEA-S suggests chronic stress and adrenal fatigue, which can impair recovery and blunt anabolic hormone responses.",
+        "goal_connection": "Raising DHEA-S through adaptogens and recovery strategies will enhance strength gains and resilience.",
+        "longevity_performance_impact": "Balanced adrenal hormones support stress adaptation and healthy aging, preventing burnout.",
+        "lifestyle_contributors": [
+          "High training volume",
+          "Inconsistent sleep quality",
+          "Work-related stress"
+        ],
+        "consequences_if_ignored": "Persistent low DHEA-S can lead to fatigue, mood swings, and decreased muscle mass.",
+        "what_to_continue": null,
+        "trend_analysis": null,
+        "related_biomarkers": [
+          "Cortisol AM",
+          "Total Testosterone"
+        ],
+        "evidence_source": "IFM: Adrenal Fatigue and DHEA"
+      }
+    ],
+    "biomarker_pattern_analysis": "The combination of high fasting glucose, elevated HbA1c, and low fasting insulin suggests early insulin resistance. Coupled with elevated liver enzymes (ALT/AST) likely from high training load and alcohol, and low DHEA-S, we see an HPA axis imbalance and metabolic strain. Cardiac risk is amplified by high LDL, total cholesterol, and homocysteine levels. This pattern calls for a holistic approach—balancing blood sugar, supporting liver and adrenal function, and improving lipid profiles—to optimize your performance and protect long-term health.",
+    "action_plan": {
+      "supplements": [
+        {
+          "supplement_name": "Methylfolate (Active Folate)",
+          "rationale": "Your homocysteine is elevated at 20 µmol/L, and while B12 and B6 are good, direct methylfolate supports efficient homocysteine clearance and methylation cycles.",
+          "dosage": "Studies suggest 800 µg of methylfolate daily",
+          "timing": "Morning",
+          "food_timing": "With breakfast",
+          "purpose": "Lowers homocysteine, supports cardiovascular and cognitive health",
+          "biomarker_connection": "Homocysteine clearance",
+          "longevity_performance_benefit": "Enhances DNA repair and reduces vascular risk",
+          "duration": "3 months",
+          "retest_timing": "After 3 months",
+          "evidence_source": "NIH ODS Homocysteine Fact Sheet",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": null
+        },
+        {
+          "supplement_name": "Omega-3 Fish Oil (EPA/DHA)",
+          "rationale": "High LDL (153 mg/dL) and total cholesterol (250 mg/dL) call for omega-3 to improve lipid profile and reduce inflammation.",
+          "dosage": "Studies suggest 2 g combined EPA/DHA daily",
+          "timing": "With meals",
+          "food_timing": "With breakfast or lunch",
+          "purpose": "Lowers triglycerides, supports cardiac health",
+          "biomarker_connection": "LDL reduction and improved HDL function",
+          "longevity_performance_benefit": "Protects against atherosclerosis, supports blood flow for workouts",
+          "duration": "6 months",
+          "retest_timing": "After 6 months",
+          "evidence_source": "Examine.com Omega-3 Fatty Acids (A)",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": null
+        },
+        {
+          "supplement_name": "Curcumin (Turmeric Extract)",
+          "rationale": "Elevated liver enzymes (ALT 47 U/L, AST 36 U/L) and muscle soreness benefit from curcumin’s anti-inflammatory and hepatoprotective properties.",
+          "dosage": "Studies suggest 500 mg curcumin standardized to 95% curcuminoids twice daily",
+          "timing": "Morning and evening",
+          "food_timing": "With meals",
+          "purpose": "Reduces inflammation, supports liver health",
+          "biomarker_connection": "ALT/AST reduction",
+          "longevity_performance_benefit": "Protects liver, reduces exercise-induced inflammation",
+          "duration": "3 months",
+          "retest_timing": "After 3 months",
+          "evidence_source": "PubMed: 10.1002/hep.23226",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": null
+        },
+        {
+          "supplement_name": "N-Acetylcysteine (NAC)",
+          "rationale": "To support glutathione production for liver detox and reduce oxidative stress from intense training.",
+          "dosage": "Studies suggest 600 mg daily",
+          "timing": "Afternoon",
+          "food_timing": "With lunch",
+          "purpose": "Boosts antioxidant capacity, supports liver",
+          "biomarker_connection": "ALT/AST and oxidative markers",
+          "longevity_performance_benefit": "Enhances recovery and cellular protection",
+          "duration": "4 months",
+          "retest_timing": "After 4 months",
+          "evidence_source": "NIH ODS NAC Fact Sheet",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": null
+        },
+        {
+          "supplement_name": "Ashwagandha (Withania somnifera)",
+          "rationale": "Low DHEA-S and chronic stress impair recovery—ashwagandha supports HPA axis balance and sleep quality.",
+          "dosage": "Studies suggest 300 mg standardized extract twice daily",
+          "timing": "Morning and evening",
+          "food_timing": "With meals; evening dose 1 hour before bed",
+          "purpose": "Supports stress resilience, improves sleep",
+          "biomarker_connection": "DHEA-S and cortisol modulation",
+          "longevity_performance_benefit": "Enhances adrenal function and recovery over time",
+          "duration": "3 months",
+          "retest_timing": "After 3 months",
+          "evidence_source": "IFM: Adaptogens and HPA Axis",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": null
+        },
+        {
+          "supplement_name": "Milk Thistle (Silymarin)",
+          "rationale": "To bolster liver detox pathways and protect hepatocytes, helping normalize ALT and AST.",
+          "dosage": "Studies suggest 200 mg silymarin daily",
+          "timing": "Evening",
+          "food_timing": "After dinner",
+          "purpose": "Supports liver function and regeneration",
+          "biomarker_connection": "ALT/AST normalization",
+          "longevity_performance_benefit": "Preserves liver health under metabolic stress",
+          "duration": "3 months",
+          "retest_timing": "After 3 months",
+          "evidence_source": "Mayo Clinic: Milk Thistle Uses",
+          "cautions": null,
+          "interactions": null,
+          "indian_availability": null
+        }
+      ],
+      "supplement_schedule_summary": "Morning: Methylfolate, Omega-3 Fish Oil, Curcumin with breakfast. Afternoon: NAC with lunch. Evening: Ashwagandha 1 hour before bed, Milk Thistle after dinner.",
+      "supplement_disclaimer": "These suggestions are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before beginning any supplement regimen.",
+      "nutrition": [
+        {
+          "nutrition_name": "Balance Carbs with Protein & Fiber",
+          "rationale": "Given your afternoon energy dips and borderline fasting glucose, pairing carbs with protein and fiber stabilizes blood sugar and sustains workout energy.",
+          "priority_rank": 1,
+          "evidence_strength": "High",
+          "biomarker_connection": "Fasting Glucose, HbA1c",
+          "implementation_tips": [
+            "Combine brown rice with dal and vegetables",
+            "Add a handful of nuts to your fruit snack",
+            "Include protein in every meal—eggs or chicken curry"
+          ],
+          "foods_to_include": [
+            "Whole grains (ragi, bajra, brown rice)",
+            "Legumes (tur dal, chana)",
+            "Vegetables high in fiber (broccoli, spinach)"
+          ],
+          "foods_to_avoid": [
+            "White rice",
+            "Refined flour chapatis",
+            "Sugary sweets post-workout"
+          ],
+          "meal_timing_guidance": "Eat a balanced meal within 45 minutes post-workout.",
+          "indian_food_examples": [
+            "Vegetable dal khichdi with cucumber raita",
+            "Grilled chicken tikka with mixed veggies"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "ICMR Dietary Guidelines 2020"
+        },
+        {
+          "nutrition_name": "Increase Soluble Fiber Intake",
+          "rationale": "Soluble fiber helps lower LDL and total cholesterol by binding bile acids and reducing absorption, addressing your high lipid markers.",
+          "priority_rank": 2,
+          "evidence_strength": "High",
+          "biomarker_connection": "LDL, Total Cholesterol",
+          "implementation_tips": [
+            "Start your day with oats porridge topped with flaxseeds",
+            "Include a bowl of moong dal sprout salad",
+            "Have psyllium husk (ispaghol) with water if needed"
+          ],
+          "foods_to_include": [
+            "Oats",
+            "Barley",
+            "Psyllium husk"
+          ],
+          "foods_to_avoid": [
+            "Processed snacks",
+            "Deep-fried foods"
+          ],
+          "meal_timing_guidance": "",
+          "indian_food_examples": [
+            "Oats dosa with a lentil filling",
+            "Barley upma with vegetables"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "NIN: Dietary Fiber and Health"
+        },
+        {
+          "nutrition_name": "Incorporate Anti-Inflammatory Spices",
+          "rationale": "Turmeric and ginger can help lower ALT/AST and reduce exercise-induced inflammation.",
+          "priority_rank": 3,
+          "evidence_strength": "Medium",
+          "biomarker_connection": "ALT, AST",
+          "implementation_tips": [
+            "Add turmeric to dals and curries",
+            "Drink ginger–turmeric tea in the evening",
+            "Use fresh ginger in stir-fries"
+          ],
+          "foods_to_include": [
+            "Turmeric",
+            "Ginger",
+            "Garlic"
+          ],
+          "foods_to_avoid": [],
+          "meal_timing_guidance": "",
+          "indian_food_examples": [
+            "Turmeric-spiced chicken curry",
+            "Ginger chutney with dosa"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "FSSAI: Functional Spices"
+        },
+        {
+          "nutrition_name": "Optimize Evening Macronutrient Composition",
+          "rationale": "A lighter, protein- and vegetable-focused dinner supports sleep quality and glucose control overnight.",
+          "priority_rank": 4,
+          "evidence_strength": "Medium",
+          "biomarker_connection": "Sleep & Recovery, Fasting Glucose",
+          "implementation_tips": [
+            "Swap heavy rice bowls for grilled paneer or fish with sautéed greens",
+            "Limit starches after 7 pm",
+            "Include a small salad with dinner"
+          ],
+          "foods_to_include": [
+            "Grilled paneer/fish",
+            "Leafy greens",
+            "Cucumber salad"
+          ],
+          "foods_to_avoid": [
+            "Heavy rice or wheat-based dishes late",
+            "Creamy gravies"
+          ],
+          "meal_timing_guidance": "Finish dinner at least 2 hours before bedtime.",
+          "indian_food_examples": [
+            "Grilled fish with spinach and tomato salad",
+            "Paneer tikka with mixed vegetable stir-fry"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "Examine.com: Protein Timing"
+        },
+        {
+          "nutrition_name": "Boost Iron Absorption Strategically",
+          "rationale": "While your iron (122 µg/dL) is acceptable, optimizing absorption ensures prevention of cramps and supports recovery.",
+          "priority_rank": 5,
+          "evidence_strength": "Medium",
+          "biomarker_connection": "Iron, Ferritin",
+          "implementation_tips": [
+            "Pair iron-rich foods with vitamin C sources",
+            "Avoid tea/coffee 1 hour before and after meals",
+            "Include green leafy vegetables"
+          ],
+          "foods_to_include": [
+            "Spinach with lemon juice",
+            "Chicken liver",
+            "Citrus fruits"
+          ],
+          "foods_to_avoid": [
+            "Tea/coffee around meals"
+          ],
+          "meal_timing_guidance": "",
+          "indian_food_examples": [
+            "Palak chicken curry with lemon wedge",
+            "Chana salad with orange slices"
+          ],
+          "female_specific_notes": null,
+          "evidence_source": "ICMR: Iron Absorption Guidelines"
+        }
+      ],
+      "exercise_lifestyle": [
+        {
+          "exercise_name": "Deload & Periodization Week",
+          "rationale": "Since low DHEA-S suggests adrenal strain, scheduling a lighter week every 4-6 weeks will aid HPA axis recovery and muscle repair.",
+          "workout_type": "Mixed strength & cardio",
+          "frequency": "1 week every 4-6 weeks",
+          "duration": "50% usual volume",
+          "intensity": "Low to moderate",
+          "volume": "Half of normal sets",
+          "rest_periods": "Longer (2-3 minutes between sets)",
+          "biomarker_connection": "DHEA-S, Cortisol",
+          "current_optimization": "You already train intensely—adding a planned deload ensures balanced hormone recovery.",
+          "athlete_specific_notes": "Helps prevent overtraining and keeps performance peaks aligned with competition schedule.",
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "J Strength Cond Res. 2014;28(3):818-824"
+        },
+        {
+          "exercise_name": "Sunlight & Vitamin D Boost",
+          "rationale": "Under 30 minutes of sun exposure daily may limit vitamin D activation, impacting energy and immunity.",
+          "workout_type": "Outdoor warm-up",
+          "frequency": "Daily 15-20 minutes",
+          "duration": "15-20 minutes",
+          "intensity": "Low",
+          "volume": "Single session",
+          "rest_periods": "",
+          "biomarker_connection": "Vitamin D",
+          "current_optimization": "Continue your morning wake-up routine and step outside before CrossFit sessions.",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "NIN: Vitamin D and Sun Exposure"
+        },
+        {
+          "exercise_name": "Evening Wind-Down Routine",
+          "rationale": "Reducing blue-light exposure and adding relaxation exercises improves sleep quality and recovery.",
+          "workout_type": "Yoga & breathing",
+          "frequency": "Nightly",
+          "duration": "15 minutes",
+          "intensity": "Low",
+          "volume": "One session",
+          "rest_periods": "",
+          "biomarker_connection": "Sleep & Recovery",
+          "current_optimization": "",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "Mayo Clinic: Sleep Hygiene"
+        },
+        {
+          "exercise_name": "Intermittent Fasting 16:8 (Optional)",
+          "rationale": "A 16:8 window can improve insulin sensitivity and metabolic flexibility, addressing borderline glucose levels.",
+          "workout_type": "Nutrition timing",
+          "frequency": "Daily",
+          "duration": "16-hour fast, 8-hour eating window",
+          "intensity": "",
+          "volume": "",
+          "rest_periods": "",
+          "biomarker_connection": "Fasting Glucose, HbA1c",
+          "current_optimization": "You already skip breakfast occasionally; formalizing can amplify benefits.",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "JAMA Intern Med. 2017;177(7):930-938"
+        },
+        {
+          "exercise_name": "Breathing & Meditation",
+          "rationale": "Mindful breathing reduces cortisol spikes and supports better sleep and mental clarity.",
+          "workout_type": "Mind-body",
+          "frequency": "Daily",
+          "duration": "5-10 minutes",
+          "intensity": "Low",
+          "volume": "",
+          "rest_periods": "",
+          "biomarker_connection": "Cortisol, DHEA-S",
+          "current_optimization": "",
+          "athlete_specific_notes": null,
+          "female_specific_notes": null,
+          "no_intervention_note": null,
+          "evidence_source": "PubMed: doi 10.1007/s10484-014-9234-7"
+        }
+      ],
+      "six_month_timeline": [
+        {
+          "month_range": "Months 0-2",
+          "focus_areas": [
+            "Implement sleep hygiene (no screens 1 hour before bed)",
+            "Begin methylfolate and omega-3",
+            "Balance post-workout meals"
+          ],
+          "supplement_adjustments": [
+            "Start Methylfolate and Omega-3 Fish Oil",
+            "Add Ashwagandha in evening"
+          ],
+          "nutrition_focus": [
+            "Stabilize blood sugar with balanced meals",
+            "Increase soluble fiber (oats, barley)"
+          ],
+          "exercise_goals": [
+            "Maintain current CrossFit volume",
+            "Introduce daily sunlight exposure"
+          ],
+          "lifestyle_targets": [
+            "Caffeine cutoff by 2 pm",
+            "Daily wind-down routine"
+          ],
+          "retest_schedule": [
+            "Retest metabolic panel and lipids at month 3"
+          ]
+        },
+        {
+          "month_range": "Months 3-4",
+          "focus_areas": [
+            "Evaluate liver enzymes after curcumin and NAC",
+            "Review sleep improvements and adjust adaptogens",
+            "Periodize training with a deload week"
+          ],
+          "supplement_adjustments": [
+            "Continue Omega-3 and Curcumin",
+            "Add Milk Thistle if ALT/AST remain high"
+          ],
+          "nutrition_focus": [
+            "Optimize evening macros",
+            "Enhance anti-inflammatory spice use"
+          ],
+          "exercise_goals": [
+            "Schedule 1 deload week",
+            "Begin intermittent fasting protocol"
+          ],
+          "lifestyle_targets": [
+            "Daily meditation practice",
+            "Reduce alcohol to 2/week"
+          ],
+          "retest_schedule": [
+            "Retest DHEA-S and homocysteine at month 5"
+          ]
+        },
+        {
+          "month_range": "Months 5-6",
+          "focus_areas": [
+            "Assess lipid panel and glucose control",
+            "Fine-tune supplement doses",
+            "Plan next competitive training peak"
+          ],
+          "supplement_adjustments": [
+            "Adjust Omega-3 dose based on lipid retest",
+            "Continue methylfolate if homocysteine remains elevated"
+          ],
+          "nutrition_focus": [
+            "Reassess fiber intake and adjust",
+            "Cycle intermittent fasting around training days"
+          ],
+          "exercise_goals": [
+            "Incorporate advanced periodization",
+            "Peak for competition"
+          ],
+          "lifestyle_targets": [
+            "Maintain sleep and stress routines",
+            "Review sun exposure habits"
+          ],
+          "retest_schedule": [
+            "Full biomarker panel at month 6"
+          ]
+        }
+      ]
+    },
+    "escalation_needed": false,
+    "escalation_reason": "",
+    "disclaimer": "Suresh, these recommendations are specifically designed with your goals in mind. These recommendations are for educational purposes only and do not constitute medical advice. Please consult a healthcare provider before starting any new regimen."
+  }
+}
